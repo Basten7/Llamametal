@@ -849,7 +849,14 @@ static void ggml_metal_mem_pool_reset(struct ggml_metal_mem_pool * mem_pool) {
         ggml_metal_heap_reset(heap);
 
         // if the heap hasn't been used for a while, remove it
-        if (heap->n_unused >= 128) {
+        int unused_limit = 128;
+#if TARGET_OS_OSX
+        // On discrete PCIe GPUs (e.g. Radeon Pro W6800X), keeping heaps longer reduces CPU overhead from heap churn.
+        if (!mem_pool->device.hasUnifiedMemory) {
+            unused_limit = 512;
+        }
+#endif
+        if (heap->n_unused >= unused_limit) {
             [mem_pool->heaps_to_remove addObject:@(i)];
         }
     }
@@ -932,7 +939,7 @@ if (env_min_mb) {
 } else {
 #if TARGET_OS_OSX
     const bool is_discrete = !mem_pool->device.hasUnifiedMemory;
-    heap_size = MAX(heap_size, is_discrete ? (size_t) (32 * 1024 * 1024) : (size_t) (8 * 1024 * 1024));
+    heap_size = MAX(heap_size, is_discrete ? (size_t) (64 * 1024 * 1024) : (size_t) (8 * 1024 * 1024));
 #else
     heap_size = MAX(heap_size, (size_t) (8 * 1024 * 1024));
 #endif
@@ -6776,6 +6783,7 @@ static void ggml_backend_metal_set_n_cb(ggml_backend_t backend, int n_cb) {
     }
 
     ctx->encode_async = Block_copy(^(size_t iter) {
+        @autoreleasepool {
         const int cb_idx = iter;
         const int n_cb_l = ctx->n_cb;
 
@@ -6786,7 +6794,12 @@ static void ggml_backend_metal_set_n_cb(ggml_backend_t backend, int n_cb) {
 
         id<MTLCommandBuffer> cmd_buf = ctx->cmd_bufs[cb_idx].obj;
 
-        id<MTLComputeCommandEncoder> encoder = [cmd_buf computeCommandEncoder];
+        id<MTLComputeCommandEncoder> encoder = nil;
+        if ([cmd_buf respondsToSelector:@selector(computeCommandEncoderWithDispatchType:)]) {
+            encoder = [cmd_buf computeCommandEncoderWithDispatchType:MTLDispatchTypeConcurrent];
+        } else {
+            encoder = [cmd_buf computeCommandEncoder];
+        }
 
         int node_start = 0;
         int node_end   = n_nodes_0;
@@ -6829,6 +6842,7 @@ static void ggml_backend_metal_set_n_cb(ggml_backend_t backend, int n_cb) {
             [cmd_buf commit];
         }
     
+        }
 });
 }
 static struct ggml_backend_i ggml_backend_metal_i = {
