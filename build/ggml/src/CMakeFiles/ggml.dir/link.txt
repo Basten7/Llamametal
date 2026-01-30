@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -dynamiclib -Wl,-headerpad_max_install_names -o ../../bin/libggml.dylib -install_name @rpath/libggml.dylib "CMakeFiles/ggml.dir/ggml-backend-reg.cpp.o"  -Wl,-rpath,"/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/bin" ../../bin/libggml-cpu.dylib ../../bin/libggml-blas.dylib ../../bin/libggml-metal.dylib ../../bin/libggml-base.dylib

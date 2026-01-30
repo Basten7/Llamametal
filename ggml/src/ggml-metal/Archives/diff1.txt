@@ -1,0 +1,118 @@
+diff --git a/ggml/src/ggml-metal/ggml-metal.m b/ggml/src/ggml-metal/ggml-metal.m
+index 0000000..0000000 100644
+--- a/ggml/src/ggml-metal/ggml-metal.m
++++ b/ggml/src/ggml-metal/ggml-metal.m
+@@ -1,0 +1,0 @@
+@@
+-    }
+-}
+-
+-
+-    GGML_UNUSED(buffer);
+-}
++    }
++}
+ 
+ static void ggml_backend_metal_buffer_set_tensor(ggml_backend_buffer_t buffer, struct ggml_tensor * tensor, const void * data, size_t offset, size_t size) {
+     memcpy((char *)tensor->data + offset, data, size);
+@@
+-    }
+-}
+-
+-
+-    GGML_UNUSED(buffer);
+-}
++    }
++}
+ 
+ static void ggml_backend_metal_buffer_get_tensor(ggml_backend_buffer_t buffer, const struct ggml_tensor * tensor, void * data, size_t offset, size_t size) {
+@@
+     memcpy(data, (const char *)tensor->data + offset, size);
+ }
+-
+-
+-    GGML_UNUSED(buffer);
+-}
+ 
+ static bool ggml_backend_metal_buffer_cpy_tensor(ggml_backend_buffer_t buffer, const struct ggml_tensor * src, struct ggml_tensor * dst) {
+     if (ggml_backend_buffer_is_host(src->buffer)) {
+         memcpy(dst->data, src->data, ggml_nbytes(src));
++
++        // Si dst est backing par un MTLBuffer Private, il faut uploader la copie CPU -> GPU.
++        @autoreleasepool {
++            struct ggml_backend_metal_device_context * ctx_dev = (struct ggml_backend_metal_device_context *) buffer->buft->device->context;
++            if (ctx_dev != NULL && ctx_dev->mtl_device != nil) {
++                size_t offs = 0;
++                id<MTLBuffer> mtl_buf = ggml_metal_get_buffer(dst, &offs);
++                if (mtl_buf != nil && mtl_buf.storageMode == MTLStorageModePrivate) {
++                    const size_t size = ggml_nbytes(dst);
++                    if (offs + size <= (size_t) mtl_buf.length) {
++                        void * base = (void *) ((uint8_t *) dst->data - offs);
++                        id<MTLBuffer> src_stage = [ctx_dev->mtl_device newBufferWithBytesNoCopy:base length:mtl_buf.length options:MTLResourceStorageModeShared deallocator:nil];
++                        if (src_stage != nil) {
++                            id<MTLCommandQueue> q = ctx_dev->mtl_queue_copy;
++                            if (q == nil) {
++                                q = [ctx_dev->mtl_device newCommandQueue];
++                            }
++
++                            if (ctx_dev->mtl_lock) { [ctx_dev->mtl_lock lock]; }
++                            id<MTLCommandBuffer> cb = [q respondsToSelector:@selector(commandBufferWithUnretainedReferences)] ? [q commandBufferWithUnretainedReferences] : [q commandBuffer];
++                            id<MTLBlitCommandEncoder> blit = [cb blitCommandEncoder];
++                            [blit copyFromBuffer:src_stage sourceOffset:(NSUInteger) offs toBuffer:mtl_buf destinationOffset:(NSUInteger) offs size:(NSUInteger) size];
++                            [blit endEncoding];
++                            [cb commit];
++                            [cb waitUntilCompleted];
++                            if (ctx_dev->mtl_lock) { [ctx_dev->mtl_lock unlock]; }
++
++                            if (q != ctx_dev->mtl_queue_copy) {
++                                [q release];
++                            }
++                            [src_stage release];
++                        }
++                    }
++                }
++            }
++        }
+         return true;
+     }
+     return false;
+-
+-    GGML_UNUSED(buffer);
+ }
+ 
+ static void ggml_backend_metal_buffer_clear(ggml_backend_buffer_t buffer, uint8_t value) {
+     struct ggml_backend_metal_buffer_context * ctx = (struct ggml_backend_metal_buffer_context *)buffer->context;
+ 
+     memset(ctx->all_data, value, ctx->all_size);
++
++    // Mirror le clear côté GPU si buffers Private (important sur Mac Intel + GPU discret).
++    @autoreleasepool {
++        struct ggml_backend_metal_device_context * ctx_dev = (struct ggml_backend_metal_device_context *) buffer->buft->device->context;
++        if (ctx_dev == NULL || ctx_dev->mtl_device == nil) {
++            return;
++        }
++
++        id<MTLCommandQueue> q = ctx_dev->mtl_queue_copy;
++        if (q == nil) {
++            q = [ctx_dev->mtl_device newCommandQueue];
++        }
++
++        if (ctx_dev->mtl_lock) { [ctx_dev->mtl_lock lock]; }
++        id<MTLCommandBuffer> cb = [q respondsToSelector:@selector(commandBufferWithUnretainedReferences)] ? [q commandBufferWithUnretainedReferences] : [q commandBuffer];
++        id<MTLBlitCommandEncoder> blit = [cb blitCommandEncoder];
++        for (int i = 0; i < ctx->n_buffers; ++i) {
++            id<MTLBuffer> b = ctx->buffers[i].metal;
++            if (b != nil && b.storageMode == MTLStorageModePrivate) {
++                [blit fillBuffer:b range:NSMakeRange(0, b.length) value:value];
++            }
++        }
++        [blit endEncoding];
++        [cb commit];
++        [cb waitUntilCompleted];
++        if (ctx_dev->mtl_lock) { [ctx_dev->mtl_lock unlock]; }
++
++        if (q != ctx_dev->mtl_queue_copy) {
++            [q release];
++        }
++    }
+ }
