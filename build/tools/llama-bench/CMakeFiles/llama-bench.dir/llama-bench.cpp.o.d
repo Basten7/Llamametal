@@ -1,5 +1,5 @@
 tools/llama-bench/CMakeFiles/llama-bench.dir/llama-bench.cpp.o: \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/tools/llama-bench/llama-bench.cpp \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/tools/llama-bench/llama-bench.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/algorithm \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -824,14 +824,14 @@ tools/llama-bench/CMakeFiles/llama-bench.dir/llama-bench.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/thread \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/this_thread.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/thread.h \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/common/./common.h \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/src/../include/llama-cpp.h \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/src/../include/llama.h \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/ggml/src/../include/ggml.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/common/./common.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/src/../include/llama-cpp.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/src/../include/llama.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/ggml/src/../include/ggml.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/ggml/src/../include/ggml-cpu.h \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/ggml/src/../include/ggml-backend.h \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/ggml/src/../include/ggml-alloc.h \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/ggml/src/../include/ggml-opt.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/ggml/src/../include/ggml-cpu.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/ggml/src/../include/ggml-backend.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/ggml/src/../include/ggml-alloc.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/ggml/src/../include/ggml-opt.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/set

@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp"
+CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build"
+CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/perplexity//CMakeFiles/progress.marks"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/perplexity/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" 0
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/perplexity//CMakeFiles/progress.marks"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/perplexity/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/perplexity/clean
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/perplexity/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/perplexity/preinstall
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/perplexity/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/perplexity/preinstall
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/perplexity/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tools/perplexity/CMakeFiles/llama-perplexity.dir/rule:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/perplexity/CMakeFiles/llama-perplexity.dir/rule
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/perplexity/CMakeFiles/llama-perplexity.dir/rule
 .PHONY : tools/perplexity/CMakeFiles/llama-perplexity.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ llama-perplexity: tools/perplexity/CMakeFiles/llama-perplexity.dir/rule
 
 # fast build rule for target.
 llama-perplexity/fast:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/perplexity/CMakeFiles/llama-perplexity.dir/build.make tools/perplexity/CMakeFiles/llama-perplexity.dir/build
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/perplexity/CMakeFiles/llama-perplexity.dir/build.make tools/perplexity/CMakeFiles/llama-perplexity.dir/build
 .PHONY : llama-perplexity/fast
 
 perplexity.o: perplexity.cpp.o
@@ -190,7 +190,7 @@ perplexity.o: perplexity.cpp.o
 
 # target to build an object file
 perplexity.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/perplexity/CMakeFiles/llama-perplexity.dir/build.make tools/perplexity/CMakeFiles/llama-perplexity.dir/perplexity.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/perplexity/CMakeFiles/llama-perplexity.dir/build.make tools/perplexity/CMakeFiles/llama-perplexity.dir/perplexity.cpp.o
 .PHONY : perplexity.cpp.o
 
 perplexity.i: perplexity.cpp.i
@@ -198,7 +198,7 @@ perplexity.i: perplexity.cpp.i
 
 # target to preprocess a source file
 perplexity.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/perplexity/CMakeFiles/llama-perplexity.dir/build.make tools/perplexity/CMakeFiles/llama-perplexity.dir/perplexity.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/perplexity/CMakeFiles/llama-perplexity.dir/build.make tools/perplexity/CMakeFiles/llama-perplexity.dir/perplexity.cpp.i
 .PHONY : perplexity.cpp.i
 
 perplexity.s: perplexity.cpp.s
@@ -206,7 +206,7 @@ perplexity.s: perplexity.cpp.s
 
 # target to generate assembly for a file
 perplexity.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/perplexity/CMakeFiles/llama-perplexity.dir/build.make tools/perplexity/CMakeFiles/llama-perplexity.dir/perplexity.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/perplexity/CMakeFiles/llama-perplexity.dir/build.make tools/perplexity/CMakeFiles/llama-perplexity.dir/perplexity.cpp.s
 .PHONY : perplexity.cpp.s
 
 # Help Target
@@ -237,6 +237,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

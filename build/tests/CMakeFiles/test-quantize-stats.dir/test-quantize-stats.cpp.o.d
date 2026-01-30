@@ -1,6 +1,6 @@
 tests/CMakeFiles/test-quantize-stats.dir/test-quantize-stats.cpp.o: \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/tests/test-quantize-stats.cpp \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/ggml/src/../include/ggml.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/tests/test-quantize-stats.cpp \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/ggml/src/../include/ggml.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdbool.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -68,14 +68,14 @@ tests/CMakeFiles/test-quantize-stats.dir/test-quantize-stats.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_off_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ssize_t.h \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/ggml/src/../include/ggml-cpu.h \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/ggml/src/../include/ggml-backend.h \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/ggml/src/../include/ggml-alloc.h \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/src/../include/llama.h \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/ggml/src/../include/ggml-opt.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/ggml/src/../include/ggml-cpu.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/ggml/src/../include/ggml-backend.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/ggml/src/../include/ggml-alloc.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/src/../include/llama.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/ggml/src/../include/ggml-opt.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_rsize_t.h \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/common/./common.h \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/src/../include/llama-cpp.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/common/./common.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/src/../include/llama-cpp.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/memory \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/addressof.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/align.h \
@@ -804,17 +804,17 @@ tests/CMakeFiles/test-quantize-stats.dir/test-quantize-stats.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/stack.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/tests/../src/llama-model.h \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/tests/../src/llama-arch.h \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/tests/../src/llama-graph.h \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/tests/../src/llama-batch.h \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/tests/../src/llama-cparams.h \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/tests/../src/llama-hparams.h \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/tests/../src/llama-adapter.h \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/ggml/src/../include/ggml-cpp.h \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/ggml/src/../include/gguf.h \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/tests/../src/llama-memory.h \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/tests/../src/llama-vocab.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/tests/../src/llama-model.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/tests/../src/llama-arch.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/tests/../src/llama-graph.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/tests/../src/llama-batch.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/tests/../src/llama-cparams.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/tests/../src/llama-hparams.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/tests/../src/llama-adapter.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/ggml/src/../include/ggml-cpp.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/ggml/src/../include/gguf.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/tests/../src/llama-memory.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/tests/../src/llama-vocab.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \

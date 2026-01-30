@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp"
+CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build"
+CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build"
 
 # Include any dependencies generated for this target.
 include examples/training/CMakeFiles/llama-finetune.dir/depend.make
@@ -73,18 +73,18 @@ examples/training/CMakeFiles/llama-finetune.dir/codegen:
 .PHONY : examples/training/CMakeFiles/llama-finetune.dir/codegen
 
 examples/training/CMakeFiles/llama-finetune.dir/finetune.cpp.o: examples/training/CMakeFiles/llama-finetune.dir/flags.make
-examples/training/CMakeFiles/llama-finetune.dir/finetune.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/examples/training/finetune.cpp
+examples/training/CMakeFiles/llama-finetune.dir/finetune.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/examples/training/finetune.cpp
 examples/training/CMakeFiles/llama-finetune.dir/finetune.cpp.o: examples/training/CMakeFiles/llama-finetune.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/training/CMakeFiles/llama-finetune.dir/finetune.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/training" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/training/CMakeFiles/llama-finetune.dir/finetune.cpp.o -MF CMakeFiles/llama-finetune.dir/finetune.cpp.o.d -o CMakeFiles/llama-finetune.dir/finetune.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/training/finetune.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/training/CMakeFiles/llama-finetune.dir/finetune.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/training" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/training/CMakeFiles/llama-finetune.dir/finetune.cpp.o -MF CMakeFiles/llama-finetune.dir/finetune.cpp.o.d -o CMakeFiles/llama-finetune.dir/finetune.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/training/finetune.cpp"
 
 examples/training/CMakeFiles/llama-finetune.dir/finetune.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama-finetune.dir/finetune.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/training" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/training/finetune.cpp" > CMakeFiles/llama-finetune.dir/finetune.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/training" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/training/finetune.cpp" > CMakeFiles/llama-finetune.dir/finetune.cpp.i
 
 examples/training/CMakeFiles/llama-finetune.dir/finetune.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/llama-finetune.dir/finetune.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/training" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/training/finetune.cpp" -o CMakeFiles/llama-finetune.dir/finetune.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/training" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/training/finetune.cpp" -o CMakeFiles/llama-finetune.dir/finetune.cpp.s
 
 # Object files for target llama-finetune
 llama__finetune_OBJECTS = \
@@ -104,18 +104,18 @@ bin/llama-finetune: bin/libggml-metal.dylib
 bin/llama-finetune: bin/libggml-base.dylib
 bin/llama-finetune: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libcurl.tbd
 bin/llama-finetune: examples/training/CMakeFiles/llama-finetune.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-finetune"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/training" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-finetune.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-finetune"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/training" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-finetune.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/training/CMakeFiles/llama-finetune.dir/build: bin/llama-finetune
 .PHONY : examples/training/CMakeFiles/llama-finetune.dir/build
 
 examples/training/CMakeFiles/llama-finetune.dir/clean:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/training" && $(CMAKE_COMMAND) -P CMakeFiles/llama-finetune.dir/cmake_clean.cmake
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/training" && $(CMAKE_COMMAND) -P CMakeFiles/llama-finetune.dir/cmake_clean.cmake
 .PHONY : examples/training/CMakeFiles/llama-finetune.dir/clean
 
 examples/training/CMakeFiles/llama-finetune.dir/depend:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/training" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/training" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/training/CMakeFiles/llama-finetune.dir/DependInfo.cmake" "--color=$(COLOR)" llama-finetune
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/training" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/training" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/training/CMakeFiles/llama-finetune.dir/DependInfo.cmake" "--color=$(COLOR)" llama-finetune
 .PHONY : examples/training/CMakeFiles/llama-finetune.dir/depend
 

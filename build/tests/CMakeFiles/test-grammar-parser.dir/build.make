@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp"
+CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build"
+CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build"
 
 # Include any dependencies generated for this target.
 include tests/CMakeFiles/test-grammar-parser.dir/depend.make
@@ -73,32 +73,32 @@ tests/CMakeFiles/test-grammar-parser.dir/codegen:
 .PHONY : tests/CMakeFiles/test-grammar-parser.dir/codegen
 
 tests/CMakeFiles/test-grammar-parser.dir/test-grammar-parser.cpp.o: tests/CMakeFiles/test-grammar-parser.dir/flags.make
-tests/CMakeFiles/test-grammar-parser.dir/test-grammar-parser.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/tests/test-grammar-parser.cpp
+tests/CMakeFiles/test-grammar-parser.dir/test-grammar-parser.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/tests/test-grammar-parser.cpp
 tests/CMakeFiles/test-grammar-parser.dir/test-grammar-parser.cpp.o: tests/CMakeFiles/test-grammar-parser.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/test-grammar-parser.dir/test-grammar-parser.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/test-grammar-parser.dir/test-grammar-parser.cpp.o -MF CMakeFiles/test-grammar-parser.dir/test-grammar-parser.cpp.o.d -o CMakeFiles/test-grammar-parser.dir/test-grammar-parser.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tests/test-grammar-parser.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/test-grammar-parser.dir/test-grammar-parser.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/test-grammar-parser.dir/test-grammar-parser.cpp.o -MF CMakeFiles/test-grammar-parser.dir/test-grammar-parser.cpp.o.d -o CMakeFiles/test-grammar-parser.dir/test-grammar-parser.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tests/test-grammar-parser.cpp"
 
 tests/CMakeFiles/test-grammar-parser.dir/test-grammar-parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test-grammar-parser.dir/test-grammar-parser.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tests/test-grammar-parser.cpp" > CMakeFiles/test-grammar-parser.dir/test-grammar-parser.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tests/test-grammar-parser.cpp" > CMakeFiles/test-grammar-parser.dir/test-grammar-parser.cpp.i
 
 tests/CMakeFiles/test-grammar-parser.dir/test-grammar-parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test-grammar-parser.dir/test-grammar-parser.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tests/test-grammar-parser.cpp" -o CMakeFiles/test-grammar-parser.dir/test-grammar-parser.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tests/test-grammar-parser.cpp" -o CMakeFiles/test-grammar-parser.dir/test-grammar-parser.cpp.s
 
 tests/CMakeFiles/test-grammar-parser.dir/get-model.cpp.o: tests/CMakeFiles/test-grammar-parser.dir/flags.make
-tests/CMakeFiles/test-grammar-parser.dir/get-model.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/tests/get-model.cpp
+tests/CMakeFiles/test-grammar-parser.dir/get-model.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/tests/get-model.cpp
 tests/CMakeFiles/test-grammar-parser.dir/get-model.cpp.o: tests/CMakeFiles/test-grammar-parser.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/test-grammar-parser.dir/get-model.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/test-grammar-parser.dir/get-model.cpp.o -MF CMakeFiles/test-grammar-parser.dir/get-model.cpp.o.d -o CMakeFiles/test-grammar-parser.dir/get-model.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tests/get-model.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/test-grammar-parser.dir/get-model.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/test-grammar-parser.dir/get-model.cpp.o -MF CMakeFiles/test-grammar-parser.dir/get-model.cpp.o.d -o CMakeFiles/test-grammar-parser.dir/get-model.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tests/get-model.cpp"
 
 tests/CMakeFiles/test-grammar-parser.dir/get-model.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test-grammar-parser.dir/get-model.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tests/get-model.cpp" > CMakeFiles/test-grammar-parser.dir/get-model.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tests/get-model.cpp" > CMakeFiles/test-grammar-parser.dir/get-model.cpp.i
 
 tests/CMakeFiles/test-grammar-parser.dir/get-model.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test-grammar-parser.dir/get-model.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tests/get-model.cpp" -o CMakeFiles/test-grammar-parser.dir/get-model.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tests/get-model.cpp" -o CMakeFiles/test-grammar-parser.dir/get-model.cpp.s
 
 # Object files for target test-grammar-parser
 test__grammar__parser_OBJECTS = \
@@ -120,18 +120,18 @@ bin/test-grammar-parser: bin/libggml-blas.dylib
 bin/test-grammar-parser: bin/libggml-metal.dylib
 bin/test-grammar-parser: bin/libggml-base.dylib
 bin/test-grammar-parser: tests/CMakeFiles/test-grammar-parser.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/test-grammar-parser"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tests" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test-grammar-parser.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/test-grammar-parser"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tests" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test-grammar-parser.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tests/CMakeFiles/test-grammar-parser.dir/build: bin/test-grammar-parser
 .PHONY : tests/CMakeFiles/test-grammar-parser.dir/build
 
 tests/CMakeFiles/test-grammar-parser.dir/clean:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tests" && $(CMAKE_COMMAND) -P CMakeFiles/test-grammar-parser.dir/cmake_clean.cmake
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tests" && $(CMAKE_COMMAND) -P CMakeFiles/test-grammar-parser.dir/cmake_clean.cmake
 .PHONY : tests/CMakeFiles/test-grammar-parser.dir/clean
 
 tests/CMakeFiles/test-grammar-parser.dir/depend:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tests" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tests" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tests/CMakeFiles/test-grammar-parser.dir/DependInfo.cmake" "--color=$(COLOR)" test-grammar-parser
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tests" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tests" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tests/CMakeFiles/test-grammar-parser.dir/DependInfo.cmake" "--color=$(COLOR)" test-grammar-parser
 .PHONY : tests/CMakeFiles/test-grammar-parser.dir/depend
 

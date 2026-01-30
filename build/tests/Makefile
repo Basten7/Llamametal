@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp"
+CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build"
+CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tests//CMakeFiles/progress.marks"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" 0
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tests//CMakeFiles/progress.marks"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/clean
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/preinstall
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/preinstall
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tests/CMakeFiles/test-tokenizer-0.dir/rule:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-tokenizer-0.dir/rule
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-tokenizer-0.dir/rule
 .PHONY : tests/CMakeFiles/test-tokenizer-0.dir/rule
 
 # Convenience name for target.
@@ -182,12 +182,12 @@ test-tokenizer-0: tests/CMakeFiles/test-tokenizer-0.dir/rule
 
 # fast build rule for target.
 test-tokenizer-0/fast:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-tokenizer-0.dir/build.make tests/CMakeFiles/test-tokenizer-0.dir/build
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-tokenizer-0.dir/build.make tests/CMakeFiles/test-tokenizer-0.dir/build
 .PHONY : test-tokenizer-0/fast
 
 # Convenience name for target.
 tests/CMakeFiles/test-sampling.dir/rule:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-sampling.dir/rule
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-sampling.dir/rule
 .PHONY : tests/CMakeFiles/test-sampling.dir/rule
 
 # Convenience name for target.
@@ -196,12 +196,12 @@ test-sampling: tests/CMakeFiles/test-sampling.dir/rule
 
 # fast build rule for target.
 test-sampling/fast:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-sampling.dir/build.make tests/CMakeFiles/test-sampling.dir/build
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-sampling.dir/build.make tests/CMakeFiles/test-sampling.dir/build
 .PHONY : test-sampling/fast
 
 # Convenience name for target.
 tests/CMakeFiles/test-grammar-parser.dir/rule:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-grammar-parser.dir/rule
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-grammar-parser.dir/rule
 .PHONY : tests/CMakeFiles/test-grammar-parser.dir/rule
 
 # Convenience name for target.
@@ -210,12 +210,12 @@ test-grammar-parser: tests/CMakeFiles/test-grammar-parser.dir/rule
 
 # fast build rule for target.
 test-grammar-parser/fast:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-grammar-parser.dir/build.make tests/CMakeFiles/test-grammar-parser.dir/build
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-grammar-parser.dir/build.make tests/CMakeFiles/test-grammar-parser.dir/build
 .PHONY : test-grammar-parser/fast
 
 # Convenience name for target.
 tests/CMakeFiles/test-grammar-integration.dir/rule:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-grammar-integration.dir/rule
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-grammar-integration.dir/rule
 .PHONY : tests/CMakeFiles/test-grammar-integration.dir/rule
 
 # Convenience name for target.
@@ -224,12 +224,12 @@ test-grammar-integration: tests/CMakeFiles/test-grammar-integration.dir/rule
 
 # fast build rule for target.
 test-grammar-integration/fast:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-grammar-integration.dir/build.make tests/CMakeFiles/test-grammar-integration.dir/build
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-grammar-integration.dir/build.make tests/CMakeFiles/test-grammar-integration.dir/build
 .PHONY : test-grammar-integration/fast
 
 # Convenience name for target.
 tests/CMakeFiles/test-llama-grammar.dir/rule:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-llama-grammar.dir/rule
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-llama-grammar.dir/rule
 .PHONY : tests/CMakeFiles/test-llama-grammar.dir/rule
 
 # Convenience name for target.
@@ -238,12 +238,12 @@ test-llama-grammar: tests/CMakeFiles/test-llama-grammar.dir/rule
 
 # fast build rule for target.
 test-llama-grammar/fast:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-llama-grammar.dir/build.make tests/CMakeFiles/test-llama-grammar.dir/build
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-llama-grammar.dir/build.make tests/CMakeFiles/test-llama-grammar.dir/build
 .PHONY : test-llama-grammar/fast
 
 # Convenience name for target.
 tests/CMakeFiles/test-chat.dir/rule:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-chat.dir/rule
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-chat.dir/rule
 .PHONY : tests/CMakeFiles/test-chat.dir/rule
 
 # Convenience name for target.
@@ -252,12 +252,12 @@ test-chat: tests/CMakeFiles/test-chat.dir/rule
 
 # fast build rule for target.
 test-chat/fast:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-chat.dir/build.make tests/CMakeFiles/test-chat.dir/build
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-chat.dir/build.make tests/CMakeFiles/test-chat.dir/build
 .PHONY : test-chat/fast
 
 # Convenience name for target.
 tests/CMakeFiles/test-json-schema-to-grammar.dir/rule:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-json-schema-to-grammar.dir/rule
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-json-schema-to-grammar.dir/rule
 .PHONY : tests/CMakeFiles/test-json-schema-to-grammar.dir/rule
 
 # Convenience name for target.
@@ -266,12 +266,12 @@ test-json-schema-to-grammar: tests/CMakeFiles/test-json-schema-to-grammar.dir/ru
 
 # fast build rule for target.
 test-json-schema-to-grammar/fast:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-json-schema-to-grammar.dir/build.make tests/CMakeFiles/test-json-schema-to-grammar.dir/build
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-json-schema-to-grammar.dir/build.make tests/CMakeFiles/test-json-schema-to-grammar.dir/build
 .PHONY : test-json-schema-to-grammar/fast
 
 # Convenience name for target.
 tests/CMakeFiles/test-quantize-stats.dir/rule:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-quantize-stats.dir/rule
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-quantize-stats.dir/rule
 .PHONY : tests/CMakeFiles/test-quantize-stats.dir/rule
 
 # Convenience name for target.
@@ -280,12 +280,12 @@ test-quantize-stats: tests/CMakeFiles/test-quantize-stats.dir/rule
 
 # fast build rule for target.
 test-quantize-stats/fast:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-quantize-stats.dir/build.make tests/CMakeFiles/test-quantize-stats.dir/build
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-quantize-stats.dir/build.make tests/CMakeFiles/test-quantize-stats.dir/build
 .PHONY : test-quantize-stats/fast
 
 # Convenience name for target.
 tests/CMakeFiles/test-gbnf-validator.dir/rule:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-gbnf-validator.dir/rule
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-gbnf-validator.dir/rule
 .PHONY : tests/CMakeFiles/test-gbnf-validator.dir/rule
 
 # Convenience name for target.
@@ -294,12 +294,12 @@ test-gbnf-validator: tests/CMakeFiles/test-gbnf-validator.dir/rule
 
 # fast build rule for target.
 test-gbnf-validator/fast:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-gbnf-validator.dir/build.make tests/CMakeFiles/test-gbnf-validator.dir/build
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-gbnf-validator.dir/build.make tests/CMakeFiles/test-gbnf-validator.dir/build
 .PHONY : test-gbnf-validator/fast
 
 # Convenience name for target.
 tests/CMakeFiles/test-tokenizer-1-bpe.dir/rule:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-tokenizer-1-bpe.dir/rule
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-tokenizer-1-bpe.dir/rule
 .PHONY : tests/CMakeFiles/test-tokenizer-1-bpe.dir/rule
 
 # Convenience name for target.
@@ -308,12 +308,12 @@ test-tokenizer-1-bpe: tests/CMakeFiles/test-tokenizer-1-bpe.dir/rule
 
 # fast build rule for target.
 test-tokenizer-1-bpe/fast:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-tokenizer-1-bpe.dir/build.make tests/CMakeFiles/test-tokenizer-1-bpe.dir/build
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-tokenizer-1-bpe.dir/build.make tests/CMakeFiles/test-tokenizer-1-bpe.dir/build
 .PHONY : test-tokenizer-1-bpe/fast
 
 # Convenience name for target.
 tests/CMakeFiles/test-tokenizer-1-spm.dir/rule:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-tokenizer-1-spm.dir/rule
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-tokenizer-1-spm.dir/rule
 .PHONY : tests/CMakeFiles/test-tokenizer-1-spm.dir/rule
 
 # Convenience name for target.
@@ -322,12 +322,12 @@ test-tokenizer-1-spm: tests/CMakeFiles/test-tokenizer-1-spm.dir/rule
 
 # fast build rule for target.
 test-tokenizer-1-spm/fast:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-tokenizer-1-spm.dir/build.make tests/CMakeFiles/test-tokenizer-1-spm.dir/build
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-tokenizer-1-spm.dir/build.make tests/CMakeFiles/test-tokenizer-1-spm.dir/build
 .PHONY : test-tokenizer-1-spm/fast
 
 # Convenience name for target.
 tests/CMakeFiles/test-chat-parser.dir/rule:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-chat-parser.dir/rule
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-chat-parser.dir/rule
 .PHONY : tests/CMakeFiles/test-chat-parser.dir/rule
 
 # Convenience name for target.
@@ -336,12 +336,12 @@ test-chat-parser: tests/CMakeFiles/test-chat-parser.dir/rule
 
 # fast build rule for target.
 test-chat-parser/fast:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-chat-parser.dir/build.make tests/CMakeFiles/test-chat-parser.dir/build
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-chat-parser.dir/build.make tests/CMakeFiles/test-chat-parser.dir/build
 .PHONY : test-chat-parser/fast
 
 # Convenience name for target.
 tests/CMakeFiles/test-chat-template.dir/rule:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-chat-template.dir/rule
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-chat-template.dir/rule
 .PHONY : tests/CMakeFiles/test-chat-template.dir/rule
 
 # Convenience name for target.
@@ -350,12 +350,12 @@ test-chat-template: tests/CMakeFiles/test-chat-template.dir/rule
 
 # fast build rule for target.
 test-chat-template/fast:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-chat-template.dir/build.make tests/CMakeFiles/test-chat-template.dir/build
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-chat-template.dir/build.make tests/CMakeFiles/test-chat-template.dir/build
 .PHONY : test-chat-template/fast
 
 # Convenience name for target.
 tests/CMakeFiles/test-json-partial.dir/rule:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-json-partial.dir/rule
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-json-partial.dir/rule
 .PHONY : tests/CMakeFiles/test-json-partial.dir/rule
 
 # Convenience name for target.
@@ -364,12 +364,12 @@ test-json-partial: tests/CMakeFiles/test-json-partial.dir/rule
 
 # fast build rule for target.
 test-json-partial/fast:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-json-partial.dir/build.make tests/CMakeFiles/test-json-partial.dir/build
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-json-partial.dir/build.make tests/CMakeFiles/test-json-partial.dir/build
 .PHONY : test-json-partial/fast
 
 # Convenience name for target.
 tests/CMakeFiles/test-log.dir/rule:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-log.dir/rule
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-log.dir/rule
 .PHONY : tests/CMakeFiles/test-log.dir/rule
 
 # Convenience name for target.
@@ -378,12 +378,12 @@ test-log: tests/CMakeFiles/test-log.dir/rule
 
 # fast build rule for target.
 test-log/fast:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-log.dir/build.make tests/CMakeFiles/test-log.dir/build
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-log.dir/build.make tests/CMakeFiles/test-log.dir/build
 .PHONY : test-log/fast
 
 # Convenience name for target.
 tests/CMakeFiles/test-regex-partial.dir/rule:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-regex-partial.dir/rule
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-regex-partial.dir/rule
 .PHONY : tests/CMakeFiles/test-regex-partial.dir/rule
 
 # Convenience name for target.
@@ -392,12 +392,12 @@ test-regex-partial: tests/CMakeFiles/test-regex-partial.dir/rule
 
 # fast build rule for target.
 test-regex-partial/fast:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-regex-partial.dir/build.make tests/CMakeFiles/test-regex-partial.dir/build
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-regex-partial.dir/build.make tests/CMakeFiles/test-regex-partial.dir/build
 .PHONY : test-regex-partial/fast
 
 # Convenience name for target.
 tests/CMakeFiles/test-thread-safety.dir/rule:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-thread-safety.dir/rule
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-thread-safety.dir/rule
 .PHONY : tests/CMakeFiles/test-thread-safety.dir/rule
 
 # Convenience name for target.
@@ -406,12 +406,12 @@ test-thread-safety: tests/CMakeFiles/test-thread-safety.dir/rule
 
 # fast build rule for target.
 test-thread-safety/fast:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-thread-safety.dir/build.make tests/CMakeFiles/test-thread-safety.dir/build
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-thread-safety.dir/build.make tests/CMakeFiles/test-thread-safety.dir/build
 .PHONY : test-thread-safety/fast
 
 # Convenience name for target.
 tests/CMakeFiles/test-arg-parser.dir/rule:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-arg-parser.dir/rule
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-arg-parser.dir/rule
 .PHONY : tests/CMakeFiles/test-arg-parser.dir/rule
 
 # Convenience name for target.
@@ -420,12 +420,12 @@ test-arg-parser: tests/CMakeFiles/test-arg-parser.dir/rule
 
 # fast build rule for target.
 test-arg-parser/fast:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-arg-parser.dir/build.make tests/CMakeFiles/test-arg-parser.dir/build
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-arg-parser.dir/build.make tests/CMakeFiles/test-arg-parser.dir/build
 .PHONY : test-arg-parser/fast
 
 # Convenience name for target.
 tests/CMakeFiles/test-gguf.dir/rule:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-gguf.dir/rule
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-gguf.dir/rule
 .PHONY : tests/CMakeFiles/test-gguf.dir/rule
 
 # Convenience name for target.
@@ -434,12 +434,12 @@ test-gguf: tests/CMakeFiles/test-gguf.dir/rule
 
 # fast build rule for target.
 test-gguf/fast:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-gguf.dir/build.make tests/CMakeFiles/test-gguf.dir/build
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-gguf.dir/build.make tests/CMakeFiles/test-gguf.dir/build
 .PHONY : test-gguf/fast
 
 # Convenience name for target.
 tests/CMakeFiles/test-backend-ops.dir/rule:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-backend-ops.dir/rule
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-backend-ops.dir/rule
 .PHONY : tests/CMakeFiles/test-backend-ops.dir/rule
 
 # Convenience name for target.
@@ -448,12 +448,12 @@ test-backend-ops: tests/CMakeFiles/test-backend-ops.dir/rule
 
 # fast build rule for target.
 test-backend-ops/fast:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-backend-ops.dir/build.make tests/CMakeFiles/test-backend-ops.dir/build
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-backend-ops.dir/build.make tests/CMakeFiles/test-backend-ops.dir/build
 .PHONY : test-backend-ops/fast
 
 # Convenience name for target.
 tests/CMakeFiles/test-model-load-cancel.dir/rule:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-model-load-cancel.dir/rule
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-model-load-cancel.dir/rule
 .PHONY : tests/CMakeFiles/test-model-load-cancel.dir/rule
 
 # Convenience name for target.
@@ -462,12 +462,12 @@ test-model-load-cancel: tests/CMakeFiles/test-model-load-cancel.dir/rule
 
 # fast build rule for target.
 test-model-load-cancel/fast:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-model-load-cancel.dir/build.make tests/CMakeFiles/test-model-load-cancel.dir/build
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-model-load-cancel.dir/build.make tests/CMakeFiles/test-model-load-cancel.dir/build
 .PHONY : test-model-load-cancel/fast
 
 # Convenience name for target.
 tests/CMakeFiles/test-autorelease.dir/rule:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-autorelease.dir/rule
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-autorelease.dir/rule
 .PHONY : tests/CMakeFiles/test-autorelease.dir/rule
 
 # Convenience name for target.
@@ -476,12 +476,12 @@ test-autorelease: tests/CMakeFiles/test-autorelease.dir/rule
 
 # fast build rule for target.
 test-autorelease/fast:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-autorelease.dir/build.make tests/CMakeFiles/test-autorelease.dir/build
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-autorelease.dir/build.make tests/CMakeFiles/test-autorelease.dir/build
 .PHONY : test-autorelease/fast
 
 # Convenience name for target.
 tests/CMakeFiles/test-barrier.dir/rule:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-barrier.dir/rule
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-barrier.dir/rule
 .PHONY : tests/CMakeFiles/test-barrier.dir/rule
 
 # Convenience name for target.
@@ -490,12 +490,12 @@ test-barrier: tests/CMakeFiles/test-barrier.dir/rule
 
 # fast build rule for target.
 test-barrier/fast:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-barrier.dir/build.make tests/CMakeFiles/test-barrier.dir/build
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-barrier.dir/build.make tests/CMakeFiles/test-barrier.dir/build
 .PHONY : test-barrier/fast
 
 # Convenience name for target.
 tests/CMakeFiles/test-quantize-fns.dir/rule:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-quantize-fns.dir/rule
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-quantize-fns.dir/rule
 .PHONY : tests/CMakeFiles/test-quantize-fns.dir/rule
 
 # Convenience name for target.
@@ -504,12 +504,12 @@ test-quantize-fns: tests/CMakeFiles/test-quantize-fns.dir/rule
 
 # fast build rule for target.
 test-quantize-fns/fast:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-quantize-fns.dir/build.make tests/CMakeFiles/test-quantize-fns.dir/build
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-quantize-fns.dir/build.make tests/CMakeFiles/test-quantize-fns.dir/build
 .PHONY : test-quantize-fns/fast
 
 # Convenience name for target.
 tests/CMakeFiles/test-quantize-perf.dir/rule:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-quantize-perf.dir/rule
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-quantize-perf.dir/rule
 .PHONY : tests/CMakeFiles/test-quantize-perf.dir/rule
 
 # Convenience name for target.
@@ -518,12 +518,12 @@ test-quantize-perf: tests/CMakeFiles/test-quantize-perf.dir/rule
 
 # fast build rule for target.
 test-quantize-perf/fast:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-quantize-perf.dir/build.make tests/CMakeFiles/test-quantize-perf.dir/build
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-quantize-perf.dir/build.make tests/CMakeFiles/test-quantize-perf.dir/build
 .PHONY : test-quantize-perf/fast
 
 # Convenience name for target.
 tests/CMakeFiles/test-rope.dir/rule:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-rope.dir/rule
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-rope.dir/rule
 .PHONY : tests/CMakeFiles/test-rope.dir/rule
 
 # Convenience name for target.
@@ -532,12 +532,12 @@ test-rope: tests/CMakeFiles/test-rope.dir/rule
 
 # fast build rule for target.
 test-rope/fast:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-rope.dir/build.make tests/CMakeFiles/test-rope.dir/build
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-rope.dir/build.make tests/CMakeFiles/test-rope.dir/build
 .PHONY : test-rope/fast
 
 # Convenience name for target.
 tests/CMakeFiles/test-mtmd-c-api.dir/rule:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-mtmd-c-api.dir/rule
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-mtmd-c-api.dir/rule
 .PHONY : tests/CMakeFiles/test-mtmd-c-api.dir/rule
 
 # Convenience name for target.
@@ -546,12 +546,12 @@ test-mtmd-c-api: tests/CMakeFiles/test-mtmd-c-api.dir/rule
 
 # fast build rule for target.
 test-mtmd-c-api/fast:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-mtmd-c-api.dir/build.make tests/CMakeFiles/test-mtmd-c-api.dir/build
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-mtmd-c-api.dir/build.make tests/CMakeFiles/test-mtmd-c-api.dir/build
 .PHONY : test-mtmd-c-api/fast
 
 # Convenience name for target.
 tests/CMakeFiles/test-c.dir/rule:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-c.dir/rule
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test-c.dir/rule
 .PHONY : tests/CMakeFiles/test-c.dir/rule
 
 # Convenience name for target.
@@ -560,7 +560,7 @@ test-c: tests/CMakeFiles/test-c.dir/rule
 
 # fast build rule for target.
 test-c/fast:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-c.dir/build.make tests/CMakeFiles/test-c.dir/build
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-c.dir/build.make tests/CMakeFiles/test-c.dir/build
 .PHONY : test-c/fast
 
 get-model.o: get-model.cpp.o
@@ -568,28 +568,28 @@ get-model.o: get-model.cpp.o
 
 # target to build an object file
 get-model.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-sampling.dir/build.make tests/CMakeFiles/test-sampling.dir/get-model.cpp.o
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-grammar-parser.dir/build.make tests/CMakeFiles/test-grammar-parser.dir/get-model.cpp.o
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-grammar-integration.dir/build.make tests/CMakeFiles/test-grammar-integration.dir/get-model.cpp.o
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-llama-grammar.dir/build.make tests/CMakeFiles/test-llama-grammar.dir/get-model.cpp.o
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-chat.dir/build.make tests/CMakeFiles/test-chat.dir/get-model.cpp.o
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-json-schema-to-grammar.dir/build.make tests/CMakeFiles/test-json-schema-to-grammar.dir/get-model.cpp.o
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-chat-parser.dir/build.make tests/CMakeFiles/test-chat-parser.dir/get-model.cpp.o
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-chat-template.dir/build.make tests/CMakeFiles/test-chat-template.dir/get-model.cpp.o
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-json-partial.dir/build.make tests/CMakeFiles/test-json-partial.dir/get-model.cpp.o
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-log.dir/build.make tests/CMakeFiles/test-log.dir/get-model.cpp.o
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-regex-partial.dir/build.make tests/CMakeFiles/test-regex-partial.dir/get-model.cpp.o
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-thread-safety.dir/build.make tests/CMakeFiles/test-thread-safety.dir/get-model.cpp.o
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-arg-parser.dir/build.make tests/CMakeFiles/test-arg-parser.dir/get-model.cpp.o
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-gguf.dir/build.make tests/CMakeFiles/test-gguf.dir/get-model.cpp.o
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-backend-ops.dir/build.make tests/CMakeFiles/test-backend-ops.dir/get-model.cpp.o
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-model-load-cancel.dir/build.make tests/CMakeFiles/test-model-load-cancel.dir/get-model.cpp.o
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-autorelease.dir/build.make tests/CMakeFiles/test-autorelease.dir/get-model.cpp.o
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-barrier.dir/build.make tests/CMakeFiles/test-barrier.dir/get-model.cpp.o
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-quantize-fns.dir/build.make tests/CMakeFiles/test-quantize-fns.dir/get-model.cpp.o
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-quantize-perf.dir/build.make tests/CMakeFiles/test-quantize-perf.dir/get-model.cpp.o
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-rope.dir/build.make tests/CMakeFiles/test-rope.dir/get-model.cpp.o
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-mtmd-c-api.dir/build.make tests/CMakeFiles/test-mtmd-c-api.dir/get-model.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-sampling.dir/build.make tests/CMakeFiles/test-sampling.dir/get-model.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-grammar-parser.dir/build.make tests/CMakeFiles/test-grammar-parser.dir/get-model.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-grammar-integration.dir/build.make tests/CMakeFiles/test-grammar-integration.dir/get-model.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-llama-grammar.dir/build.make tests/CMakeFiles/test-llama-grammar.dir/get-model.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-chat.dir/build.make tests/CMakeFiles/test-chat.dir/get-model.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-json-schema-to-grammar.dir/build.make tests/CMakeFiles/test-json-schema-to-grammar.dir/get-model.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-chat-parser.dir/build.make tests/CMakeFiles/test-chat-parser.dir/get-model.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-chat-template.dir/build.make tests/CMakeFiles/test-chat-template.dir/get-model.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-json-partial.dir/build.make tests/CMakeFiles/test-json-partial.dir/get-model.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-log.dir/build.make tests/CMakeFiles/test-log.dir/get-model.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-regex-partial.dir/build.make tests/CMakeFiles/test-regex-partial.dir/get-model.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-thread-safety.dir/build.make tests/CMakeFiles/test-thread-safety.dir/get-model.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-arg-parser.dir/build.make tests/CMakeFiles/test-arg-parser.dir/get-model.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-gguf.dir/build.make tests/CMakeFiles/test-gguf.dir/get-model.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-backend-ops.dir/build.make tests/CMakeFiles/test-backend-ops.dir/get-model.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-model-load-cancel.dir/build.make tests/CMakeFiles/test-model-load-cancel.dir/get-model.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-autorelease.dir/build.make tests/CMakeFiles/test-autorelease.dir/get-model.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-barrier.dir/build.make tests/CMakeFiles/test-barrier.dir/get-model.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-quantize-fns.dir/build.make tests/CMakeFiles/test-quantize-fns.dir/get-model.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-quantize-perf.dir/build.make tests/CMakeFiles/test-quantize-perf.dir/get-model.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-rope.dir/build.make tests/CMakeFiles/test-rope.dir/get-model.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-mtmd-c-api.dir/build.make tests/CMakeFiles/test-mtmd-c-api.dir/get-model.cpp.o
 .PHONY : get-model.cpp.o
 
 get-model.i: get-model.cpp.i
@@ -597,28 +597,28 @@ get-model.i: get-model.cpp.i
 
 # target to preprocess a source file
 get-model.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-sampling.dir/build.make tests/CMakeFiles/test-sampling.dir/get-model.cpp.i
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-grammar-parser.dir/build.make tests/CMakeFiles/test-grammar-parser.dir/get-model.cpp.i
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-grammar-integration.dir/build.make tests/CMakeFiles/test-grammar-integration.dir/get-model.cpp.i
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-llama-grammar.dir/build.make tests/CMakeFiles/test-llama-grammar.dir/get-model.cpp.i
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-chat.dir/build.make tests/CMakeFiles/test-chat.dir/get-model.cpp.i
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-json-schema-to-grammar.dir/build.make tests/CMakeFiles/test-json-schema-to-grammar.dir/get-model.cpp.i
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-chat-parser.dir/build.make tests/CMakeFiles/test-chat-parser.dir/get-model.cpp.i
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-chat-template.dir/build.make tests/CMakeFiles/test-chat-template.dir/get-model.cpp.i
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-json-partial.dir/build.make tests/CMakeFiles/test-json-partial.dir/get-model.cpp.i
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-log.dir/build.make tests/CMakeFiles/test-log.dir/get-model.cpp.i
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-regex-partial.dir/build.make tests/CMakeFiles/test-regex-partial.dir/get-model.cpp.i
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-thread-safety.dir/build.make tests/CMakeFiles/test-thread-safety.dir/get-model.cpp.i
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-arg-parser.dir/build.make tests/CMakeFiles/test-arg-parser.dir/get-model.cpp.i
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-gguf.dir/build.make tests/CMakeFiles/test-gguf.dir/get-model.cpp.i
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-backend-ops.dir/build.make tests/CMakeFiles/test-backend-ops.dir/get-model.cpp.i
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-model-load-cancel.dir/build.make tests/CMakeFiles/test-model-load-cancel.dir/get-model.cpp.i
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-autorelease.dir/build.make tests/CMakeFiles/test-autorelease.dir/get-model.cpp.i
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-barrier.dir/build.make tests/CMakeFiles/test-barrier.dir/get-model.cpp.i
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-quantize-fns.dir/build.make tests/CMakeFiles/test-quantize-fns.dir/get-model.cpp.i
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-quantize-perf.dir/build.make tests/CMakeFiles/test-quantize-perf.dir/get-model.cpp.i
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-rope.dir/build.make tests/CMakeFiles/test-rope.dir/get-model.cpp.i
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-mtmd-c-api.dir/build.make tests/CMakeFiles/test-mtmd-c-api.dir/get-model.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-sampling.dir/build.make tests/CMakeFiles/test-sampling.dir/get-model.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-grammar-parser.dir/build.make tests/CMakeFiles/test-grammar-parser.dir/get-model.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-grammar-integration.dir/build.make tests/CMakeFiles/test-grammar-integration.dir/get-model.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-llama-grammar.dir/build.make tests/CMakeFiles/test-llama-grammar.dir/get-model.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-chat.dir/build.make tests/CMakeFiles/test-chat.dir/get-model.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-json-schema-to-grammar.dir/build.make tests/CMakeFiles/test-json-schema-to-grammar.dir/get-model.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-chat-parser.dir/build.make tests/CMakeFiles/test-chat-parser.dir/get-model.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-chat-template.dir/build.make tests/CMakeFiles/test-chat-template.dir/get-model.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-json-partial.dir/build.make tests/CMakeFiles/test-json-partial.dir/get-model.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-log.dir/build.make tests/CMakeFiles/test-log.dir/get-model.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-regex-partial.dir/build.make tests/CMakeFiles/test-regex-partial.dir/get-model.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-thread-safety.dir/build.make tests/CMakeFiles/test-thread-safety.dir/get-model.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-arg-parser.dir/build.make tests/CMakeFiles/test-arg-parser.dir/get-model.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-gguf.dir/build.make tests/CMakeFiles/test-gguf.dir/get-model.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-backend-ops.dir/build.make tests/CMakeFiles/test-backend-ops.dir/get-model.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-model-load-cancel.dir/build.make tests/CMakeFiles/test-model-load-cancel.dir/get-model.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-autorelease.dir/build.make tests/CMakeFiles/test-autorelease.dir/get-model.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-barrier.dir/build.make tests/CMakeFiles/test-barrier.dir/get-model.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-quantize-fns.dir/build.make tests/CMakeFiles/test-quantize-fns.dir/get-model.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-quantize-perf.dir/build.make tests/CMakeFiles/test-quantize-perf.dir/get-model.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-rope.dir/build.make tests/CMakeFiles/test-rope.dir/get-model.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-mtmd-c-api.dir/build.make tests/CMakeFiles/test-mtmd-c-api.dir/get-model.cpp.i
 .PHONY : get-model.cpp.i
 
 get-model.s: get-model.cpp.s
@@ -626,28 +626,28 @@ get-model.s: get-model.cpp.s
 
 # target to generate assembly for a file
 get-model.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-sampling.dir/build.make tests/CMakeFiles/test-sampling.dir/get-model.cpp.s
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-grammar-parser.dir/build.make tests/CMakeFiles/test-grammar-parser.dir/get-model.cpp.s
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-grammar-integration.dir/build.make tests/CMakeFiles/test-grammar-integration.dir/get-model.cpp.s
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-llama-grammar.dir/build.make tests/CMakeFiles/test-llama-grammar.dir/get-model.cpp.s
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-chat.dir/build.make tests/CMakeFiles/test-chat.dir/get-model.cpp.s
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-json-schema-to-grammar.dir/build.make tests/CMakeFiles/test-json-schema-to-grammar.dir/get-model.cpp.s
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-chat-parser.dir/build.make tests/CMakeFiles/test-chat-parser.dir/get-model.cpp.s
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-chat-template.dir/build.make tests/CMakeFiles/test-chat-template.dir/get-model.cpp.s
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-json-partial.dir/build.make tests/CMakeFiles/test-json-partial.dir/get-model.cpp.s
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-log.dir/build.make tests/CMakeFiles/test-log.dir/get-model.cpp.s
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-regex-partial.dir/build.make tests/CMakeFiles/test-regex-partial.dir/get-model.cpp.s
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-thread-safety.dir/build.make tests/CMakeFiles/test-thread-safety.dir/get-model.cpp.s
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-arg-parser.dir/build.make tests/CMakeFiles/test-arg-parser.dir/get-model.cpp.s
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-gguf.dir/build.make tests/CMakeFiles/test-gguf.dir/get-model.cpp.s
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-backend-ops.dir/build.make tests/CMakeFiles/test-backend-ops.dir/get-model.cpp.s
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-model-load-cancel.dir/build.make tests/CMakeFiles/test-model-load-cancel.dir/get-model.cpp.s
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-autorelease.dir/build.make tests/CMakeFiles/test-autorelease.dir/get-model.cpp.s
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-barrier.dir/build.make tests/CMakeFiles/test-barrier.dir/get-model.cpp.s
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-quantize-fns.dir/build.make tests/CMakeFiles/test-quantize-fns.dir/get-model.cpp.s
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-quantize-perf.dir/build.make tests/CMakeFiles/test-quantize-perf.dir/get-model.cpp.s
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-rope.dir/build.make tests/CMakeFiles/test-rope.dir/get-model.cpp.s
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-mtmd-c-api.dir/build.make tests/CMakeFiles/test-mtmd-c-api.dir/get-model.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-sampling.dir/build.make tests/CMakeFiles/test-sampling.dir/get-model.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-grammar-parser.dir/build.make tests/CMakeFiles/test-grammar-parser.dir/get-model.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-grammar-integration.dir/build.make tests/CMakeFiles/test-grammar-integration.dir/get-model.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-llama-grammar.dir/build.make tests/CMakeFiles/test-llama-grammar.dir/get-model.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-chat.dir/build.make tests/CMakeFiles/test-chat.dir/get-model.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-json-schema-to-grammar.dir/build.make tests/CMakeFiles/test-json-schema-to-grammar.dir/get-model.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-chat-parser.dir/build.make tests/CMakeFiles/test-chat-parser.dir/get-model.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-chat-template.dir/build.make tests/CMakeFiles/test-chat-template.dir/get-model.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-json-partial.dir/build.make tests/CMakeFiles/test-json-partial.dir/get-model.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-log.dir/build.make tests/CMakeFiles/test-log.dir/get-model.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-regex-partial.dir/build.make tests/CMakeFiles/test-regex-partial.dir/get-model.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-thread-safety.dir/build.make tests/CMakeFiles/test-thread-safety.dir/get-model.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-arg-parser.dir/build.make tests/CMakeFiles/test-arg-parser.dir/get-model.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-gguf.dir/build.make tests/CMakeFiles/test-gguf.dir/get-model.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-backend-ops.dir/build.make tests/CMakeFiles/test-backend-ops.dir/get-model.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-model-load-cancel.dir/build.make tests/CMakeFiles/test-model-load-cancel.dir/get-model.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-autorelease.dir/build.make tests/CMakeFiles/test-autorelease.dir/get-model.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-barrier.dir/build.make tests/CMakeFiles/test-barrier.dir/get-model.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-quantize-fns.dir/build.make tests/CMakeFiles/test-quantize-fns.dir/get-model.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-quantize-perf.dir/build.make tests/CMakeFiles/test-quantize-perf.dir/get-model.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-rope.dir/build.make tests/CMakeFiles/test-rope.dir/get-model.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-mtmd-c-api.dir/build.make tests/CMakeFiles/test-mtmd-c-api.dir/get-model.cpp.s
 .PHONY : get-model.cpp.s
 
 test-arg-parser.o: test-arg-parser.cpp.o
@@ -655,7 +655,7 @@ test-arg-parser.o: test-arg-parser.cpp.o
 
 # target to build an object file
 test-arg-parser.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-arg-parser.dir/build.make tests/CMakeFiles/test-arg-parser.dir/test-arg-parser.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-arg-parser.dir/build.make tests/CMakeFiles/test-arg-parser.dir/test-arg-parser.cpp.o
 .PHONY : test-arg-parser.cpp.o
 
 test-arg-parser.i: test-arg-parser.cpp.i
@@ -663,7 +663,7 @@ test-arg-parser.i: test-arg-parser.cpp.i
 
 # target to preprocess a source file
 test-arg-parser.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-arg-parser.dir/build.make tests/CMakeFiles/test-arg-parser.dir/test-arg-parser.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-arg-parser.dir/build.make tests/CMakeFiles/test-arg-parser.dir/test-arg-parser.cpp.i
 .PHONY : test-arg-parser.cpp.i
 
 test-arg-parser.s: test-arg-parser.cpp.s
@@ -671,7 +671,7 @@ test-arg-parser.s: test-arg-parser.cpp.s
 
 # target to generate assembly for a file
 test-arg-parser.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-arg-parser.dir/build.make tests/CMakeFiles/test-arg-parser.dir/test-arg-parser.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-arg-parser.dir/build.make tests/CMakeFiles/test-arg-parser.dir/test-arg-parser.cpp.s
 .PHONY : test-arg-parser.cpp.s
 
 test-autorelease.o: test-autorelease.cpp.o
@@ -679,7 +679,7 @@ test-autorelease.o: test-autorelease.cpp.o
 
 # target to build an object file
 test-autorelease.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-autorelease.dir/build.make tests/CMakeFiles/test-autorelease.dir/test-autorelease.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-autorelease.dir/build.make tests/CMakeFiles/test-autorelease.dir/test-autorelease.cpp.o
 .PHONY : test-autorelease.cpp.o
 
 test-autorelease.i: test-autorelease.cpp.i
@@ -687,7 +687,7 @@ test-autorelease.i: test-autorelease.cpp.i
 
 # target to preprocess a source file
 test-autorelease.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-autorelease.dir/build.make tests/CMakeFiles/test-autorelease.dir/test-autorelease.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-autorelease.dir/build.make tests/CMakeFiles/test-autorelease.dir/test-autorelease.cpp.i
 .PHONY : test-autorelease.cpp.i
 
 test-autorelease.s: test-autorelease.cpp.s
@@ -695,7 +695,7 @@ test-autorelease.s: test-autorelease.cpp.s
 
 # target to generate assembly for a file
 test-autorelease.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-autorelease.dir/build.make tests/CMakeFiles/test-autorelease.dir/test-autorelease.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-autorelease.dir/build.make tests/CMakeFiles/test-autorelease.dir/test-autorelease.cpp.s
 .PHONY : test-autorelease.cpp.s
 
 test-backend-ops.o: test-backend-ops.cpp.o
@@ -703,7 +703,7 @@ test-backend-ops.o: test-backend-ops.cpp.o
 
 # target to build an object file
 test-backend-ops.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-backend-ops.dir/build.make tests/CMakeFiles/test-backend-ops.dir/test-backend-ops.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-backend-ops.dir/build.make tests/CMakeFiles/test-backend-ops.dir/test-backend-ops.cpp.o
 .PHONY : test-backend-ops.cpp.o
 
 test-backend-ops.i: test-backend-ops.cpp.i
@@ -711,7 +711,7 @@ test-backend-ops.i: test-backend-ops.cpp.i
 
 # target to preprocess a source file
 test-backend-ops.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-backend-ops.dir/build.make tests/CMakeFiles/test-backend-ops.dir/test-backend-ops.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-backend-ops.dir/build.make tests/CMakeFiles/test-backend-ops.dir/test-backend-ops.cpp.i
 .PHONY : test-backend-ops.cpp.i
 
 test-backend-ops.s: test-backend-ops.cpp.s
@@ -719,7 +719,7 @@ test-backend-ops.s: test-backend-ops.cpp.s
 
 # target to generate assembly for a file
 test-backend-ops.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-backend-ops.dir/build.make tests/CMakeFiles/test-backend-ops.dir/test-backend-ops.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-backend-ops.dir/build.make tests/CMakeFiles/test-backend-ops.dir/test-backend-ops.cpp.s
 .PHONY : test-backend-ops.cpp.s
 
 test-barrier.o: test-barrier.cpp.o
@@ -727,7 +727,7 @@ test-barrier.o: test-barrier.cpp.o
 
 # target to build an object file
 test-barrier.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-barrier.dir/build.make tests/CMakeFiles/test-barrier.dir/test-barrier.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-barrier.dir/build.make tests/CMakeFiles/test-barrier.dir/test-barrier.cpp.o
 .PHONY : test-barrier.cpp.o
 
 test-barrier.i: test-barrier.cpp.i
@@ -735,7 +735,7 @@ test-barrier.i: test-barrier.cpp.i
 
 # target to preprocess a source file
 test-barrier.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-barrier.dir/build.make tests/CMakeFiles/test-barrier.dir/test-barrier.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-barrier.dir/build.make tests/CMakeFiles/test-barrier.dir/test-barrier.cpp.i
 .PHONY : test-barrier.cpp.i
 
 test-barrier.s: test-barrier.cpp.s
@@ -743,7 +743,7 @@ test-barrier.s: test-barrier.cpp.s
 
 # target to generate assembly for a file
 test-barrier.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-barrier.dir/build.make tests/CMakeFiles/test-barrier.dir/test-barrier.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-barrier.dir/build.make tests/CMakeFiles/test-barrier.dir/test-barrier.cpp.s
 .PHONY : test-barrier.cpp.s
 
 test-c.o: test-c.c.o
@@ -751,7 +751,7 @@ test-c.o: test-c.c.o
 
 # target to build an object file
 test-c.c.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-c.dir/build.make tests/CMakeFiles/test-c.dir/test-c.c.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-c.dir/build.make tests/CMakeFiles/test-c.dir/test-c.c.o
 .PHONY : test-c.c.o
 
 test-c.i: test-c.c.i
@@ -759,7 +759,7 @@ test-c.i: test-c.c.i
 
 # target to preprocess a source file
 test-c.c.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-c.dir/build.make tests/CMakeFiles/test-c.dir/test-c.c.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-c.dir/build.make tests/CMakeFiles/test-c.dir/test-c.c.i
 .PHONY : test-c.c.i
 
 test-c.s: test-c.c.s
@@ -767,7 +767,7 @@ test-c.s: test-c.c.s
 
 # target to generate assembly for a file
 test-c.c.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-c.dir/build.make tests/CMakeFiles/test-c.dir/test-c.c.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-c.dir/build.make tests/CMakeFiles/test-c.dir/test-c.c.s
 .PHONY : test-c.c.s
 
 test-chat-parser.o: test-chat-parser.cpp.o
@@ -775,7 +775,7 @@ test-chat-parser.o: test-chat-parser.cpp.o
 
 # target to build an object file
 test-chat-parser.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-chat-parser.dir/build.make tests/CMakeFiles/test-chat-parser.dir/test-chat-parser.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-chat-parser.dir/build.make tests/CMakeFiles/test-chat-parser.dir/test-chat-parser.cpp.o
 .PHONY : test-chat-parser.cpp.o
 
 test-chat-parser.i: test-chat-parser.cpp.i
@@ -783,7 +783,7 @@ test-chat-parser.i: test-chat-parser.cpp.i
 
 # target to preprocess a source file
 test-chat-parser.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-chat-parser.dir/build.make tests/CMakeFiles/test-chat-parser.dir/test-chat-parser.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-chat-parser.dir/build.make tests/CMakeFiles/test-chat-parser.dir/test-chat-parser.cpp.i
 .PHONY : test-chat-parser.cpp.i
 
 test-chat-parser.s: test-chat-parser.cpp.s
@@ -791,7 +791,7 @@ test-chat-parser.s: test-chat-parser.cpp.s
 
 # target to generate assembly for a file
 test-chat-parser.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-chat-parser.dir/build.make tests/CMakeFiles/test-chat-parser.dir/test-chat-parser.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-chat-parser.dir/build.make tests/CMakeFiles/test-chat-parser.dir/test-chat-parser.cpp.s
 .PHONY : test-chat-parser.cpp.s
 
 test-chat-template.o: test-chat-template.cpp.o
@@ -799,7 +799,7 @@ test-chat-template.o: test-chat-template.cpp.o
 
 # target to build an object file
 test-chat-template.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-chat-template.dir/build.make tests/CMakeFiles/test-chat-template.dir/test-chat-template.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-chat-template.dir/build.make tests/CMakeFiles/test-chat-template.dir/test-chat-template.cpp.o
 .PHONY : test-chat-template.cpp.o
 
 test-chat-template.i: test-chat-template.cpp.i
@@ -807,7 +807,7 @@ test-chat-template.i: test-chat-template.cpp.i
 
 # target to preprocess a source file
 test-chat-template.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-chat-template.dir/build.make tests/CMakeFiles/test-chat-template.dir/test-chat-template.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-chat-template.dir/build.make tests/CMakeFiles/test-chat-template.dir/test-chat-template.cpp.i
 .PHONY : test-chat-template.cpp.i
 
 test-chat-template.s: test-chat-template.cpp.s
@@ -815,7 +815,7 @@ test-chat-template.s: test-chat-template.cpp.s
 
 # target to generate assembly for a file
 test-chat-template.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-chat-template.dir/build.make tests/CMakeFiles/test-chat-template.dir/test-chat-template.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-chat-template.dir/build.make tests/CMakeFiles/test-chat-template.dir/test-chat-template.cpp.s
 .PHONY : test-chat-template.cpp.s
 
 test-chat.o: test-chat.cpp.o
@@ -823,7 +823,7 @@ test-chat.o: test-chat.cpp.o
 
 # target to build an object file
 test-chat.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-chat.dir/build.make tests/CMakeFiles/test-chat.dir/test-chat.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-chat.dir/build.make tests/CMakeFiles/test-chat.dir/test-chat.cpp.o
 .PHONY : test-chat.cpp.o
 
 test-chat.i: test-chat.cpp.i
@@ -831,7 +831,7 @@ test-chat.i: test-chat.cpp.i
 
 # target to preprocess a source file
 test-chat.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-chat.dir/build.make tests/CMakeFiles/test-chat.dir/test-chat.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-chat.dir/build.make tests/CMakeFiles/test-chat.dir/test-chat.cpp.i
 .PHONY : test-chat.cpp.i
 
 test-chat.s: test-chat.cpp.s
@@ -839,7 +839,7 @@ test-chat.s: test-chat.cpp.s
 
 # target to generate assembly for a file
 test-chat.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-chat.dir/build.make tests/CMakeFiles/test-chat.dir/test-chat.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-chat.dir/build.make tests/CMakeFiles/test-chat.dir/test-chat.cpp.s
 .PHONY : test-chat.cpp.s
 
 test-gbnf-validator.o: test-gbnf-validator.cpp.o
@@ -847,7 +847,7 @@ test-gbnf-validator.o: test-gbnf-validator.cpp.o
 
 # target to build an object file
 test-gbnf-validator.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-gbnf-validator.dir/build.make tests/CMakeFiles/test-gbnf-validator.dir/test-gbnf-validator.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-gbnf-validator.dir/build.make tests/CMakeFiles/test-gbnf-validator.dir/test-gbnf-validator.cpp.o
 .PHONY : test-gbnf-validator.cpp.o
 
 test-gbnf-validator.i: test-gbnf-validator.cpp.i
@@ -855,7 +855,7 @@ test-gbnf-validator.i: test-gbnf-validator.cpp.i
 
 # target to preprocess a source file
 test-gbnf-validator.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-gbnf-validator.dir/build.make tests/CMakeFiles/test-gbnf-validator.dir/test-gbnf-validator.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-gbnf-validator.dir/build.make tests/CMakeFiles/test-gbnf-validator.dir/test-gbnf-validator.cpp.i
 .PHONY : test-gbnf-validator.cpp.i
 
 test-gbnf-validator.s: test-gbnf-validator.cpp.s
@@ -863,7 +863,7 @@ test-gbnf-validator.s: test-gbnf-validator.cpp.s
 
 # target to generate assembly for a file
 test-gbnf-validator.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-gbnf-validator.dir/build.make tests/CMakeFiles/test-gbnf-validator.dir/test-gbnf-validator.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-gbnf-validator.dir/build.make tests/CMakeFiles/test-gbnf-validator.dir/test-gbnf-validator.cpp.s
 .PHONY : test-gbnf-validator.cpp.s
 
 test-gguf.o: test-gguf.cpp.o
@@ -871,7 +871,7 @@ test-gguf.o: test-gguf.cpp.o
 
 # target to build an object file
 test-gguf.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-gguf.dir/build.make tests/CMakeFiles/test-gguf.dir/test-gguf.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-gguf.dir/build.make tests/CMakeFiles/test-gguf.dir/test-gguf.cpp.o
 .PHONY : test-gguf.cpp.o
 
 test-gguf.i: test-gguf.cpp.i
@@ -879,7 +879,7 @@ test-gguf.i: test-gguf.cpp.i
 
 # target to preprocess a source file
 test-gguf.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-gguf.dir/build.make tests/CMakeFiles/test-gguf.dir/test-gguf.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-gguf.dir/build.make tests/CMakeFiles/test-gguf.dir/test-gguf.cpp.i
 .PHONY : test-gguf.cpp.i
 
 test-gguf.s: test-gguf.cpp.s
@@ -887,7 +887,7 @@ test-gguf.s: test-gguf.cpp.s
 
 # target to generate assembly for a file
 test-gguf.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-gguf.dir/build.make tests/CMakeFiles/test-gguf.dir/test-gguf.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-gguf.dir/build.make tests/CMakeFiles/test-gguf.dir/test-gguf.cpp.s
 .PHONY : test-gguf.cpp.s
 
 test-grammar-integration.o: test-grammar-integration.cpp.o
@@ -895,7 +895,7 @@ test-grammar-integration.o: test-grammar-integration.cpp.o
 
 # target to build an object file
 test-grammar-integration.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-grammar-integration.dir/build.make tests/CMakeFiles/test-grammar-integration.dir/test-grammar-integration.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-grammar-integration.dir/build.make tests/CMakeFiles/test-grammar-integration.dir/test-grammar-integration.cpp.o
 .PHONY : test-grammar-integration.cpp.o
 
 test-grammar-integration.i: test-grammar-integration.cpp.i
@@ -903,7 +903,7 @@ test-grammar-integration.i: test-grammar-integration.cpp.i
 
 # target to preprocess a source file
 test-grammar-integration.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-grammar-integration.dir/build.make tests/CMakeFiles/test-grammar-integration.dir/test-grammar-integration.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-grammar-integration.dir/build.make tests/CMakeFiles/test-grammar-integration.dir/test-grammar-integration.cpp.i
 .PHONY : test-grammar-integration.cpp.i
 
 test-grammar-integration.s: test-grammar-integration.cpp.s
@@ -911,7 +911,7 @@ test-grammar-integration.s: test-grammar-integration.cpp.s
 
 # target to generate assembly for a file
 test-grammar-integration.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-grammar-integration.dir/build.make tests/CMakeFiles/test-grammar-integration.dir/test-grammar-integration.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-grammar-integration.dir/build.make tests/CMakeFiles/test-grammar-integration.dir/test-grammar-integration.cpp.s
 .PHONY : test-grammar-integration.cpp.s
 
 test-grammar-parser.o: test-grammar-parser.cpp.o
@@ -919,7 +919,7 @@ test-grammar-parser.o: test-grammar-parser.cpp.o
 
 # target to build an object file
 test-grammar-parser.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-grammar-parser.dir/build.make tests/CMakeFiles/test-grammar-parser.dir/test-grammar-parser.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-grammar-parser.dir/build.make tests/CMakeFiles/test-grammar-parser.dir/test-grammar-parser.cpp.o
 .PHONY : test-grammar-parser.cpp.o
 
 test-grammar-parser.i: test-grammar-parser.cpp.i
@@ -927,7 +927,7 @@ test-grammar-parser.i: test-grammar-parser.cpp.i
 
 # target to preprocess a source file
 test-grammar-parser.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-grammar-parser.dir/build.make tests/CMakeFiles/test-grammar-parser.dir/test-grammar-parser.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-grammar-parser.dir/build.make tests/CMakeFiles/test-grammar-parser.dir/test-grammar-parser.cpp.i
 .PHONY : test-grammar-parser.cpp.i
 
 test-grammar-parser.s: test-grammar-parser.cpp.s
@@ -935,7 +935,7 @@ test-grammar-parser.s: test-grammar-parser.cpp.s
 
 # target to generate assembly for a file
 test-grammar-parser.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-grammar-parser.dir/build.make tests/CMakeFiles/test-grammar-parser.dir/test-grammar-parser.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-grammar-parser.dir/build.make tests/CMakeFiles/test-grammar-parser.dir/test-grammar-parser.cpp.s
 .PHONY : test-grammar-parser.cpp.s
 
 test-json-partial.o: test-json-partial.cpp.o
@@ -943,7 +943,7 @@ test-json-partial.o: test-json-partial.cpp.o
 
 # target to build an object file
 test-json-partial.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-json-partial.dir/build.make tests/CMakeFiles/test-json-partial.dir/test-json-partial.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-json-partial.dir/build.make tests/CMakeFiles/test-json-partial.dir/test-json-partial.cpp.o
 .PHONY : test-json-partial.cpp.o
 
 test-json-partial.i: test-json-partial.cpp.i
@@ -951,7 +951,7 @@ test-json-partial.i: test-json-partial.cpp.i
 
 # target to preprocess a source file
 test-json-partial.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-json-partial.dir/build.make tests/CMakeFiles/test-json-partial.dir/test-json-partial.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-json-partial.dir/build.make tests/CMakeFiles/test-json-partial.dir/test-json-partial.cpp.i
 .PHONY : test-json-partial.cpp.i
 
 test-json-partial.s: test-json-partial.cpp.s
@@ -959,7 +959,7 @@ test-json-partial.s: test-json-partial.cpp.s
 
 # target to generate assembly for a file
 test-json-partial.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-json-partial.dir/build.make tests/CMakeFiles/test-json-partial.dir/test-json-partial.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-json-partial.dir/build.make tests/CMakeFiles/test-json-partial.dir/test-json-partial.cpp.s
 .PHONY : test-json-partial.cpp.s
 
 test-json-schema-to-grammar.o: test-json-schema-to-grammar.cpp.o
@@ -967,7 +967,7 @@ test-json-schema-to-grammar.o: test-json-schema-to-grammar.cpp.o
 
 # target to build an object file
 test-json-schema-to-grammar.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-json-schema-to-grammar.dir/build.make tests/CMakeFiles/test-json-schema-to-grammar.dir/test-json-schema-to-grammar.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-json-schema-to-grammar.dir/build.make tests/CMakeFiles/test-json-schema-to-grammar.dir/test-json-schema-to-grammar.cpp.o
 .PHONY : test-json-schema-to-grammar.cpp.o
 
 test-json-schema-to-grammar.i: test-json-schema-to-grammar.cpp.i
@@ -975,7 +975,7 @@ test-json-schema-to-grammar.i: test-json-schema-to-grammar.cpp.i
 
 # target to preprocess a source file
 test-json-schema-to-grammar.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-json-schema-to-grammar.dir/build.make tests/CMakeFiles/test-json-schema-to-grammar.dir/test-json-schema-to-grammar.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-json-schema-to-grammar.dir/build.make tests/CMakeFiles/test-json-schema-to-grammar.dir/test-json-schema-to-grammar.cpp.i
 .PHONY : test-json-schema-to-grammar.cpp.i
 
 test-json-schema-to-grammar.s: test-json-schema-to-grammar.cpp.s
@@ -983,7 +983,7 @@ test-json-schema-to-grammar.s: test-json-schema-to-grammar.cpp.s
 
 # target to generate assembly for a file
 test-json-schema-to-grammar.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-json-schema-to-grammar.dir/build.make tests/CMakeFiles/test-json-schema-to-grammar.dir/test-json-schema-to-grammar.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-json-schema-to-grammar.dir/build.make tests/CMakeFiles/test-json-schema-to-grammar.dir/test-json-schema-to-grammar.cpp.s
 .PHONY : test-json-schema-to-grammar.cpp.s
 
 test-llama-grammar.o: test-llama-grammar.cpp.o
@@ -991,7 +991,7 @@ test-llama-grammar.o: test-llama-grammar.cpp.o
 
 # target to build an object file
 test-llama-grammar.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-llama-grammar.dir/build.make tests/CMakeFiles/test-llama-grammar.dir/test-llama-grammar.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-llama-grammar.dir/build.make tests/CMakeFiles/test-llama-grammar.dir/test-llama-grammar.cpp.o
 .PHONY : test-llama-grammar.cpp.o
 
 test-llama-grammar.i: test-llama-grammar.cpp.i
@@ -999,7 +999,7 @@ test-llama-grammar.i: test-llama-grammar.cpp.i
 
 # target to preprocess a source file
 test-llama-grammar.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-llama-grammar.dir/build.make tests/CMakeFiles/test-llama-grammar.dir/test-llama-grammar.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-llama-grammar.dir/build.make tests/CMakeFiles/test-llama-grammar.dir/test-llama-grammar.cpp.i
 .PHONY : test-llama-grammar.cpp.i
 
 test-llama-grammar.s: test-llama-grammar.cpp.s
@@ -1007,7 +1007,7 @@ test-llama-grammar.s: test-llama-grammar.cpp.s
 
 # target to generate assembly for a file
 test-llama-grammar.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-llama-grammar.dir/build.make tests/CMakeFiles/test-llama-grammar.dir/test-llama-grammar.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-llama-grammar.dir/build.make tests/CMakeFiles/test-llama-grammar.dir/test-llama-grammar.cpp.s
 .PHONY : test-llama-grammar.cpp.s
 
 test-log.o: test-log.cpp.o
@@ -1015,7 +1015,7 @@ test-log.o: test-log.cpp.o
 
 # target to build an object file
 test-log.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-log.dir/build.make tests/CMakeFiles/test-log.dir/test-log.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-log.dir/build.make tests/CMakeFiles/test-log.dir/test-log.cpp.o
 .PHONY : test-log.cpp.o
 
 test-log.i: test-log.cpp.i
@@ -1023,7 +1023,7 @@ test-log.i: test-log.cpp.i
 
 # target to preprocess a source file
 test-log.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-log.dir/build.make tests/CMakeFiles/test-log.dir/test-log.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-log.dir/build.make tests/CMakeFiles/test-log.dir/test-log.cpp.i
 .PHONY : test-log.cpp.i
 
 test-log.s: test-log.cpp.s
@@ -1031,7 +1031,7 @@ test-log.s: test-log.cpp.s
 
 # target to generate assembly for a file
 test-log.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-log.dir/build.make tests/CMakeFiles/test-log.dir/test-log.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-log.dir/build.make tests/CMakeFiles/test-log.dir/test-log.cpp.s
 .PHONY : test-log.cpp.s
 
 test-model-load-cancel.o: test-model-load-cancel.cpp.o
@@ -1039,7 +1039,7 @@ test-model-load-cancel.o: test-model-load-cancel.cpp.o
 
 # target to build an object file
 test-model-load-cancel.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-model-load-cancel.dir/build.make tests/CMakeFiles/test-model-load-cancel.dir/test-model-load-cancel.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-model-load-cancel.dir/build.make tests/CMakeFiles/test-model-load-cancel.dir/test-model-load-cancel.cpp.o
 .PHONY : test-model-load-cancel.cpp.o
 
 test-model-load-cancel.i: test-model-load-cancel.cpp.i
@@ -1047,7 +1047,7 @@ test-model-load-cancel.i: test-model-load-cancel.cpp.i
 
 # target to preprocess a source file
 test-model-load-cancel.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-model-load-cancel.dir/build.make tests/CMakeFiles/test-model-load-cancel.dir/test-model-load-cancel.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-model-load-cancel.dir/build.make tests/CMakeFiles/test-model-load-cancel.dir/test-model-load-cancel.cpp.i
 .PHONY : test-model-load-cancel.cpp.i
 
 test-model-load-cancel.s: test-model-load-cancel.cpp.s
@@ -1055,7 +1055,7 @@ test-model-load-cancel.s: test-model-load-cancel.cpp.s
 
 # target to generate assembly for a file
 test-model-load-cancel.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-model-load-cancel.dir/build.make tests/CMakeFiles/test-model-load-cancel.dir/test-model-load-cancel.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-model-load-cancel.dir/build.make tests/CMakeFiles/test-model-load-cancel.dir/test-model-load-cancel.cpp.s
 .PHONY : test-model-load-cancel.cpp.s
 
 test-mtmd-c-api.o: test-mtmd-c-api.c.o
@@ -1063,7 +1063,7 @@ test-mtmd-c-api.o: test-mtmd-c-api.c.o
 
 # target to build an object file
 test-mtmd-c-api.c.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-mtmd-c-api.dir/build.make tests/CMakeFiles/test-mtmd-c-api.dir/test-mtmd-c-api.c.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-mtmd-c-api.dir/build.make tests/CMakeFiles/test-mtmd-c-api.dir/test-mtmd-c-api.c.o
 .PHONY : test-mtmd-c-api.c.o
 
 test-mtmd-c-api.i: test-mtmd-c-api.c.i
@@ -1071,7 +1071,7 @@ test-mtmd-c-api.i: test-mtmd-c-api.c.i
 
 # target to preprocess a source file
 test-mtmd-c-api.c.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-mtmd-c-api.dir/build.make tests/CMakeFiles/test-mtmd-c-api.dir/test-mtmd-c-api.c.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-mtmd-c-api.dir/build.make tests/CMakeFiles/test-mtmd-c-api.dir/test-mtmd-c-api.c.i
 .PHONY : test-mtmd-c-api.c.i
 
 test-mtmd-c-api.s: test-mtmd-c-api.c.s
@@ -1079,7 +1079,7 @@ test-mtmd-c-api.s: test-mtmd-c-api.c.s
 
 # target to generate assembly for a file
 test-mtmd-c-api.c.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-mtmd-c-api.dir/build.make tests/CMakeFiles/test-mtmd-c-api.dir/test-mtmd-c-api.c.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-mtmd-c-api.dir/build.make tests/CMakeFiles/test-mtmd-c-api.dir/test-mtmd-c-api.c.s
 .PHONY : test-mtmd-c-api.c.s
 
 test-quantize-fns.o: test-quantize-fns.cpp.o
@@ -1087,7 +1087,7 @@ test-quantize-fns.o: test-quantize-fns.cpp.o
 
 # target to build an object file
 test-quantize-fns.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-quantize-fns.dir/build.make tests/CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-quantize-fns.dir/build.make tests/CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.o
 .PHONY : test-quantize-fns.cpp.o
 
 test-quantize-fns.i: test-quantize-fns.cpp.i
@@ -1095,7 +1095,7 @@ test-quantize-fns.i: test-quantize-fns.cpp.i
 
 # target to preprocess a source file
 test-quantize-fns.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-quantize-fns.dir/build.make tests/CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-quantize-fns.dir/build.make tests/CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.i
 .PHONY : test-quantize-fns.cpp.i
 
 test-quantize-fns.s: test-quantize-fns.cpp.s
@@ -1103,7 +1103,7 @@ test-quantize-fns.s: test-quantize-fns.cpp.s
 
 # target to generate assembly for a file
 test-quantize-fns.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-quantize-fns.dir/build.make tests/CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-quantize-fns.dir/build.make tests/CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.s
 .PHONY : test-quantize-fns.cpp.s
 
 test-quantize-perf.o: test-quantize-perf.cpp.o
@@ -1111,7 +1111,7 @@ test-quantize-perf.o: test-quantize-perf.cpp.o
 
 # target to build an object file
 test-quantize-perf.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-quantize-perf.dir/build.make tests/CMakeFiles/test-quantize-perf.dir/test-quantize-perf.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-quantize-perf.dir/build.make tests/CMakeFiles/test-quantize-perf.dir/test-quantize-perf.cpp.o
 .PHONY : test-quantize-perf.cpp.o
 
 test-quantize-perf.i: test-quantize-perf.cpp.i
@@ -1119,7 +1119,7 @@ test-quantize-perf.i: test-quantize-perf.cpp.i
 
 # target to preprocess a source file
 test-quantize-perf.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-quantize-perf.dir/build.make tests/CMakeFiles/test-quantize-perf.dir/test-quantize-perf.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-quantize-perf.dir/build.make tests/CMakeFiles/test-quantize-perf.dir/test-quantize-perf.cpp.i
 .PHONY : test-quantize-perf.cpp.i
 
 test-quantize-perf.s: test-quantize-perf.cpp.s
@@ -1127,7 +1127,7 @@ test-quantize-perf.s: test-quantize-perf.cpp.s
 
 # target to generate assembly for a file
 test-quantize-perf.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-quantize-perf.dir/build.make tests/CMakeFiles/test-quantize-perf.dir/test-quantize-perf.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-quantize-perf.dir/build.make tests/CMakeFiles/test-quantize-perf.dir/test-quantize-perf.cpp.s
 .PHONY : test-quantize-perf.cpp.s
 
 test-quantize-stats.o: test-quantize-stats.cpp.o
@@ -1135,7 +1135,7 @@ test-quantize-stats.o: test-quantize-stats.cpp.o
 
 # target to build an object file
 test-quantize-stats.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-quantize-stats.dir/build.make tests/CMakeFiles/test-quantize-stats.dir/test-quantize-stats.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-quantize-stats.dir/build.make tests/CMakeFiles/test-quantize-stats.dir/test-quantize-stats.cpp.o
 .PHONY : test-quantize-stats.cpp.o
 
 test-quantize-stats.i: test-quantize-stats.cpp.i
@@ -1143,7 +1143,7 @@ test-quantize-stats.i: test-quantize-stats.cpp.i
 
 # target to preprocess a source file
 test-quantize-stats.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-quantize-stats.dir/build.make tests/CMakeFiles/test-quantize-stats.dir/test-quantize-stats.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-quantize-stats.dir/build.make tests/CMakeFiles/test-quantize-stats.dir/test-quantize-stats.cpp.i
 .PHONY : test-quantize-stats.cpp.i
 
 test-quantize-stats.s: test-quantize-stats.cpp.s
@@ -1151,7 +1151,7 @@ test-quantize-stats.s: test-quantize-stats.cpp.s
 
 # target to generate assembly for a file
 test-quantize-stats.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-quantize-stats.dir/build.make tests/CMakeFiles/test-quantize-stats.dir/test-quantize-stats.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-quantize-stats.dir/build.make tests/CMakeFiles/test-quantize-stats.dir/test-quantize-stats.cpp.s
 .PHONY : test-quantize-stats.cpp.s
 
 test-regex-partial.o: test-regex-partial.cpp.o
@@ -1159,7 +1159,7 @@ test-regex-partial.o: test-regex-partial.cpp.o
 
 # target to build an object file
 test-regex-partial.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-regex-partial.dir/build.make tests/CMakeFiles/test-regex-partial.dir/test-regex-partial.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-regex-partial.dir/build.make tests/CMakeFiles/test-regex-partial.dir/test-regex-partial.cpp.o
 .PHONY : test-regex-partial.cpp.o
 
 test-regex-partial.i: test-regex-partial.cpp.i
@@ -1167,7 +1167,7 @@ test-regex-partial.i: test-regex-partial.cpp.i
 
 # target to preprocess a source file
 test-regex-partial.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-regex-partial.dir/build.make tests/CMakeFiles/test-regex-partial.dir/test-regex-partial.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-regex-partial.dir/build.make tests/CMakeFiles/test-regex-partial.dir/test-regex-partial.cpp.i
 .PHONY : test-regex-partial.cpp.i
 
 test-regex-partial.s: test-regex-partial.cpp.s
@@ -1175,7 +1175,7 @@ test-regex-partial.s: test-regex-partial.cpp.s
 
 # target to generate assembly for a file
 test-regex-partial.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-regex-partial.dir/build.make tests/CMakeFiles/test-regex-partial.dir/test-regex-partial.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-regex-partial.dir/build.make tests/CMakeFiles/test-regex-partial.dir/test-regex-partial.cpp.s
 .PHONY : test-regex-partial.cpp.s
 
 test-rope.o: test-rope.cpp.o
@@ -1183,7 +1183,7 @@ test-rope.o: test-rope.cpp.o
 
 # target to build an object file
 test-rope.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-rope.dir/build.make tests/CMakeFiles/test-rope.dir/test-rope.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-rope.dir/build.make tests/CMakeFiles/test-rope.dir/test-rope.cpp.o
 .PHONY : test-rope.cpp.o
 
 test-rope.i: test-rope.cpp.i
@@ -1191,7 +1191,7 @@ test-rope.i: test-rope.cpp.i
 
 # target to preprocess a source file
 test-rope.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-rope.dir/build.make tests/CMakeFiles/test-rope.dir/test-rope.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-rope.dir/build.make tests/CMakeFiles/test-rope.dir/test-rope.cpp.i
 .PHONY : test-rope.cpp.i
 
 test-rope.s: test-rope.cpp.s
@@ -1199,7 +1199,7 @@ test-rope.s: test-rope.cpp.s
 
 # target to generate assembly for a file
 test-rope.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-rope.dir/build.make tests/CMakeFiles/test-rope.dir/test-rope.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-rope.dir/build.make tests/CMakeFiles/test-rope.dir/test-rope.cpp.s
 .PHONY : test-rope.cpp.s
 
 test-sampling.o: test-sampling.cpp.o
@@ -1207,7 +1207,7 @@ test-sampling.o: test-sampling.cpp.o
 
 # target to build an object file
 test-sampling.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-sampling.dir/build.make tests/CMakeFiles/test-sampling.dir/test-sampling.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-sampling.dir/build.make tests/CMakeFiles/test-sampling.dir/test-sampling.cpp.o
 .PHONY : test-sampling.cpp.o
 
 test-sampling.i: test-sampling.cpp.i
@@ -1215,7 +1215,7 @@ test-sampling.i: test-sampling.cpp.i
 
 # target to preprocess a source file
 test-sampling.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-sampling.dir/build.make tests/CMakeFiles/test-sampling.dir/test-sampling.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-sampling.dir/build.make tests/CMakeFiles/test-sampling.dir/test-sampling.cpp.i
 .PHONY : test-sampling.cpp.i
 
 test-sampling.s: test-sampling.cpp.s
@@ -1223,7 +1223,7 @@ test-sampling.s: test-sampling.cpp.s
 
 # target to generate assembly for a file
 test-sampling.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-sampling.dir/build.make tests/CMakeFiles/test-sampling.dir/test-sampling.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-sampling.dir/build.make tests/CMakeFiles/test-sampling.dir/test-sampling.cpp.s
 .PHONY : test-sampling.cpp.s
 
 test-thread-safety.o: test-thread-safety.cpp.o
@@ -1231,7 +1231,7 @@ test-thread-safety.o: test-thread-safety.cpp.o
 
 # target to build an object file
 test-thread-safety.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-thread-safety.dir/build.make tests/CMakeFiles/test-thread-safety.dir/test-thread-safety.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-thread-safety.dir/build.make tests/CMakeFiles/test-thread-safety.dir/test-thread-safety.cpp.o
 .PHONY : test-thread-safety.cpp.o
 
 test-thread-safety.i: test-thread-safety.cpp.i
@@ -1239,7 +1239,7 @@ test-thread-safety.i: test-thread-safety.cpp.i
 
 # target to preprocess a source file
 test-thread-safety.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-thread-safety.dir/build.make tests/CMakeFiles/test-thread-safety.dir/test-thread-safety.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-thread-safety.dir/build.make tests/CMakeFiles/test-thread-safety.dir/test-thread-safety.cpp.i
 .PHONY : test-thread-safety.cpp.i
 
 test-thread-safety.s: test-thread-safety.cpp.s
@@ -1247,7 +1247,7 @@ test-thread-safety.s: test-thread-safety.cpp.s
 
 # target to generate assembly for a file
 test-thread-safety.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-thread-safety.dir/build.make tests/CMakeFiles/test-thread-safety.dir/test-thread-safety.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-thread-safety.dir/build.make tests/CMakeFiles/test-thread-safety.dir/test-thread-safety.cpp.s
 .PHONY : test-thread-safety.cpp.s
 
 test-tokenizer-0.o: test-tokenizer-0.cpp.o
@@ -1255,7 +1255,7 @@ test-tokenizer-0.o: test-tokenizer-0.cpp.o
 
 # target to build an object file
 test-tokenizer-0.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-tokenizer-0.dir/build.make tests/CMakeFiles/test-tokenizer-0.dir/test-tokenizer-0.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-tokenizer-0.dir/build.make tests/CMakeFiles/test-tokenizer-0.dir/test-tokenizer-0.cpp.o
 .PHONY : test-tokenizer-0.cpp.o
 
 test-tokenizer-0.i: test-tokenizer-0.cpp.i
@@ -1263,7 +1263,7 @@ test-tokenizer-0.i: test-tokenizer-0.cpp.i
 
 # target to preprocess a source file
 test-tokenizer-0.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-tokenizer-0.dir/build.make tests/CMakeFiles/test-tokenizer-0.dir/test-tokenizer-0.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-tokenizer-0.dir/build.make tests/CMakeFiles/test-tokenizer-0.dir/test-tokenizer-0.cpp.i
 .PHONY : test-tokenizer-0.cpp.i
 
 test-tokenizer-0.s: test-tokenizer-0.cpp.s
@@ -1271,7 +1271,7 @@ test-tokenizer-0.s: test-tokenizer-0.cpp.s
 
 # target to generate assembly for a file
 test-tokenizer-0.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-tokenizer-0.dir/build.make tests/CMakeFiles/test-tokenizer-0.dir/test-tokenizer-0.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-tokenizer-0.dir/build.make tests/CMakeFiles/test-tokenizer-0.dir/test-tokenizer-0.cpp.s
 .PHONY : test-tokenizer-0.cpp.s
 
 test-tokenizer-1-bpe.o: test-tokenizer-1-bpe.cpp.o
@@ -1279,7 +1279,7 @@ test-tokenizer-1-bpe.o: test-tokenizer-1-bpe.cpp.o
 
 # target to build an object file
 test-tokenizer-1-bpe.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-tokenizer-1-bpe.dir/build.make tests/CMakeFiles/test-tokenizer-1-bpe.dir/test-tokenizer-1-bpe.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-tokenizer-1-bpe.dir/build.make tests/CMakeFiles/test-tokenizer-1-bpe.dir/test-tokenizer-1-bpe.cpp.o
 .PHONY : test-tokenizer-1-bpe.cpp.o
 
 test-tokenizer-1-bpe.i: test-tokenizer-1-bpe.cpp.i
@@ -1287,7 +1287,7 @@ test-tokenizer-1-bpe.i: test-tokenizer-1-bpe.cpp.i
 
 # target to preprocess a source file
 test-tokenizer-1-bpe.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-tokenizer-1-bpe.dir/build.make tests/CMakeFiles/test-tokenizer-1-bpe.dir/test-tokenizer-1-bpe.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-tokenizer-1-bpe.dir/build.make tests/CMakeFiles/test-tokenizer-1-bpe.dir/test-tokenizer-1-bpe.cpp.i
 .PHONY : test-tokenizer-1-bpe.cpp.i
 
 test-tokenizer-1-bpe.s: test-tokenizer-1-bpe.cpp.s
@@ -1295,7 +1295,7 @@ test-tokenizer-1-bpe.s: test-tokenizer-1-bpe.cpp.s
 
 # target to generate assembly for a file
 test-tokenizer-1-bpe.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-tokenizer-1-bpe.dir/build.make tests/CMakeFiles/test-tokenizer-1-bpe.dir/test-tokenizer-1-bpe.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-tokenizer-1-bpe.dir/build.make tests/CMakeFiles/test-tokenizer-1-bpe.dir/test-tokenizer-1-bpe.cpp.s
 .PHONY : test-tokenizer-1-bpe.cpp.s
 
 test-tokenizer-1-spm.o: test-tokenizer-1-spm.cpp.o
@@ -1303,7 +1303,7 @@ test-tokenizer-1-spm.o: test-tokenizer-1-spm.cpp.o
 
 # target to build an object file
 test-tokenizer-1-spm.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-tokenizer-1-spm.dir/build.make tests/CMakeFiles/test-tokenizer-1-spm.dir/test-tokenizer-1-spm.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-tokenizer-1-spm.dir/build.make tests/CMakeFiles/test-tokenizer-1-spm.dir/test-tokenizer-1-spm.cpp.o
 .PHONY : test-tokenizer-1-spm.cpp.o
 
 test-tokenizer-1-spm.i: test-tokenizer-1-spm.cpp.i
@@ -1311,7 +1311,7 @@ test-tokenizer-1-spm.i: test-tokenizer-1-spm.cpp.i
 
 # target to preprocess a source file
 test-tokenizer-1-spm.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-tokenizer-1-spm.dir/build.make tests/CMakeFiles/test-tokenizer-1-spm.dir/test-tokenizer-1-spm.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-tokenizer-1-spm.dir/build.make tests/CMakeFiles/test-tokenizer-1-spm.dir/test-tokenizer-1-spm.cpp.i
 .PHONY : test-tokenizer-1-spm.cpp.i
 
 test-tokenizer-1-spm.s: test-tokenizer-1-spm.cpp.s
@@ -1319,7 +1319,7 @@ test-tokenizer-1-spm.s: test-tokenizer-1-spm.cpp.s
 
 # target to generate assembly for a file
 test-tokenizer-1-spm.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-tokenizer-1-spm.dir/build.make tests/CMakeFiles/test-tokenizer-1-spm.dir/test-tokenizer-1-spm.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test-tokenizer-1-spm.dir/build.make tests/CMakeFiles/test-tokenizer-1-spm.dir/test-tokenizer-1-spm.cpp.s
 .PHONY : test-tokenizer-1-spm.cpp.s
 
 # Help Target
@@ -1461,6 +1461,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

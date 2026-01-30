@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp"
+CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build"
+CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build"
 
 # Include any dependencies generated for this target.
 include examples/lookup/CMakeFiles/llama-lookup-merge.dir/depend.make
@@ -73,18 +73,18 @@ examples/lookup/CMakeFiles/llama-lookup-merge.dir/codegen:
 .PHONY : examples/lookup/CMakeFiles/llama-lookup-merge.dir/codegen
 
 examples/lookup/CMakeFiles/llama-lookup-merge.dir/lookup-merge.cpp.o: examples/lookup/CMakeFiles/llama-lookup-merge.dir/flags.make
-examples/lookup/CMakeFiles/llama-lookup-merge.dir/lookup-merge.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/examples/lookup/lookup-merge.cpp
+examples/lookup/CMakeFiles/llama-lookup-merge.dir/lookup-merge.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/examples/lookup/lookup-merge.cpp
 examples/lookup/CMakeFiles/llama-lookup-merge.dir/lookup-merge.cpp.o: examples/lookup/CMakeFiles/llama-lookup-merge.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/lookup/CMakeFiles/llama-lookup-merge.dir/lookup-merge.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/lookup" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/lookup/CMakeFiles/llama-lookup-merge.dir/lookup-merge.cpp.o -MF CMakeFiles/llama-lookup-merge.dir/lookup-merge.cpp.o.d -o CMakeFiles/llama-lookup-merge.dir/lookup-merge.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/lookup/lookup-merge.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/lookup/CMakeFiles/llama-lookup-merge.dir/lookup-merge.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/lookup" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/lookup/CMakeFiles/llama-lookup-merge.dir/lookup-merge.cpp.o -MF CMakeFiles/llama-lookup-merge.dir/lookup-merge.cpp.o.d -o CMakeFiles/llama-lookup-merge.dir/lookup-merge.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/lookup/lookup-merge.cpp"
 
 examples/lookup/CMakeFiles/llama-lookup-merge.dir/lookup-merge.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama-lookup-merge.dir/lookup-merge.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/lookup" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/lookup/lookup-merge.cpp" > CMakeFiles/llama-lookup-merge.dir/lookup-merge.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/lookup" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/lookup/lookup-merge.cpp" > CMakeFiles/llama-lookup-merge.dir/lookup-merge.cpp.i
 
 examples/lookup/CMakeFiles/llama-lookup-merge.dir/lookup-merge.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/llama-lookup-merge.dir/lookup-merge.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/lookup" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/lookup/lookup-merge.cpp" -o CMakeFiles/llama-lookup-merge.dir/lookup-merge.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/lookup" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/lookup/lookup-merge.cpp" -o CMakeFiles/llama-lookup-merge.dir/lookup-merge.cpp.s
 
 # Object files for target llama-lookup-merge
 llama__lookup__merge_OBJECTS = \
@@ -104,18 +104,18 @@ bin/llama-lookup-merge: bin/libggml-metal.dylib
 bin/llama-lookup-merge: bin/libggml-base.dylib
 bin/llama-lookup-merge: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libcurl.tbd
 bin/llama-lookup-merge: examples/lookup/CMakeFiles/llama-lookup-merge.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-lookup-merge"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/lookup" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-lookup-merge.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-lookup-merge"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/lookup" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-lookup-merge.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/lookup/CMakeFiles/llama-lookup-merge.dir/build: bin/llama-lookup-merge
 .PHONY : examples/lookup/CMakeFiles/llama-lookup-merge.dir/build
 
 examples/lookup/CMakeFiles/llama-lookup-merge.dir/clean:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/lookup" && $(CMAKE_COMMAND) -P CMakeFiles/llama-lookup-merge.dir/cmake_clean.cmake
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/lookup" && $(CMAKE_COMMAND) -P CMakeFiles/llama-lookup-merge.dir/cmake_clean.cmake
 .PHONY : examples/lookup/CMakeFiles/llama-lookup-merge.dir/clean
 
 examples/lookup/CMakeFiles/llama-lookup-merge.dir/depend:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/lookup" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/lookup" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/lookup/CMakeFiles/llama-lookup-merge.dir/DependInfo.cmake" "--color=$(COLOR)" llama-lookup-merge
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/lookup" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/lookup" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/lookup/CMakeFiles/llama-lookup-merge.dir/DependInfo.cmake" "--color=$(COLOR)" llama-lookup-merge
 .PHONY : examples/lookup/CMakeFiles/llama-lookup-merge.dir/depend
 

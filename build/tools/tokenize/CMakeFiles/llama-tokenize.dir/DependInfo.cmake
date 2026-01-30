@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tools/tokenize/tokenize.cpp" "tools/tokenize/CMakeFiles/llama-tokenize.dir/tokenize.cpp.o" "gcc" "tools/tokenize/CMakeFiles/llama-tokenize.dir/tokenize.cpp.o.d"
+  "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tools/tokenize/tokenize.cpp" "tools/tokenize/CMakeFiles/llama-tokenize.dir/tokenize.cpp.o" "gcc" "tools/tokenize/CMakeFiles/llama-tokenize.dir/tokenize.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp"
+CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build"
+CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build"
 
 # Include any dependencies generated for this target.
 include tests/CMakeFiles/test-quantize-stats.dir/depend.make
@@ -73,18 +73,18 @@ tests/CMakeFiles/test-quantize-stats.dir/codegen:
 .PHONY : tests/CMakeFiles/test-quantize-stats.dir/codegen
 
 tests/CMakeFiles/test-quantize-stats.dir/test-quantize-stats.cpp.o: tests/CMakeFiles/test-quantize-stats.dir/flags.make
-tests/CMakeFiles/test-quantize-stats.dir/test-quantize-stats.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/tests/test-quantize-stats.cpp
+tests/CMakeFiles/test-quantize-stats.dir/test-quantize-stats.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/tests/test-quantize-stats.cpp
 tests/CMakeFiles/test-quantize-stats.dir/test-quantize-stats.cpp.o: tests/CMakeFiles/test-quantize-stats.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/test-quantize-stats.dir/test-quantize-stats.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/test-quantize-stats.dir/test-quantize-stats.cpp.o -MF CMakeFiles/test-quantize-stats.dir/test-quantize-stats.cpp.o.d -o CMakeFiles/test-quantize-stats.dir/test-quantize-stats.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tests/test-quantize-stats.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/test-quantize-stats.dir/test-quantize-stats.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/test-quantize-stats.dir/test-quantize-stats.cpp.o -MF CMakeFiles/test-quantize-stats.dir/test-quantize-stats.cpp.o.d -o CMakeFiles/test-quantize-stats.dir/test-quantize-stats.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tests/test-quantize-stats.cpp"
 
 tests/CMakeFiles/test-quantize-stats.dir/test-quantize-stats.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test-quantize-stats.dir/test-quantize-stats.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tests/test-quantize-stats.cpp" > CMakeFiles/test-quantize-stats.dir/test-quantize-stats.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tests/test-quantize-stats.cpp" > CMakeFiles/test-quantize-stats.dir/test-quantize-stats.cpp.i
 
 tests/CMakeFiles/test-quantize-stats.dir/test-quantize-stats.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test-quantize-stats.dir/test-quantize-stats.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tests/test-quantize-stats.cpp" -o CMakeFiles/test-quantize-stats.dir/test-quantize-stats.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tests/test-quantize-stats.cpp" -o CMakeFiles/test-quantize-stats.dir/test-quantize-stats.cpp.s
 
 # Object files for target test-quantize-stats
 test__quantize__stats_OBJECTS = \
@@ -104,18 +104,18 @@ bin/test-quantize-stats: bin/libggml-blas.dylib
 bin/test-quantize-stats: bin/libggml-metal.dylib
 bin/test-quantize-stats: bin/libggml-base.dylib
 bin/test-quantize-stats: tests/CMakeFiles/test-quantize-stats.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/test-quantize-stats"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tests" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test-quantize-stats.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/test-quantize-stats"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tests" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test-quantize-stats.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tests/CMakeFiles/test-quantize-stats.dir/build: bin/test-quantize-stats
 .PHONY : tests/CMakeFiles/test-quantize-stats.dir/build
 
 tests/CMakeFiles/test-quantize-stats.dir/clean:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tests" && $(CMAKE_COMMAND) -P CMakeFiles/test-quantize-stats.dir/cmake_clean.cmake
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tests" && $(CMAKE_COMMAND) -P CMakeFiles/test-quantize-stats.dir/cmake_clean.cmake
 .PHONY : tests/CMakeFiles/test-quantize-stats.dir/clean
 
 tests/CMakeFiles/test-quantize-stats.dir/depend:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tests" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tests" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tests/CMakeFiles/test-quantize-stats.dir/DependInfo.cmake" "--color=$(COLOR)" test-quantize-stats
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tests" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tests" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tests/CMakeFiles/test-quantize-stats.dir/DependInfo.cmake" "--color=$(COLOR)" test-quantize-stats
 .PHONY : tests/CMakeFiles/test-quantize-stats.dir/depend
 

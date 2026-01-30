@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp"
+CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build"
+CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build"
 
 # Utility rule file for Experimental.
 
@@ -85,6 +85,6 @@ CMakeFiles/Experimental.dir/clean:
 .PHONY : CMakeFiles/Experimental.dir/clean
 
 CMakeFiles/Experimental.dir/depend:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/Experimental.dir/DependInfo.cmake" "--color=$(COLOR)" Experimental
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/Experimental.dir/DependInfo.cmake" "--color=$(COLOR)" Experimental
 .PHONY : CMakeFiles/Experimental.dir/depend
 

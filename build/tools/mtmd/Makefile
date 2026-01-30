@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp"
+CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build"
+CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/mtmd//CMakeFiles/progress.marks"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/mtmd/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" 0
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/mtmd//CMakeFiles/progress.marks"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/mtmd/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/mtmd/clean
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/mtmd/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/mtmd/preinstall
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/mtmd/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/mtmd/preinstall
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/mtmd/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tools/mtmd/CMakeFiles/mtmd.dir/rule:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/mtmd/CMakeFiles/mtmd.dir/rule
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/mtmd/CMakeFiles/mtmd.dir/rule
 .PHONY : tools/mtmd/CMakeFiles/mtmd.dir/rule
 
 # Convenience name for target.
@@ -182,12 +182,12 @@ mtmd: tools/mtmd/CMakeFiles/mtmd.dir/rule
 
 # fast build rule for target.
 mtmd/fast:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/mtmd.dir/build.make tools/mtmd/CMakeFiles/mtmd.dir/build
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/mtmd.dir/build.make tools/mtmd/CMakeFiles/mtmd.dir/build
 .PHONY : mtmd/fast
 
 # Convenience name for target.
 tools/mtmd/CMakeFiles/llama-llava-cli.dir/rule:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/mtmd/CMakeFiles/llama-llava-cli.dir/rule
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/mtmd/CMakeFiles/llama-llava-cli.dir/rule
 .PHONY : tools/mtmd/CMakeFiles/llama-llava-cli.dir/rule
 
 # Convenience name for target.
@@ -196,12 +196,12 @@ llama-llava-cli: tools/mtmd/CMakeFiles/llama-llava-cli.dir/rule
 
 # fast build rule for target.
 llama-llava-cli/fast:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/llama-llava-cli.dir/build.make tools/mtmd/CMakeFiles/llama-llava-cli.dir/build
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/llama-llava-cli.dir/build.make tools/mtmd/CMakeFiles/llama-llava-cli.dir/build
 .PHONY : llama-llava-cli/fast
 
 # Convenience name for target.
 tools/mtmd/CMakeFiles/llama-gemma3-cli.dir/rule:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/mtmd/CMakeFiles/llama-gemma3-cli.dir/rule
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/mtmd/CMakeFiles/llama-gemma3-cli.dir/rule
 .PHONY : tools/mtmd/CMakeFiles/llama-gemma3-cli.dir/rule
 
 # Convenience name for target.
@@ -210,12 +210,12 @@ llama-gemma3-cli: tools/mtmd/CMakeFiles/llama-gemma3-cli.dir/rule
 
 # fast build rule for target.
 llama-gemma3-cli/fast:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/llama-gemma3-cli.dir/build.make tools/mtmd/CMakeFiles/llama-gemma3-cli.dir/build
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/llama-gemma3-cli.dir/build.make tools/mtmd/CMakeFiles/llama-gemma3-cli.dir/build
 .PHONY : llama-gemma3-cli/fast
 
 # Convenience name for target.
 tools/mtmd/CMakeFiles/llama-minicpmv-cli.dir/rule:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/mtmd/CMakeFiles/llama-minicpmv-cli.dir/rule
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/mtmd/CMakeFiles/llama-minicpmv-cli.dir/rule
 .PHONY : tools/mtmd/CMakeFiles/llama-minicpmv-cli.dir/rule
 
 # Convenience name for target.
@@ -224,12 +224,12 @@ llama-minicpmv-cli: tools/mtmd/CMakeFiles/llama-minicpmv-cli.dir/rule
 
 # fast build rule for target.
 llama-minicpmv-cli/fast:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/llama-minicpmv-cli.dir/build.make tools/mtmd/CMakeFiles/llama-minicpmv-cli.dir/build
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/llama-minicpmv-cli.dir/build.make tools/mtmd/CMakeFiles/llama-minicpmv-cli.dir/build
 .PHONY : llama-minicpmv-cli/fast
 
 # Convenience name for target.
 tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/rule:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/rule
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/rule
 .PHONY : tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/rule
 
 # Convenience name for target.
@@ -238,12 +238,12 @@ llama-qwen2vl-cli: tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/rule
 
 # fast build rule for target.
 llama-qwen2vl-cli/fast:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/build.make tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/build
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/build.make tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/build
 .PHONY : llama-qwen2vl-cli/fast
 
 # Convenience name for target.
 tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/rule:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/rule
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/rule
 .PHONY : tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/rule
 
 # Convenience name for target.
@@ -252,7 +252,7 @@ llama-mtmd-cli: tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/rule
 
 # fast build rule for target.
 llama-mtmd-cli/fast:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/build.make tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/build
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/build.make tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/build
 .PHONY : llama-mtmd-cli/fast
 
 clip.o: clip.cpp.o
@@ -260,7 +260,7 @@ clip.o: clip.cpp.o
 
 # target to build an object file
 clip.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/mtmd.dir/build.make tools/mtmd/CMakeFiles/mtmd.dir/clip.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/mtmd.dir/build.make tools/mtmd/CMakeFiles/mtmd.dir/clip.cpp.o
 .PHONY : clip.cpp.o
 
 clip.i: clip.cpp.i
@@ -268,7 +268,7 @@ clip.i: clip.cpp.i
 
 # target to preprocess a source file
 clip.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/mtmd.dir/build.make tools/mtmd/CMakeFiles/mtmd.dir/clip.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/mtmd.dir/build.make tools/mtmd/CMakeFiles/mtmd.dir/clip.cpp.i
 .PHONY : clip.cpp.i
 
 clip.s: clip.cpp.s
@@ -276,7 +276,7 @@ clip.s: clip.cpp.s
 
 # target to generate assembly for a file
 clip.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/mtmd.dir/build.make tools/mtmd/CMakeFiles/mtmd.dir/clip.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/mtmd.dir/build.make tools/mtmd/CMakeFiles/mtmd.dir/clip.cpp.s
 .PHONY : clip.cpp.s
 
 deprecation-warning.o: deprecation-warning.cpp.o
@@ -284,10 +284,10 @@ deprecation-warning.o: deprecation-warning.cpp.o
 
 # target to build an object file
 deprecation-warning.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/llama-llava-cli.dir/build.make tools/mtmd/CMakeFiles/llama-llava-cli.dir/deprecation-warning.cpp.o
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/llama-gemma3-cli.dir/build.make tools/mtmd/CMakeFiles/llama-gemma3-cli.dir/deprecation-warning.cpp.o
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/llama-minicpmv-cli.dir/build.make tools/mtmd/CMakeFiles/llama-minicpmv-cli.dir/deprecation-warning.cpp.o
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/build.make tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/deprecation-warning.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/llama-llava-cli.dir/build.make tools/mtmd/CMakeFiles/llama-llava-cli.dir/deprecation-warning.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/llama-gemma3-cli.dir/build.make tools/mtmd/CMakeFiles/llama-gemma3-cli.dir/deprecation-warning.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/llama-minicpmv-cli.dir/build.make tools/mtmd/CMakeFiles/llama-minicpmv-cli.dir/deprecation-warning.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/build.make tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/deprecation-warning.cpp.o
 .PHONY : deprecation-warning.cpp.o
 
 deprecation-warning.i: deprecation-warning.cpp.i
@@ -295,10 +295,10 @@ deprecation-warning.i: deprecation-warning.cpp.i
 
 # target to preprocess a source file
 deprecation-warning.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/llama-llava-cli.dir/build.make tools/mtmd/CMakeFiles/llama-llava-cli.dir/deprecation-warning.cpp.i
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/llama-gemma3-cli.dir/build.make tools/mtmd/CMakeFiles/llama-gemma3-cli.dir/deprecation-warning.cpp.i
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/llama-minicpmv-cli.dir/build.make tools/mtmd/CMakeFiles/llama-minicpmv-cli.dir/deprecation-warning.cpp.i
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/build.make tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/deprecation-warning.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/llama-llava-cli.dir/build.make tools/mtmd/CMakeFiles/llama-llava-cli.dir/deprecation-warning.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/llama-gemma3-cli.dir/build.make tools/mtmd/CMakeFiles/llama-gemma3-cli.dir/deprecation-warning.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/llama-minicpmv-cli.dir/build.make tools/mtmd/CMakeFiles/llama-minicpmv-cli.dir/deprecation-warning.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/build.make tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/deprecation-warning.cpp.i
 .PHONY : deprecation-warning.cpp.i
 
 deprecation-warning.s: deprecation-warning.cpp.s
@@ -306,10 +306,10 @@ deprecation-warning.s: deprecation-warning.cpp.s
 
 # target to generate assembly for a file
 deprecation-warning.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/llama-llava-cli.dir/build.make tools/mtmd/CMakeFiles/llama-llava-cli.dir/deprecation-warning.cpp.s
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/llama-gemma3-cli.dir/build.make tools/mtmd/CMakeFiles/llama-gemma3-cli.dir/deprecation-warning.cpp.s
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/llama-minicpmv-cli.dir/build.make tools/mtmd/CMakeFiles/llama-minicpmv-cli.dir/deprecation-warning.cpp.s
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/build.make tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/deprecation-warning.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/llama-llava-cli.dir/build.make tools/mtmd/CMakeFiles/llama-llava-cli.dir/deprecation-warning.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/llama-gemma3-cli.dir/build.make tools/mtmd/CMakeFiles/llama-gemma3-cli.dir/deprecation-warning.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/llama-minicpmv-cli.dir/build.make tools/mtmd/CMakeFiles/llama-minicpmv-cli.dir/deprecation-warning.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/build.make tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/deprecation-warning.cpp.s
 .PHONY : deprecation-warning.cpp.s
 
 mtmd-audio.o: mtmd-audio.cpp.o
@@ -317,7 +317,7 @@ mtmd-audio.o: mtmd-audio.cpp.o
 
 # target to build an object file
 mtmd-audio.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/mtmd.dir/build.make tools/mtmd/CMakeFiles/mtmd.dir/mtmd-audio.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/mtmd.dir/build.make tools/mtmd/CMakeFiles/mtmd.dir/mtmd-audio.cpp.o
 .PHONY : mtmd-audio.cpp.o
 
 mtmd-audio.i: mtmd-audio.cpp.i
@@ -325,7 +325,7 @@ mtmd-audio.i: mtmd-audio.cpp.i
 
 # target to preprocess a source file
 mtmd-audio.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/mtmd.dir/build.make tools/mtmd/CMakeFiles/mtmd.dir/mtmd-audio.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/mtmd.dir/build.make tools/mtmd/CMakeFiles/mtmd.dir/mtmd-audio.cpp.i
 .PHONY : mtmd-audio.cpp.i
 
 mtmd-audio.s: mtmd-audio.cpp.s
@@ -333,7 +333,7 @@ mtmd-audio.s: mtmd-audio.cpp.s
 
 # target to generate assembly for a file
 mtmd-audio.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/mtmd.dir/build.make tools/mtmd/CMakeFiles/mtmd.dir/mtmd-audio.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/mtmd.dir/build.make tools/mtmd/CMakeFiles/mtmd.dir/mtmd-audio.cpp.s
 .PHONY : mtmd-audio.cpp.s
 
 mtmd-cli.o: mtmd-cli.cpp.o
@@ -341,7 +341,7 @@ mtmd-cli.o: mtmd-cli.cpp.o
 
 # target to build an object file
 mtmd-cli.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/build.make tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/mtmd-cli.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/build.make tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/mtmd-cli.cpp.o
 .PHONY : mtmd-cli.cpp.o
 
 mtmd-cli.i: mtmd-cli.cpp.i
@@ -349,7 +349,7 @@ mtmd-cli.i: mtmd-cli.cpp.i
 
 # target to preprocess a source file
 mtmd-cli.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/build.make tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/mtmd-cli.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/build.make tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/mtmd-cli.cpp.i
 .PHONY : mtmd-cli.cpp.i
 
 mtmd-cli.s: mtmd-cli.cpp.s
@@ -357,7 +357,7 @@ mtmd-cli.s: mtmd-cli.cpp.s
 
 # target to generate assembly for a file
 mtmd-cli.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/build.make tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/mtmd-cli.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/build.make tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/mtmd-cli.cpp.s
 .PHONY : mtmd-cli.cpp.s
 
 mtmd-helper.o: mtmd-helper.cpp.o
@@ -365,7 +365,7 @@ mtmd-helper.o: mtmd-helper.cpp.o
 
 # target to build an object file
 mtmd-helper.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/mtmd.dir/build.make tools/mtmd/CMakeFiles/mtmd.dir/mtmd-helper.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/mtmd.dir/build.make tools/mtmd/CMakeFiles/mtmd.dir/mtmd-helper.cpp.o
 .PHONY : mtmd-helper.cpp.o
 
 mtmd-helper.i: mtmd-helper.cpp.i
@@ -373,7 +373,7 @@ mtmd-helper.i: mtmd-helper.cpp.i
 
 # target to preprocess a source file
 mtmd-helper.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/mtmd.dir/build.make tools/mtmd/CMakeFiles/mtmd.dir/mtmd-helper.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/mtmd.dir/build.make tools/mtmd/CMakeFiles/mtmd.dir/mtmd-helper.cpp.i
 .PHONY : mtmd-helper.cpp.i
 
 mtmd-helper.s: mtmd-helper.cpp.s
@@ -381,7 +381,7 @@ mtmd-helper.s: mtmd-helper.cpp.s
 
 # target to generate assembly for a file
 mtmd-helper.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/mtmd.dir/build.make tools/mtmd/CMakeFiles/mtmd.dir/mtmd-helper.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/mtmd.dir/build.make tools/mtmd/CMakeFiles/mtmd.dir/mtmd-helper.cpp.s
 .PHONY : mtmd-helper.cpp.s
 
 mtmd.o: mtmd.cpp.o
@@ -389,7 +389,7 @@ mtmd.o: mtmd.cpp.o
 
 # target to build an object file
 mtmd.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/mtmd.dir/build.make tools/mtmd/CMakeFiles/mtmd.dir/mtmd.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/mtmd.dir/build.make tools/mtmd/CMakeFiles/mtmd.dir/mtmd.cpp.o
 .PHONY : mtmd.cpp.o
 
 mtmd.i: mtmd.cpp.i
@@ -397,7 +397,7 @@ mtmd.i: mtmd.cpp.i
 
 # target to preprocess a source file
 mtmd.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/mtmd.dir/build.make tools/mtmd/CMakeFiles/mtmd.dir/mtmd.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/mtmd.dir/build.make tools/mtmd/CMakeFiles/mtmd.dir/mtmd.cpp.i
 .PHONY : mtmd.cpp.i
 
 mtmd.s: mtmd.cpp.s
@@ -405,7 +405,7 @@ mtmd.s: mtmd.cpp.s
 
 # target to generate assembly for a file
 mtmd.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/mtmd.dir/build.make tools/mtmd/CMakeFiles/mtmd.dir/mtmd.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/mtmd/CMakeFiles/mtmd.dir/build.make tools/mtmd/CMakeFiles/mtmd.dir/mtmd.cpp.s
 .PHONY : mtmd.cpp.s
 
 # Help Target
@@ -456,6 +456,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

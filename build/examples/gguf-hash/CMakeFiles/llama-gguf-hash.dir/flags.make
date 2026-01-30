@@ -5,13 +5,13 @@
 # compile CXX with /usr/bin/c++
 C_DEFINES = -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL
 
-C_INCLUDES = -I"/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/gguf-hash/deps" -I"/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/../include"
+C_INCLUDES = -I"/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/gguf-hash/deps" -I"/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/../include"
 
 C_FLAGS = -O3 -DNDEBUG -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wdouble-promotion
 
 CXX_DEFINES = -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL
 
-CXX_INCLUDES = -I"/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/gguf-hash/deps" -I"/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/../include"
+CXX_INCLUDES = -I"/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/gguf-hash/deps" -I"/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/../include"
 
 CXX_FLAGS = -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi
 

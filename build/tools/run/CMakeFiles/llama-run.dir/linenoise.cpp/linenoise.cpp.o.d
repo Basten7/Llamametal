@@ -1,6 +1,6 @@
 tools/run/CMakeFiles/llama-run.dir/linenoise.cpp/linenoise.cpp.o: \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/tools/run/linenoise.cpp/linenoise.cpp \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/tools/run/linenoise.cpp/linenoise.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/tools/run/linenoise.cpp/linenoise.cpp \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/tools/run/linenoise.cpp/linenoise.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \

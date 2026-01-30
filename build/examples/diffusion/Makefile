@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp"
+CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build"
+CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/diffusion//CMakeFiles/progress.marks"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/diffusion/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" 0
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/diffusion//CMakeFiles/progress.marks"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/diffusion/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/diffusion/clean
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/diffusion/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/diffusion/preinstall
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/diffusion/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/diffusion/preinstall
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/diffusion/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 examples/diffusion/CMakeFiles/llama-diffusion-cli.dir/rule:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/diffusion/CMakeFiles/llama-diffusion-cli.dir/rule
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/diffusion/CMakeFiles/llama-diffusion-cli.dir/rule
 .PHONY : examples/diffusion/CMakeFiles/llama-diffusion-cli.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ llama-diffusion-cli: examples/diffusion/CMakeFiles/llama-diffusion-cli.dir/rule
 
 # fast build rule for target.
 llama-diffusion-cli/fast:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f examples/diffusion/CMakeFiles/llama-diffusion-cli.dir/build.make examples/diffusion/CMakeFiles/llama-diffusion-cli.dir/build
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f examples/diffusion/CMakeFiles/llama-diffusion-cli.dir/build.make examples/diffusion/CMakeFiles/llama-diffusion-cli.dir/build
 .PHONY : llama-diffusion-cli/fast
 
 diffusion-cli.o: diffusion-cli.cpp.o
@@ -190,7 +190,7 @@ diffusion-cli.o: diffusion-cli.cpp.o
 
 # target to build an object file
 diffusion-cli.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f examples/diffusion/CMakeFiles/llama-diffusion-cli.dir/build.make examples/diffusion/CMakeFiles/llama-diffusion-cli.dir/diffusion-cli.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f examples/diffusion/CMakeFiles/llama-diffusion-cli.dir/build.make examples/diffusion/CMakeFiles/llama-diffusion-cli.dir/diffusion-cli.cpp.o
 .PHONY : diffusion-cli.cpp.o
 
 diffusion-cli.i: diffusion-cli.cpp.i
@@ -198,7 +198,7 @@ diffusion-cli.i: diffusion-cli.cpp.i
 
 # target to preprocess a source file
 diffusion-cli.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f examples/diffusion/CMakeFiles/llama-diffusion-cli.dir/build.make examples/diffusion/CMakeFiles/llama-diffusion-cli.dir/diffusion-cli.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f examples/diffusion/CMakeFiles/llama-diffusion-cli.dir/build.make examples/diffusion/CMakeFiles/llama-diffusion-cli.dir/diffusion-cli.cpp.i
 .PHONY : diffusion-cli.cpp.i
 
 diffusion-cli.s: diffusion-cli.cpp.s
@@ -206,7 +206,7 @@ diffusion-cli.s: diffusion-cli.cpp.s
 
 # target to generate assembly for a file
 diffusion-cli.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f examples/diffusion/CMakeFiles/llama-diffusion-cli.dir/build.make examples/diffusion/CMakeFiles/llama-diffusion-cli.dir/diffusion-cli.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f examples/diffusion/CMakeFiles/llama-diffusion-cli.dir/build.make examples/diffusion/CMakeFiles/llama-diffusion-cli.dir/diffusion-cli.cpp.s
 .PHONY : diffusion-cli.cpp.s
 
 # Help Target
@@ -237,6 +237,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

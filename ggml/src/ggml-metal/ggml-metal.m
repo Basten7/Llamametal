@@ -26,10 +26,10 @@
 #endif
 
 // create residency sets only on macOS >= 15.0
-#if !TARGET_CPU_X86_64 && TARGET_OS_OSX && __MAC_OS_X_VERSION_MAX_ALLOWED >= 150000 || \
-    TARGET_OS_IOS && __IPHONE_OS_VERSION_MAX_ALLOWED >= 180000 || \
-    TARGET_OS_TV && __TV_OS_VERSION_MAX_ALLOWED >= 180000 || \
-    TARGET_OS_VISION && __VISION_OS_VERSION_MAX_ALLOWED >= 200000
+#if (TARGET_OS_OSX && __MAC_OS_X_VERSION_MAX_ALLOWED >= 150000) || \
+    (TARGET_OS_IOS && __IPHONE_OS_VERSION_MAX_ALLOWED >= 180000) || \
+    (TARGET_OS_TV && __TV_OS_VERSION_MAX_ALLOWED >= 180000) || \
+    (TARGET_OS_VISION && __VISION_OS_VERSION_MAX_ALLOWED >= 200000)
 #define GGML_METAL_HAS_RESIDENCY_SETS 1
 #endif
 
@@ -6794,12 +6794,7 @@ static void ggml_backend_metal_set_n_cb(ggml_backend_t backend, int n_cb) {
 
         id<MTLCommandBuffer> cmd_buf = ctx->cmd_bufs[cb_idx].obj;
 
-        id<MTLComputeCommandEncoder> encoder = nil;
-        if ([cmd_buf respondsToSelector:@selector(computeCommandEncoderWithDispatchType:)]) {
-            encoder = [cmd_buf computeCommandEncoderWithDispatchType:MTLDispatchTypeConcurrent];
-        } else {
-            encoder = [cmd_buf computeCommandEncoder];
-        }
+        id<MTLComputeCommandEncoder> encoder = [cmd_buf computeCommandEncoder];
 
         int node_start = 0;
         int node_end   = n_nodes_0;
@@ -6893,7 +6888,7 @@ ggml_backend_t ggml_backend_metal_init(void) {
                        if (__ncb <= 0) {
                            id<MTLDevice> __dev = ((struct ggml_backend_metal_device_context *)dev->context)->mtl_device;
                            bool __is_discrete = !__dev.hasUnifiedMemory;
-                           __ncb = __is_discrete ? 2 : 1;
+                           __ncb = __is_discrete ? 4 : 1;
                        }
                        ggml_backend_metal_set_n_cb(backend, __ncb);
 #else
@@ -7004,7 +6999,7 @@ static ggml_backend_t ggml_backend_metal_device_init(ggml_backend_dev_t dev, con
                        if (__ncb <= 0) {
                            id<MTLDevice> __dev = ((struct ggml_backend_metal_device_context *)dev->context)->mtl_device;
                            bool __is_discrete = !__dev.hasUnifiedMemory;
-                           __ncb = __is_discrete ? 2 : 1;
+                           __ncb = __is_discrete ? 4 : 1;
                        }
                        ggml_backend_metal_set_n_cb(backend, __ncb);
 #else

@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp"
+CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build"
+CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build"
 
 # Include any dependencies generated for this target.
 include examples/simple-chat/CMakeFiles/llama-simple-chat.dir/depend.make
@@ -73,18 +73,18 @@ examples/simple-chat/CMakeFiles/llama-simple-chat.dir/codegen:
 .PHONY : examples/simple-chat/CMakeFiles/llama-simple-chat.dir/codegen
 
 examples/simple-chat/CMakeFiles/llama-simple-chat.dir/simple-chat.cpp.o: examples/simple-chat/CMakeFiles/llama-simple-chat.dir/flags.make
-examples/simple-chat/CMakeFiles/llama-simple-chat.dir/simple-chat.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/examples/simple-chat/simple-chat.cpp
+examples/simple-chat/CMakeFiles/llama-simple-chat.dir/simple-chat.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/examples/simple-chat/simple-chat.cpp
 examples/simple-chat/CMakeFiles/llama-simple-chat.dir/simple-chat.cpp.o: examples/simple-chat/CMakeFiles/llama-simple-chat.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/simple-chat/CMakeFiles/llama-simple-chat.dir/simple-chat.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/simple-chat" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/simple-chat/CMakeFiles/llama-simple-chat.dir/simple-chat.cpp.o -MF CMakeFiles/llama-simple-chat.dir/simple-chat.cpp.o.d -o CMakeFiles/llama-simple-chat.dir/simple-chat.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/simple-chat/simple-chat.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/simple-chat/CMakeFiles/llama-simple-chat.dir/simple-chat.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/simple-chat" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/simple-chat/CMakeFiles/llama-simple-chat.dir/simple-chat.cpp.o -MF CMakeFiles/llama-simple-chat.dir/simple-chat.cpp.o.d -o CMakeFiles/llama-simple-chat.dir/simple-chat.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/simple-chat/simple-chat.cpp"
 
 examples/simple-chat/CMakeFiles/llama-simple-chat.dir/simple-chat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama-simple-chat.dir/simple-chat.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/simple-chat" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/simple-chat/simple-chat.cpp" > CMakeFiles/llama-simple-chat.dir/simple-chat.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/simple-chat" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/simple-chat/simple-chat.cpp" > CMakeFiles/llama-simple-chat.dir/simple-chat.cpp.i
 
 examples/simple-chat/CMakeFiles/llama-simple-chat.dir/simple-chat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/llama-simple-chat.dir/simple-chat.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/simple-chat" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/simple-chat/simple-chat.cpp" -o CMakeFiles/llama-simple-chat.dir/simple-chat.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/simple-chat" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/simple-chat/simple-chat.cpp" -o CMakeFiles/llama-simple-chat.dir/simple-chat.cpp.s
 
 # Object files for target llama-simple-chat
 llama__simple__chat_OBJECTS = \
@@ -102,18 +102,18 @@ bin/llama-simple-chat: bin/libggml-blas.dylib
 bin/llama-simple-chat: bin/libggml-metal.dylib
 bin/llama-simple-chat: bin/libggml-base.dylib
 bin/llama-simple-chat: examples/simple-chat/CMakeFiles/llama-simple-chat.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-simple-chat"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/simple-chat" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-simple-chat.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-simple-chat"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/simple-chat" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-simple-chat.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/simple-chat/CMakeFiles/llama-simple-chat.dir/build: bin/llama-simple-chat
 .PHONY : examples/simple-chat/CMakeFiles/llama-simple-chat.dir/build
 
 examples/simple-chat/CMakeFiles/llama-simple-chat.dir/clean:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/simple-chat" && $(CMAKE_COMMAND) -P CMakeFiles/llama-simple-chat.dir/cmake_clean.cmake
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/simple-chat" && $(CMAKE_COMMAND) -P CMakeFiles/llama-simple-chat.dir/cmake_clean.cmake
 .PHONY : examples/simple-chat/CMakeFiles/llama-simple-chat.dir/clean
 
 examples/simple-chat/CMakeFiles/llama-simple-chat.dir/depend:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/simple-chat" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/simple-chat" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/simple-chat/CMakeFiles/llama-simple-chat.dir/DependInfo.cmake" "--color=$(COLOR)" llama-simple-chat
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/simple-chat" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/simple-chat" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/simple-chat/CMakeFiles/llama-simple-chat.dir/DependInfo.cmake" "--color=$(COLOR)" llama-simple-chat
 .PHONY : examples/simple-chat/CMakeFiles/llama-simple-chat.dir/depend
 

@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp"
+CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build"
+CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build"
 
 # Include any dependencies generated for this target.
 include examples/batched/CMakeFiles/llama-batched.dir/depend.make
@@ -73,18 +73,18 @@ examples/batched/CMakeFiles/llama-batched.dir/codegen:
 .PHONY : examples/batched/CMakeFiles/llama-batched.dir/codegen
 
 examples/batched/CMakeFiles/llama-batched.dir/batched.cpp.o: examples/batched/CMakeFiles/llama-batched.dir/flags.make
-examples/batched/CMakeFiles/llama-batched.dir/batched.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/examples/batched/batched.cpp
+examples/batched/CMakeFiles/llama-batched.dir/batched.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/examples/batched/batched.cpp
 examples/batched/CMakeFiles/llama-batched.dir/batched.cpp.o: examples/batched/CMakeFiles/llama-batched.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/batched/CMakeFiles/llama-batched.dir/batched.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/batched" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/batched/CMakeFiles/llama-batched.dir/batched.cpp.o -MF CMakeFiles/llama-batched.dir/batched.cpp.o.d -o CMakeFiles/llama-batched.dir/batched.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/batched/batched.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/batched/CMakeFiles/llama-batched.dir/batched.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/batched" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/batched/CMakeFiles/llama-batched.dir/batched.cpp.o -MF CMakeFiles/llama-batched.dir/batched.cpp.o.d -o CMakeFiles/llama-batched.dir/batched.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/batched/batched.cpp"
 
 examples/batched/CMakeFiles/llama-batched.dir/batched.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama-batched.dir/batched.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/batched" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/batched/batched.cpp" > CMakeFiles/llama-batched.dir/batched.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/batched" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/batched/batched.cpp" > CMakeFiles/llama-batched.dir/batched.cpp.i
 
 examples/batched/CMakeFiles/llama-batched.dir/batched.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/llama-batched.dir/batched.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/batched" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/batched/batched.cpp" -o CMakeFiles/llama-batched.dir/batched.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/batched" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/batched/batched.cpp" -o CMakeFiles/llama-batched.dir/batched.cpp.s
 
 # Object files for target llama-batched
 llama__batched_OBJECTS = \
@@ -104,18 +104,18 @@ bin/llama-batched: bin/libggml-metal.dylib
 bin/llama-batched: bin/libggml-base.dylib
 bin/llama-batched: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libcurl.tbd
 bin/llama-batched: examples/batched/CMakeFiles/llama-batched.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-batched"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/batched" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-batched.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-batched"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/batched" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-batched.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/batched/CMakeFiles/llama-batched.dir/build: bin/llama-batched
 .PHONY : examples/batched/CMakeFiles/llama-batched.dir/build
 
 examples/batched/CMakeFiles/llama-batched.dir/clean:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/batched" && $(CMAKE_COMMAND) -P CMakeFiles/llama-batched.dir/cmake_clean.cmake
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/batched" && $(CMAKE_COMMAND) -P CMakeFiles/llama-batched.dir/cmake_clean.cmake
 .PHONY : examples/batched/CMakeFiles/llama-batched.dir/clean
 
 examples/batched/CMakeFiles/llama-batched.dir/depend:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/batched" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/batched" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/batched/CMakeFiles/llama-batched.dir/DependInfo.cmake" "--color=$(COLOR)" llama-batched
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/batched" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/batched" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/batched/CMakeFiles/llama-batched.dir/DependInfo.cmake" "--color=$(COLOR)" llama-batched
 .PHONY : examples/batched/CMakeFiles/llama-batched.dir/depend
 

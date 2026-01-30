@@ -1,7 +1,7 @@
 src/CMakeFiles/llama.dir/llama-arch.cpp.o: \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/src/llama-arch.cpp \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/src/llama-arch.h \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/ggml/src/../include/ggml.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/src/llama-arch.cpp \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/src/llama-arch.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/ggml/src/../include/ggml.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdbool.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -665,7 +665,7 @@ src/CMakeFiles/llama.dir/llama-arch.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/sample.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bit \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/src/llama-impl.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/src/llama-impl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__vector/comparison.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/lexicographical_compare_three_way.h \

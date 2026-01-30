@@ -1,5 +1,5 @@
 tests/CMakeFiles/test-grammar-integration.dir/get-model.cpp.o: \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/tests/get-model.cpp \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/tests/get-model.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdio \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -104,4 +104,4 @@ tests/CMakeFiles/test-grammar-integration.dir/get-model.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rsize_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_errno_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_strings.h \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/tests/get-model.h
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/tests/get-model.h

@@ -1,5 +1,5 @@
 pocs/vdot/CMakeFiles/llama-vdot.dir/vdot.cpp.o: \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/pocs/vdot/vdot.cpp \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/pocs/vdot/vdot.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdio \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -831,9 +831,9 @@ pocs/vdot/CMakeFiles/llama-vdot.dir/vdot.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/ggml/src/../include/ggml.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/ggml/src/../include/ggml.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/ggml/src/../include/ggml-cpu.h \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/ggml/src/../include/ggml-backend.h \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/ggml/src/../include/ggml-alloc.h
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/ggml/src/../include/ggml-cpu.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/ggml/src/../include/ggml-backend.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/ggml/src/../include/ggml-alloc.h

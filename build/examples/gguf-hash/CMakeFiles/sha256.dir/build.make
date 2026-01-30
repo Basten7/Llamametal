@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp"
+CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build"
+CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build"
 
 # Include any dependencies generated for this target.
 include examples/gguf-hash/CMakeFiles/sha256.dir/depend.make
@@ -73,18 +73,18 @@ examples/gguf-hash/CMakeFiles/sha256.dir/codegen:
 .PHONY : examples/gguf-hash/CMakeFiles/sha256.dir/codegen
 
 examples/gguf-hash/CMakeFiles/sha256.dir/deps/sha256/sha256.c.o: examples/gguf-hash/CMakeFiles/sha256.dir/flags.make
-examples/gguf-hash/CMakeFiles/sha256.dir/deps/sha256/sha256.c.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/examples/gguf-hash/deps/sha256/sha256.c
+examples/gguf-hash/CMakeFiles/sha256.dir/deps/sha256/sha256.c.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/examples/gguf-hash/deps/sha256/sha256.c
 examples/gguf-hash/CMakeFiles/sha256.dir/deps/sha256/sha256.c.o: examples/gguf-hash/CMakeFiles/sha256.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object examples/gguf-hash/CMakeFiles/sha256.dir/deps/sha256/sha256.c.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/gguf-hash" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/gguf-hash/CMakeFiles/sha256.dir/deps/sha256/sha256.c.o -MF CMakeFiles/sha256.dir/deps/sha256/sha256.c.o.d -o CMakeFiles/sha256.dir/deps/sha256/sha256.c.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/gguf-hash/deps/sha256/sha256.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object examples/gguf-hash/CMakeFiles/sha256.dir/deps/sha256/sha256.c.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/gguf-hash" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/gguf-hash/CMakeFiles/sha256.dir/deps/sha256/sha256.c.o -MF CMakeFiles/sha256.dir/deps/sha256/sha256.c.o.d -o CMakeFiles/sha256.dir/deps/sha256/sha256.c.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/gguf-hash/deps/sha256/sha256.c"
 
 examples/gguf-hash/CMakeFiles/sha256.dir/deps/sha256/sha256.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/sha256.dir/deps/sha256/sha256.c.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/gguf-hash" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/gguf-hash/deps/sha256/sha256.c" > CMakeFiles/sha256.dir/deps/sha256/sha256.c.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/gguf-hash" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/gguf-hash/deps/sha256/sha256.c" > CMakeFiles/sha256.dir/deps/sha256/sha256.c.i
 
 examples/gguf-hash/CMakeFiles/sha256.dir/deps/sha256/sha256.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/sha256.dir/deps/sha256/sha256.c.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/gguf-hash" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/gguf-hash/deps/sha256/sha256.c" -o CMakeFiles/sha256.dir/deps/sha256/sha256.c.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/gguf-hash" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/gguf-hash/deps/sha256/sha256.c" -o CMakeFiles/sha256.dir/deps/sha256/sha256.c.s
 
 sha256: examples/gguf-hash/CMakeFiles/sha256.dir/deps/sha256/sha256.c.o
 sha256: examples/gguf-hash/CMakeFiles/sha256.dir/build.make
@@ -95,10 +95,10 @@ examples/gguf-hash/CMakeFiles/sha256.dir/build: sha256
 .PHONY : examples/gguf-hash/CMakeFiles/sha256.dir/build
 
 examples/gguf-hash/CMakeFiles/sha256.dir/clean:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/gguf-hash" && $(CMAKE_COMMAND) -P CMakeFiles/sha256.dir/cmake_clean.cmake
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/gguf-hash" && $(CMAKE_COMMAND) -P CMakeFiles/sha256.dir/cmake_clean.cmake
 .PHONY : examples/gguf-hash/CMakeFiles/sha256.dir/clean
 
 examples/gguf-hash/CMakeFiles/sha256.dir/depend:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/gguf-hash" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/gguf-hash" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/gguf-hash/CMakeFiles/sha256.dir/DependInfo.cmake" "--color=$(COLOR)" sha256
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/gguf-hash" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/gguf-hash" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/gguf-hash/CMakeFiles/sha256.dir/DependInfo.cmake" "--color=$(COLOR)" sha256
 .PHONY : examples/gguf-hash/CMakeFiles/sha256.dir/depend
 

@@ -5,8 +5,8 @@
 cmake_minimum_required(VERSION 4.2.2)
 
 # CTest Start Step
-set(CTEST_SOURCE_DIRECTORY "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp")
-set(CTEST_BINARY_DIRECTORY "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build")
+set(CTEST_SOURCE_DIRECTORY "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal")
+set(CTEST_BINARY_DIRECTORY "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build")
 
 # CTest Update Step
 set(CTEST_UPDATE_COMMAND "/usr/local/bin/git")

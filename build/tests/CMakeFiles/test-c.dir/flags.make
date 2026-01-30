@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_SHARED
 
-C_INCLUDES = -I"/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/src/../include" -I"/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/../include"
+C_INCLUDES = -I"/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/src/../include" -I"/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/../include"
 
 C_FLAGS = -O3 -DNDEBUG -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wdouble-promotion
 

@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp"
+CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build"
+CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build"
 
 # Include any dependencies generated for this target.
 include examples/retrieval/CMakeFiles/llama-retrieval.dir/depend.make
@@ -73,18 +73,18 @@ examples/retrieval/CMakeFiles/llama-retrieval.dir/codegen:
 .PHONY : examples/retrieval/CMakeFiles/llama-retrieval.dir/codegen
 
 examples/retrieval/CMakeFiles/llama-retrieval.dir/retrieval.cpp.o: examples/retrieval/CMakeFiles/llama-retrieval.dir/flags.make
-examples/retrieval/CMakeFiles/llama-retrieval.dir/retrieval.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/examples/retrieval/retrieval.cpp
+examples/retrieval/CMakeFiles/llama-retrieval.dir/retrieval.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/examples/retrieval/retrieval.cpp
 examples/retrieval/CMakeFiles/llama-retrieval.dir/retrieval.cpp.o: examples/retrieval/CMakeFiles/llama-retrieval.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/retrieval/CMakeFiles/llama-retrieval.dir/retrieval.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/retrieval" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/retrieval/CMakeFiles/llama-retrieval.dir/retrieval.cpp.o -MF CMakeFiles/llama-retrieval.dir/retrieval.cpp.o.d -o CMakeFiles/llama-retrieval.dir/retrieval.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/retrieval/retrieval.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/retrieval/CMakeFiles/llama-retrieval.dir/retrieval.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/retrieval" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/retrieval/CMakeFiles/llama-retrieval.dir/retrieval.cpp.o -MF CMakeFiles/llama-retrieval.dir/retrieval.cpp.o.d -o CMakeFiles/llama-retrieval.dir/retrieval.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/retrieval/retrieval.cpp"
 
 examples/retrieval/CMakeFiles/llama-retrieval.dir/retrieval.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama-retrieval.dir/retrieval.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/retrieval" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/retrieval/retrieval.cpp" > CMakeFiles/llama-retrieval.dir/retrieval.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/retrieval" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/retrieval/retrieval.cpp" > CMakeFiles/llama-retrieval.dir/retrieval.cpp.i
 
 examples/retrieval/CMakeFiles/llama-retrieval.dir/retrieval.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/llama-retrieval.dir/retrieval.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/retrieval" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/retrieval/retrieval.cpp" -o CMakeFiles/llama-retrieval.dir/retrieval.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/retrieval" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/retrieval/retrieval.cpp" -o CMakeFiles/llama-retrieval.dir/retrieval.cpp.s
 
 # Object files for target llama-retrieval
 llama__retrieval_OBJECTS = \
@@ -104,18 +104,18 @@ bin/llama-retrieval: bin/libggml-metal.dylib
 bin/llama-retrieval: bin/libggml-base.dylib
 bin/llama-retrieval: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libcurl.tbd
 bin/llama-retrieval: examples/retrieval/CMakeFiles/llama-retrieval.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-retrieval"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/retrieval" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-retrieval.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-retrieval"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/retrieval" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-retrieval.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/retrieval/CMakeFiles/llama-retrieval.dir/build: bin/llama-retrieval
 .PHONY : examples/retrieval/CMakeFiles/llama-retrieval.dir/build
 
 examples/retrieval/CMakeFiles/llama-retrieval.dir/clean:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/retrieval" && $(CMAKE_COMMAND) -P CMakeFiles/llama-retrieval.dir/cmake_clean.cmake
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/retrieval" && $(CMAKE_COMMAND) -P CMakeFiles/llama-retrieval.dir/cmake_clean.cmake
 .PHONY : examples/retrieval/CMakeFiles/llama-retrieval.dir/clean
 
 examples/retrieval/CMakeFiles/llama-retrieval.dir/depend:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/retrieval" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/retrieval" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/retrieval/CMakeFiles/llama-retrieval.dir/DependInfo.cmake" "--color=$(COLOR)" llama-retrieval
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/retrieval" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/retrieval" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/retrieval/CMakeFiles/llama-retrieval.dir/DependInfo.cmake" "--color=$(COLOR)" llama-retrieval
 .PHONY : examples/retrieval/CMakeFiles/llama-retrieval.dir/depend
 

@@ -1,6 +1,6 @@
 examples/gguf-hash/CMakeFiles/xxhash.dir/deps/xxhash/xxhash.c.o: \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/examples/gguf-hash/deps/xxhash/xxhash.c \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/examples/gguf-hash/deps/xxhash/xxhash.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/examples/gguf-hash/deps/xxhash/xxhash.c \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/examples/gguf-hash/deps/xxhash/xxhash.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_header_macro.h \

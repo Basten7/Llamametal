@@ -1,4 +1,4 @@
-# Install script for directory: /Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml
+# Install script for directory: /Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,15 +39,15 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src/cmake_install.cmake")
+  include("/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/bin/libggml.dylib")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/bin/libggml.dylib")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libggml.dylib" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libggml.dylib")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/bin"
+      -delete_rpath "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/bin"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libggml.dylib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" -x "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libggml.dylib")
@@ -60,26 +60,26 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES
-    "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/include/ggml.h"
-    "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/include/ggml-cpu.h"
-    "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/include/ggml-alloc.h"
-    "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/include/ggml-backend.h"
-    "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/include/ggml-blas.h"
-    "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/include/ggml-cann.h"
-    "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/include/ggml-cpp.h"
-    "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/include/ggml-cuda.h"
-    "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/include/ggml-opt.h"
-    "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/include/ggml-metal.h"
-    "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/include/ggml-rpc.h"
-    "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/include/ggml-sycl.h"
-    "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/include/ggml-vulkan.h"
-    "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/include/ggml-webgpu.h"
-    "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/include/gguf.h"
+    "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/include/ggml.h"
+    "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/include/ggml-cpu.h"
+    "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/include/ggml-alloc.h"
+    "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/include/ggml-backend.h"
+    "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/include/ggml-blas.h"
+    "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/include/ggml-cann.h"
+    "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/include/ggml-cpp.h"
+    "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/include/ggml-cuda.h"
+    "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/include/ggml-opt.h"
+    "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/include/ggml-metal.h"
+    "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/include/ggml-rpc.h"
+    "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/include/ggml-sycl.h"
+    "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/include/ggml-vulkan.h"
+    "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/include/ggml-webgpu.h"
+    "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/include/gguf.h"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/bin/libggml-base.dylib")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/bin/libggml-base.dylib")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libggml-base.dylib" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libggml-base.dylib")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -93,14 +93,14 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/ggml" TYPE FILE FILES
-    "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/ggml-config.cmake"
-    "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/ggml-version.cmake"
+    "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/ggml-config.cmake"
+    "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/ggml-version.cmake"
     )
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/install_local_manifest.txt"
+  file(WRITE "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

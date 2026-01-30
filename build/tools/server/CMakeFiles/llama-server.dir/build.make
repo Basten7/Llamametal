@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp"
+CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build"
+CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build"
 
 # Include any dependencies generated for this target.
 include tools/server/CMakeFiles/llama-server.dir/depend.make
@@ -69,30 +69,30 @@ include tools/server/CMakeFiles/llama-server.dir/progress.make
 # Include the compile flags for this target's objects.
 include tools/server/CMakeFiles/llama-server.dir/flags.make
 
-tools/server/index.html.gz.hpp: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/tools/server/public/index.html.gz
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Generating index.html.gz.hpp"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/server" && /usr/local/bin/cmake -DINPUT=/Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/tools/server/public/index.html.gz -DOUTPUT=/Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/build/tools/server/index.html.gz.hpp -P /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/scripts/xxd.cmake
+tools/server/index.html.gz.hpp: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/tools/server/public/index.html.gz
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Generating index.html.gz.hpp"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/server" && /usr/local/bin/cmake -DINPUT=/Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/tools/server/public/index.html.gz -DOUTPUT=/Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/build/tools/server/index.html.gz.hpp -P /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/scripts/xxd.cmake
 
-tools/server/loading.html.hpp: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/tools/server/public/loading.html
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Generating loading.html.hpp"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/server" && /usr/local/bin/cmake -DINPUT=/Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/tools/server/public/loading.html -DOUTPUT=/Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/build/tools/server/loading.html.hpp -P /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/scripts/xxd.cmake
+tools/server/loading.html.hpp: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/tools/server/public/loading.html
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Generating loading.html.hpp"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/server" && /usr/local/bin/cmake -DINPUT=/Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/tools/server/public/loading.html -DOUTPUT=/Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/build/tools/server/loading.html.hpp -P /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/scripts/xxd.cmake
 
 tools/server/CMakeFiles/llama-server.dir/codegen:
 .PHONY : tools/server/CMakeFiles/llama-server.dir/codegen
 
 tools/server/CMakeFiles/llama-server.dir/server.cpp.o: tools/server/CMakeFiles/llama-server.dir/flags.make
-tools/server/CMakeFiles/llama-server.dir/server.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/tools/server/server.cpp
+tools/server/CMakeFiles/llama-server.dir/server.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/tools/server/server.cpp
 tools/server/CMakeFiles/llama-server.dir/server.cpp.o: tools/server/CMakeFiles/llama-server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object tools/server/CMakeFiles/llama-server.dir/server.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/server" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tools/server/CMakeFiles/llama-server.dir/server.cpp.o -MF CMakeFiles/llama-server.dir/server.cpp.o.d -o CMakeFiles/llama-server.dir/server.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tools/server/server.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object tools/server/CMakeFiles/llama-server.dir/server.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/server" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tools/server/CMakeFiles/llama-server.dir/server.cpp.o -MF CMakeFiles/llama-server.dir/server.cpp.o.d -o CMakeFiles/llama-server.dir/server.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tools/server/server.cpp"
 
 tools/server/CMakeFiles/llama-server.dir/server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama-server.dir/server.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/server" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tools/server/server.cpp" > CMakeFiles/llama-server.dir/server.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/server" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tools/server/server.cpp" > CMakeFiles/llama-server.dir/server.cpp.i
 
 tools/server/CMakeFiles/llama-server.dir/server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/llama-server.dir/server.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/server" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tools/server/server.cpp" -o CMakeFiles/llama-server.dir/server.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/server" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tools/server/server.cpp" -o CMakeFiles/llama-server.dir/server.cpp.s
 
 # Object files for target llama-server
 llama__server_OBJECTS = \
@@ -113,19 +113,19 @@ bin/llama-server: bin/libggml-blas.dylib
 bin/llama-server: bin/libggml-metal.dylib
 bin/llama-server: bin/libggml-base.dylib
 bin/llama-server: tools/server/CMakeFiles/llama-server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../../bin/llama-server"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/server" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-server.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../../bin/llama-server"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/server" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tools/server/CMakeFiles/llama-server.dir/build: bin/llama-server
 .PHONY : tools/server/CMakeFiles/llama-server.dir/build
 
 tools/server/CMakeFiles/llama-server.dir/clean:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/server" && $(CMAKE_COMMAND) -P CMakeFiles/llama-server.dir/cmake_clean.cmake
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/server" && $(CMAKE_COMMAND) -P CMakeFiles/llama-server.dir/cmake_clean.cmake
 .PHONY : tools/server/CMakeFiles/llama-server.dir/clean
 
 tools/server/CMakeFiles/llama-server.dir/depend: tools/server/index.html.gz.hpp
 tools/server/CMakeFiles/llama-server.dir/depend: tools/server/loading.html.hpp
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tools/server" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/server" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/server/CMakeFiles/llama-server.dir/DependInfo.cmake" "--color=$(COLOR)" llama-server
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tools/server" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/server" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/server/CMakeFiles/llama-server.dir/DependInfo.cmake" "--color=$(COLOR)" llama-server
 .PHONY : tools/server/CMakeFiles/llama-server.dir/depend
 

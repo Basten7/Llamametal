@@ -260,7 +260,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
       
       The C compiler identification is AppleClang, found in:
-        /Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/4.2.2/CompilerIdC/a.out
+        /Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/4.2.2/CompilerIdC/a.out
       
   -
     kind: "message-v1"
@@ -1044,7 +1044,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is AppleClang, found in:
-        /Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/4.2.2/CompilerIdCXX/a.out
+        /Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/4.2.2/CompilerIdCXX/a.out
       
   -
     kind: "message-v1"
@@ -1154,8 +1154,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-ZNbM2C"
-      binary: "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-ZNbM2C"
+      source: "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-Szeh8O"
+      binary: "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-Szeh8O"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1167,18 +1167,18 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-ZNbM2C'
+        Change Dir: '/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-Szeh8O'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2996e/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2996e.dir/build.make CMakeFiles/cmTC_2996e.dir/build
-        Building C object CMakeFiles/cmTC_2996e.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -v -Wl,-v -MD -MT CMakeFiles/cmTC_2996e.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_2996e.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_2996e.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e48d2/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e48d2.dir/build.make CMakeFiles/cmTC_e48d2.dir/build
+        Building C object CMakeFiles/cmTC_e48d2.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -Wl,-v -MD -MT CMakeFiles/cmTC_e48d2.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_e48d2.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_e48d2.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c
         Apple clang version 17.0.0 (clang-1700.6.3.2)
         Target: x86_64-apple-darwin25.2.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
         clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
-         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb "-fdebug-compilation-dir=/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-ZNbM2C" -target-linker-version 1230.1 -v "-fcoverage-compilation-dir=/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-ZNbM2C" -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_2996e.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_2996e.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_2996e.dir/CMakeCCompilerABI.c.o -x c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb "-fdebug-compilation-dir=/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-Szeh8O" -target-linker-version 1230.1 -v "-fcoverage-compilation-dir=/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-Szeh8O" -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_e48d2.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_e48d2.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_e48d2.dir/CMakeCCompilerABI.c.o -x c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c
         clang -cc1 version 17.0.0 (clang-1700.6.3.2) default target x86_64-apple-darwin25.2.0
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
@@ -1191,13 +1191,13 @@ events:
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)
         End of search list.
-        Linking C executable cmTC_2996e
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2996e.dir/link.txt --verbose=1
+        Linking C executable cmTC_e48d2
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e48d2.dir/link.txt --verbose=1
         Apple clang version 17.0.0 (clang-1700.6.3.2)
         Target: x86_64-apple-darwin25.2.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 26.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_2996e -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_2996e.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 26.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_e48d2 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_e48d2.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld PROJECT:ld-1230.1
         BUILD 06:35:00 Dec  2 2025
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
@@ -1210,7 +1210,7 @@ events:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift
         Framework search paths:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
-        /usr/bin/cc -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_2996e.dir/CMakeCCompilerABI.c.o -o cmTC_2996e
+        /usr/bin/cc -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_e48d2.dir/CMakeCCompilerABI.c.o -o cmTC_e48d2
         
       exitCode: 0
   -
@@ -1254,18 +1254,18 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-ZNbM2C']
+        ignore line: [Change Dir: '/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-Szeh8O']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2996e/fast]
-        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2996e.dir/build.make CMakeFiles/cmTC_2996e.dir/build]
-        ignore line: [Building C object CMakeFiles/cmTC_2996e.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -v -Wl -v -MD -MT CMakeFiles/cmTC_2996e.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_2996e.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_2996e.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e48d2/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e48d2.dir/build.make CMakeFiles/cmTC_e48d2.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_e48d2.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -Wl -v -MD -MT CMakeFiles/cmTC_e48d2.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_e48d2.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_e48d2.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Apple clang version 17.0.0 (clang-1700.6.3.2)]
         ignore line: [Target: x86_64-apple-darwin25.2.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
         ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
-        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb "-fdebug-compilation-dir=/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-ZNbM2C" -target-linker-version 1230.1 -v "-fcoverage-compilation-dir=/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-ZNbM2C" -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_2996e.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_2996e.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_2996e.dir/CMakeCCompilerABI.c.o -x c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb "-fdebug-compilation-dir=/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-Szeh8O" -target-linker-version 1230.1 -v "-fcoverage-compilation-dir=/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-Szeh8O" -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_e48d2.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_e48d2.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_e48d2.dir/CMakeCCompilerABI.c.o -x c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [clang -cc1 version 17.0.0 (clang-1700.6.3.2) default target x86_64-apple-darwin25.2.0]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"]
@@ -1278,13 +1278,13 @@ events:
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking C executable cmTC_2996e]
-        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2996e.dir/link.txt --verbose=1]
+        ignore line: [Linking C executable cmTC_e48d2]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e48d2.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 17.0.0 (clang-1700.6.3.2)]
         ignore line: [Target: x86_64-apple-darwin25.2.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 26.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_2996e -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_2996e.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 26.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_e48d2 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_e48d2.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
           arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1301,12 +1301,12 @@ events:
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_2996e] ==> ignore
+          arg [cmTC_e48d2] ==> ignore
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-search_paths_first] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_2996e.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_e48d2.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lSystem] ==> lib [System]
           arg [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
         linker tool for 'C': /Library/Developer/CommandLineTools/usr/bin/ld
@@ -1349,8 +1349,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-KdrVAw"
-      binary: "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-KdrVAw"
+      source: "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-zB7GbM"
+      binary: "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-zB7GbM"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1363,19 +1363,19 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-KdrVAw'
+        Change Dir: '/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-zB7GbM'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_701c9/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_701c9.dir/build.make CMakeFiles/cmTC_701c9.dir/build
-        Building CXX object CMakeFiles/cmTC_701c9.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -Wl,-v -MD -MT CMakeFiles/cmTC_701c9.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_701c9.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_701c9.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_eca2e/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_eca2e.dir/build.make CMakeFiles/cmTC_eca2e.dir/build
+        Building CXX object CMakeFiles/cmTC_eca2e.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -Wl,-v -MD -MT CMakeFiles/cmTC_eca2e.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_eca2e.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_eca2e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Apple clang version 17.0.0 (clang-1700.6.3.2)
         Target: x86_64-apple-darwin25.2.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
         clang++: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"
-         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb "-fdebug-compilation-dir=/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-KdrVAw" -target-linker-version 1230.1 -v "-fcoverage-compilation-dir=/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-KdrVAw" -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_701c9.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_701c9.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_701c9.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb "-fdebug-compilation-dir=/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-zB7GbM" -target-linker-version 1230.1 -v "-fcoverage-compilation-dir=/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-zB7GbM" -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_eca2e.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_eca2e.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_eca2e.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 17.0.0 (clang-1700.6.3.2) default target x86_64-apple-darwin25.2.0
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
@@ -1389,13 +1389,13 @@ events:
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)
         End of search list.
-        Linking CXX executable cmTC_701c9
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_701c9.dir/link.txt --verbose=1
+        Linking CXX executable cmTC_eca2e
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eca2e.dir/link.txt --verbose=1
         Apple clang version 17.0.0 (clang-1700.6.3.2)
         Target: x86_64-apple-darwin25.2.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 26.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_701c9 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_701c9.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 26.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_eca2e -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_eca2e.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld PROJECT:ld-1230.1
         BUILD 06:35:00 Dec  2 2025
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
@@ -1408,7 +1408,7 @@ events:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift
         Framework search paths:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
-        /usr/bin/c++ -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_701c9.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_701c9
+        /usr/bin/c++ -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_eca2e.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_eca2e
         
       exitCode: 0
   -
@@ -1454,19 +1454,19 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-KdrVAw']
+        ignore line: [Change Dir: '/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-zB7GbM']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_701c9/fast]
-        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_701c9.dir/build.make CMakeFiles/cmTC_701c9.dir/build]
-        ignore line: [Building CXX object CMakeFiles/cmTC_701c9.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -Wl -v -MD -MT CMakeFiles/cmTC_701c9.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_701c9.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_701c9.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_eca2e/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_eca2e.dir/build.make CMakeFiles/cmTC_eca2e.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_eca2e.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -Wl -v -MD -MT CMakeFiles/cmTC_eca2e.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_eca2e.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_eca2e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Apple clang version 17.0.0 (clang-1700.6.3.2)]
         ignore line: [Target: x86_64-apple-darwin25.2.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
         ignore line: [clang++: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"]
-        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb "-fdebug-compilation-dir=/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-KdrVAw" -target-linker-version 1230.1 -v "-fcoverage-compilation-dir=/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-KdrVAw" -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_701c9.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_701c9.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_701c9.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb "-fdebug-compilation-dir=/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-zB7GbM" -target-linker-version 1230.1 -v "-fcoverage-compilation-dir=/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-zB7GbM" -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_eca2e.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_eca2e.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_eca2e.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 17.0.0 (clang-1700.6.3.2) default target x86_64-apple-darwin25.2.0]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"]
@@ -1480,13 +1480,13 @@ events:
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking CXX executable cmTC_701c9]
-        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_701c9.dir/link.txt --verbose=1]
+        ignore line: [Linking CXX executable cmTC_eca2e]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eca2e.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 17.0.0 (clang-1700.6.3.2)]
         ignore line: [Target: x86_64-apple-darwin25.2.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 26.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_701c9 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_701c9.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 26.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_eca2e -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_eca2e.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
           arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1503,12 +1503,12 @@ events:
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_701c9] ==> ignore
+          arg [cmTC_eca2e] ==> ignore
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-search_paths_first] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_701c9.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_eca2e.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lc++] ==> lib [c++]
           arg [-lSystem] ==> lib [System]
           arg [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
@@ -1651,13 +1651,13 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-mlcScM"
-      binary: "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-mlcScM"
+      source: "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-1aTfqt"
+      binary: "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-1aTfqt"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/cmake/"
+      CMAKE_MODULE_PATH: "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/cmake/"
       CMAKE_OSX_ARCHITECTURES: ""
       CMAKE_OSX_DEPLOYMENT_TARGET: ""
       CMAKE_OSX_SYSROOT: ""
@@ -1665,15 +1665,15 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-mlcScM'
+        Change Dir: '/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-1aTfqt'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6a028/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6a028.dir/build.make CMakeFiles/cmTC_6a028.dir/build
-        Building C object CMakeFiles/cmTC_6a028.dir/src.c.o
-        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu11 -MD -MT CMakeFiles/cmTC_6a028.dir/src.c.o -MF CMakeFiles/cmTC_6a028.dir/src.c.o.d -o CMakeFiles/cmTC_6a028.dir/src.c.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-mlcScM/src.c"
-        Linking C executable cmTC_6a028
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a028.dir/link.txt --verbose=1
-        /usr/bin/cc -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_6a028.dir/src.c.o -o cmTC_6a028
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6596d/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6596d.dir/build.make CMakeFiles/cmTC_6596d.dir/build
+        Building C object CMakeFiles/cmTC_6596d.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu11 -MD -MT CMakeFiles/cmTC_6596d.dir/src.c.o -MF CMakeFiles/cmTC_6596d.dir/src.c.o.d -o CMakeFiles/cmTC_6596d.dir/src.c.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-1aTfqt/src.c"
+        Linking C executable cmTC_6596d
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6596d.dir/link.txt --verbose=1
+        /usr/bin/cc -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_6596d.dir/src.c.o -o cmTC_6596d
         
       exitCode: 0
   -
@@ -2036,13 +2036,13 @@ events:
       - "ggml/src/CMakeLists.txt:372 (ggml_add_cpu_backend_variant_impl)"
     description: "Detecting C OpenMP compiler info"
     directories:
-      source: "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-4r6zDD"
-      binary: "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-4r6zDD"
+      source: "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-IcGMoK"
+      binary: "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-IcGMoK"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/cmake/"
+      CMAKE_MODULE_PATH: "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/cmake/"
       CMAKE_OSX_ARCHITECTURES: ""
       CMAKE_OSX_DEPLOYMENT_TARGET: ""
       CMAKE_OSX_SYSROOT: ""
@@ -2050,18 +2050,18 @@ events:
       variable: "OpenMP_COMPILE_RESULT_C_Xclang fopenmp"
       cached: true
       stdout: |
-        Change Dir: '/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-4r6zDD'
+        Change Dir: '/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-IcGMoK'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d6640/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d6640.dir/build.make CMakeFiles/cmTC_d6640.dir/build
-        Building C object CMakeFiles/cmTC_d6640.dir/OpenMPTryFlag.c.o
-        /usr/bin/cc   -Xclang -fopenmp -std=gnu11 -MD -MT CMakeFiles/cmTC_d6640.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_d6640.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_d6640.dir/OpenMPTryFlag.c.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-4r6zDD/OpenMPTryFlag.c"
-        /Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-4r6zDD/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e35c8/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e35c8.dir/build.make CMakeFiles/cmTC_e35c8.dir/build
+        Building C object CMakeFiles/cmTC_e35c8.dir/OpenMPTryFlag.c.o
+        /usr/bin/cc   -Xclang -fopenmp -std=gnu11 -MD -MT CMakeFiles/cmTC_e35c8.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_e35c8.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_e35c8.dir/OpenMPTryFlag.c.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-IcGMoK/OpenMPTryFlag.c"
+        /Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-IcGMoK/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
             2 | #include <omp.h>
               |          ^~~~~~~
         1 error generated.
-        make[1]: *** [CMakeFiles/cmTC_d6640.dir/OpenMPTryFlag.c.o] Error 1
-        make: *** [cmTC_d6640/fast] Error 2
+        make[1]: *** [CMakeFiles/cmTC_e35c8.dir/OpenMPTryFlag.c.o] Error 1
+        make: *** [cmTC_e35c8/fast] Error 2
         
       exitCode: 2
   -
@@ -2168,13 +2168,13 @@ events:
       - "ggml/src/CMakeLists.txt:372 (ggml_add_cpu_backend_variant_impl)"
     description: "Trying C OpenMP compiler with '/usr/local/opt/libomp/lib/libomp.dylib'"
     directories:
-      source: "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-xLxgqx"
-      binary: "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-xLxgqx"
+      source: "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-P0l3I1"
+      binary: "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-P0l3I1"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/cmake/"
+      CMAKE_MODULE_PATH: "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/cmake/"
       CMAKE_OSX_ARCHITECTURES: ""
       CMAKE_OSX_DEPLOYMENT_TARGET: ""
       CMAKE_OSX_SYSROOT: ""
@@ -2182,18 +2182,18 @@ events:
       variable: "OpenMP_COMPILE_RESULT_C_Xclang fopenmp"
       cached: true
       stdout: |
-        Change Dir: '/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-xLxgqx'
+        Change Dir: '/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-P0l3I1'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8b0cf/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_8b0cf.dir/build.make CMakeFiles/cmTC_8b0cf.dir/build
-        Building C object CMakeFiles/cmTC_8b0cf.dir/OpenMPTryFlag.c.o
-        /usr/bin/cc   -std=gnu11   -Xclang -fopenmp -MD -MT CMakeFiles/cmTC_8b0cf.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_8b0cf.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_8b0cf.dir/OpenMPTryFlag.c.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-xLxgqx/OpenMPTryFlag.c"
-        /Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-xLxgqx/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_18b6f/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_18b6f.dir/build.make CMakeFiles/cmTC_18b6f.dir/build
+        Building C object CMakeFiles/cmTC_18b6f.dir/OpenMPTryFlag.c.o
+        /usr/bin/cc   -std=gnu11   -Xclang -fopenmp -MD -MT CMakeFiles/cmTC_18b6f.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_18b6f.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_18b6f.dir/OpenMPTryFlag.c.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-P0l3I1/OpenMPTryFlag.c"
+        /Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-P0l3I1/OpenMPTryFlag.c:2:10: fatal error: 'omp.h' file not found
             2 | #include <omp.h>
               |          ^~~~~~~
         1 error generated.
-        make[1]: *** [CMakeFiles/cmTC_8b0cf.dir/OpenMPTryFlag.c.o] Error 1
-        make: *** [cmTC_8b0cf/fast] Error 2
+        make[1]: *** [CMakeFiles/cmTC_18b6f.dir/OpenMPTryFlag.c.o] Error 1
+        make: *** [cmTC_18b6f/fast] Error 2
         
       exitCode: 2
   -
@@ -2315,13 +2315,13 @@ events:
       - "ggml/src/CMakeLists.txt:372 (ggml_add_cpu_backend_variant_impl)"
     description: "Trying C OpenMP compiler with '/usr/local/opt/libomp/lib/libomp.dylib' and '/usr/local/opt/libomp/include'"
     directories:
-      source: "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-YMBJ8V"
-      binary: "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-YMBJ8V"
+      source: "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-z4QzV2"
+      binary: "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-z4QzV2"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/cmake/"
+      CMAKE_MODULE_PATH: "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/cmake/"
       CMAKE_OSX_ARCHITECTURES: ""
       CMAKE_OSX_DEPLOYMENT_TARGET: ""
       CMAKE_OSX_SYSROOT: ""
@@ -2329,15 +2329,15 @@ events:
       variable: "OpenMP_COMPILE_RESULT_C_Xclang fopenmp"
       cached: true
       stdout: |
-        Change Dir: '/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-YMBJ8V'
+        Change Dir: '/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-z4QzV2'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ab637/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ab637.dir/build.make CMakeFiles/cmTC_ab637.dir/build
-        Building C object CMakeFiles/cmTC_ab637.dir/OpenMPTryFlag.c.o
-        /usr/bin/cc  -I/usr/local/opt/libomp/include -std=gnu11   -Xclang -fopenmp -MD -MT CMakeFiles/cmTC_ab637.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_ab637.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_ab637.dir/OpenMPTryFlag.c.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-YMBJ8V/OpenMPTryFlag.c"
-        Linking C executable cmTC_ab637
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab637.dir/link.txt --verbose=1
-        /usr/bin/cc -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ab637.dir/OpenMPTryFlag.c.o -o cmTC_ab637  /usr/local/opt/libomp/lib/libomp.dylib
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_85b77/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_85b77.dir/build.make CMakeFiles/cmTC_85b77.dir/build
+        Building C object CMakeFiles/cmTC_85b77.dir/OpenMPTryFlag.c.o
+        /usr/bin/cc  -I/usr/local/opt/libomp/include -std=gnu11   -Xclang -fopenmp -MD -MT CMakeFiles/cmTC_85b77.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_85b77.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_85b77.dir/OpenMPTryFlag.c.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-z4QzV2/OpenMPTryFlag.c"
+        Linking C executable cmTC_85b77
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85b77.dir/link.txt --verbose=1
+        /usr/bin/cc -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_85b77.dir/OpenMPTryFlag.c.o -o cmTC_85b77  /usr/local/opt/libomp/lib/libomp.dylib
         
       exitCode: 0
   -
@@ -2349,13 +2349,13 @@ events:
       - "ggml/src/CMakeLists.txt:372 (ggml_add_cpu_backend_variant_impl)"
     description: "Detecting CXX OpenMP compiler info"
     directories:
-      source: "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-kvTpct"
-      binary: "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-kvTpct"
+      source: "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-QK1hWt"
+      binary: "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-QK1hWt"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/cmake/"
+      CMAKE_MODULE_PATH: "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/cmake/"
       CMAKE_OSX_ARCHITECTURES: ""
       CMAKE_OSX_DEPLOYMENT_TARGET: ""
       CMAKE_OSX_SYSROOT: ""
@@ -2363,18 +2363,18 @@ events:
       variable: "OpenMP_COMPILE_RESULT_CXX_Xclang fopenmp"
       cached: true
       stdout: |
-        Change Dir: '/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-kvTpct'
+        Change Dir: '/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-QK1hWt'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_31e2b/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_31e2b.dir/build.make CMakeFiles/cmTC_31e2b.dir/build
-        Building CXX object CMakeFiles/cmTC_31e2b.dir/OpenMPTryFlag.cpp.o
-        /usr/bin/c++   -Xclang -fopenmp -std=gnu++17 -MD -MT CMakeFiles/cmTC_31e2b.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_31e2b.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_31e2b.dir/OpenMPTryFlag.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-kvTpct/OpenMPTryFlag.cpp"
-        /Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-kvTpct/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3a68f/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3a68f.dir/build.make CMakeFiles/cmTC_3a68f.dir/build
+        Building CXX object CMakeFiles/cmTC_3a68f.dir/OpenMPTryFlag.cpp.o
+        /usr/bin/c++   -Xclang -fopenmp -std=gnu++17 -MD -MT CMakeFiles/cmTC_3a68f.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_3a68f.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_3a68f.dir/OpenMPTryFlag.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-QK1hWt/OpenMPTryFlag.cpp"
+        /Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-QK1hWt/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
             2 | #include <omp.h>
               |          ^~~~~~~
         1 error generated.
-        make[1]: *** [CMakeFiles/cmTC_31e2b.dir/OpenMPTryFlag.cpp.o] Error 1
-        make: *** [cmTC_31e2b/fast] Error 2
+        make[1]: *** [CMakeFiles/cmTC_3a68f.dir/OpenMPTryFlag.cpp.o] Error 1
+        make: *** [cmTC_3a68f/fast] Error 2
         
       exitCode: 2
   -
@@ -2386,13 +2386,13 @@ events:
       - "ggml/src/CMakeLists.txt:372 (ggml_add_cpu_backend_variant_impl)"
     description: "Trying CXX OpenMP compiler with '/usr/local/opt/libomp/lib/libomp.dylib'"
     directories:
-      source: "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-zXZMy0"
-      binary: "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-zXZMy0"
+      source: "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-N9UeS8"
+      binary: "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-N9UeS8"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/cmake/"
+      CMAKE_MODULE_PATH: "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/cmake/"
       CMAKE_OSX_ARCHITECTURES: ""
       CMAKE_OSX_DEPLOYMENT_TARGET: ""
       CMAKE_OSX_SYSROOT: ""
@@ -2400,18 +2400,18 @@ events:
       variable: "OpenMP_COMPILE_RESULT_CXX_Xclang fopenmp"
       cached: true
       stdout: |
-        Change Dir: '/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-zXZMy0'
+        Change Dir: '/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-N9UeS8'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a1179/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a1179.dir/build.make CMakeFiles/cmTC_a1179.dir/build
-        Building CXX object CMakeFiles/cmTC_a1179.dir/OpenMPTryFlag.cpp.o
-        /usr/bin/c++   -std=gnu++17   -Xclang -fopenmp -MD -MT CMakeFiles/cmTC_a1179.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_a1179.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_a1179.dir/OpenMPTryFlag.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-zXZMy0/OpenMPTryFlag.cpp"
-        /Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-zXZMy0/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_53b89/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_53b89.dir/build.make CMakeFiles/cmTC_53b89.dir/build
+        Building CXX object CMakeFiles/cmTC_53b89.dir/OpenMPTryFlag.cpp.o
+        /usr/bin/c++   -std=gnu++17   -Xclang -fopenmp -MD -MT CMakeFiles/cmTC_53b89.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_53b89.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_53b89.dir/OpenMPTryFlag.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-N9UeS8/OpenMPTryFlag.cpp"
+        /Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-N9UeS8/OpenMPTryFlag.cpp:2:10: fatal error: 'omp.h' file not found
             2 | #include <omp.h>
               |          ^~~~~~~
         1 error generated.
-        make[1]: *** [CMakeFiles/cmTC_a1179.dir/OpenMPTryFlag.cpp.o] Error 1
-        make: *** [cmTC_a1179/fast] Error 2
+        make[1]: *** [CMakeFiles/cmTC_53b89.dir/OpenMPTryFlag.cpp.o] Error 1
+        make: *** [cmTC_53b89/fast] Error 2
         
       exitCode: 2
   -
@@ -2533,13 +2533,13 @@ events:
       - "ggml/src/CMakeLists.txt:372 (ggml_add_cpu_backend_variant_impl)"
     description: "Trying CXX OpenMP compiler with '/usr/local/opt/libomp/lib/libomp.dylib' and '/usr/local/opt/libomp/include'"
     directories:
-      source: "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-KvQUGY"
-      binary: "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-KvQUGY"
+      source: "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-gKsjjX"
+      binary: "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-gKsjjX"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/cmake/"
+      CMAKE_MODULE_PATH: "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/cmake/"
       CMAKE_OSX_ARCHITECTURES: ""
       CMAKE_OSX_DEPLOYMENT_TARGET: ""
       CMAKE_OSX_SYSROOT: ""
@@ -2547,15 +2547,15 @@ events:
       variable: "OpenMP_COMPILE_RESULT_CXX_Xclang fopenmp"
       cached: true
       stdout: |
-        Change Dir: '/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-KvQUGY'
+        Change Dir: '/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-gKsjjX'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0ab79/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0ab79.dir/build.make CMakeFiles/cmTC_0ab79.dir/build
-        Building CXX object CMakeFiles/cmTC_0ab79.dir/OpenMPTryFlag.cpp.o
-        /usr/bin/c++  -I/usr/local/opt/libomp/include -std=gnu++17   -Xclang -fopenmp -MD -MT CMakeFiles/cmTC_0ab79.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_0ab79.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_0ab79.dir/OpenMPTryFlag.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-KvQUGY/OpenMPTryFlag.cpp"
-        Linking CXX executable cmTC_0ab79
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ab79.dir/link.txt --verbose=1
-        /usr/bin/c++ -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_0ab79.dir/OpenMPTryFlag.cpp.o -o cmTC_0ab79  /usr/local/opt/libomp/lib/libomp.dylib
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_56bba/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_56bba.dir/build.make CMakeFiles/cmTC_56bba.dir/build
+        Building CXX object CMakeFiles/cmTC_56bba.dir/OpenMPTryFlag.cpp.o
+        /usr/bin/c++  -I/usr/local/opt/libomp/include -std=gnu++17   -Xclang -fopenmp -MD -MT CMakeFiles/cmTC_56bba.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_56bba.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_56bba.dir/OpenMPTryFlag.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-gKsjjX/OpenMPTryFlag.cpp"
+        Linking CXX executable cmTC_56bba
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56bba.dir/link.txt --verbose=1
+        /usr/bin/c++ -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_56bba.dir/OpenMPTryFlag.cpp.o -o cmTC_56bba  /usr/local/opt/libomp/lib/libomp.dylib
         
       exitCode: 0
   -
@@ -2567,13 +2567,13 @@ events:
       - "ggml/src/CMakeLists.txt:372 (ggml_add_cpu_backend_variant_impl)"
     description: "Detecting C OpenMP version"
     directories:
-      source: "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-8U174C"
-      binary: "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-8U174C"
+      source: "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-A1mDBh"
+      binary: "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-A1mDBh"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/cmake/"
+      CMAKE_MODULE_PATH: "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/cmake/"
       CMAKE_OSX_ARCHITECTURES: ""
       CMAKE_OSX_DEPLOYMENT_TARGET: ""
       CMAKE_OSX_SYSROOT: ""
@@ -2581,15 +2581,15 @@ events:
       variable: "OpenMP_SPECTEST_C_"
       cached: true
       stdout: |
-        Change Dir: '/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-8U174C'
+        Change Dir: '/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-A1mDBh'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f5176/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f5176.dir/build.make CMakeFiles/cmTC_f5176.dir/build
-        Building C object CMakeFiles/cmTC_f5176.dir/OpenMPCheckVersion.c.o
-        /usr/bin/cc  -I/usr/local/opt/libomp/include -Xclang -fopenmp -std=gnu11 -MD -MT CMakeFiles/cmTC_f5176.dir/OpenMPCheckVersion.c.o -MF CMakeFiles/cmTC_f5176.dir/OpenMPCheckVersion.c.o.d -o CMakeFiles/cmTC_f5176.dir/OpenMPCheckVersion.c.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-8U174C/OpenMPCheckVersion.c"
-        Linking C executable cmTC_f5176
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5176.dir/link.txt --verbose=1
-        /usr/bin/cc  -Xclang -fopenmp -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f5176.dir/OpenMPCheckVersion.c.o -o cmTC_f5176
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d9670/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d9670.dir/build.make CMakeFiles/cmTC_d9670.dir/build
+        Building C object CMakeFiles/cmTC_d9670.dir/OpenMPCheckVersion.c.o
+        /usr/bin/cc  -I/usr/local/opt/libomp/include -Xclang -fopenmp -std=gnu11 -MD -MT CMakeFiles/cmTC_d9670.dir/OpenMPCheckVersion.c.o -MF CMakeFiles/cmTC_d9670.dir/OpenMPCheckVersion.c.o.d -o CMakeFiles/cmTC_d9670.dir/OpenMPCheckVersion.c.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-A1mDBh/OpenMPCheckVersion.c"
+        Linking C executable cmTC_d9670
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9670.dir/link.txt --verbose=1
+        /usr/bin/cc  -Xclang -fopenmp -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d9670.dir/OpenMPCheckVersion.c.o -o cmTC_d9670
         
       exitCode: 0
   -
@@ -2601,13 +2601,13 @@ events:
       - "ggml/src/CMakeLists.txt:372 (ggml_add_cpu_backend_variant_impl)"
     description: "Detecting CXX OpenMP version"
     directories:
-      source: "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-B1V41N"
-      binary: "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-B1V41N"
+      source: "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-2b4wJE"
+      binary: "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-2b4wJE"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/cmake/"
+      CMAKE_MODULE_PATH: "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/cmake/"
       CMAKE_OSX_ARCHITECTURES: ""
       CMAKE_OSX_DEPLOYMENT_TARGET: ""
       CMAKE_OSX_SYSROOT: ""
@@ -2615,15 +2615,15 @@ events:
       variable: "OpenMP_SPECTEST_CXX_"
       cached: true
       stdout: |
-        Change Dir: '/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-B1V41N'
+        Change Dir: '/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-2b4wJE'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_576a1/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_576a1.dir/build.make CMakeFiles/cmTC_576a1.dir/build
-        Building CXX object CMakeFiles/cmTC_576a1.dir/OpenMPCheckVersion.cpp.o
-        /usr/bin/c++  -I/usr/local/opt/libomp/include -Xclang -fopenmp -std=gnu++17 -MD -MT CMakeFiles/cmTC_576a1.dir/OpenMPCheckVersion.cpp.o -MF CMakeFiles/cmTC_576a1.dir/OpenMPCheckVersion.cpp.o.d -o CMakeFiles/cmTC_576a1.dir/OpenMPCheckVersion.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-B1V41N/OpenMPCheckVersion.cpp"
-        Linking CXX executable cmTC_576a1
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_576a1.dir/link.txt --verbose=1
-        /usr/bin/c++  -Xclang -fopenmp -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_576a1.dir/OpenMPCheckVersion.cpp.o -o cmTC_576a1
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c7fc2/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c7fc2.dir/build.make CMakeFiles/cmTC_c7fc2.dir/build
+        Building CXX object CMakeFiles/cmTC_c7fc2.dir/OpenMPCheckVersion.cpp.o
+        /usr/bin/c++  -I/usr/local/opt/libomp/include -Xclang -fopenmp -std=gnu++17 -MD -MT CMakeFiles/cmTC_c7fc2.dir/OpenMPCheckVersion.cpp.o -MF CMakeFiles/cmTC_c7fc2.dir/OpenMPCheckVersion.cpp.o.d -o CMakeFiles/cmTC_c7fc2.dir/OpenMPCheckVersion.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-2b4wJE/OpenMPCheckVersion.cpp"
+        Linking CXX executable cmTC_c7fc2
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7fc2.dir/link.txt --verbose=1
+        /usr/bin/c++  -Xclang -fopenmp -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_c7fc2.dir/OpenMPCheckVersion.cpp.o -o cmTC_c7fc2
         
       exitCode: 0
   -
@@ -2722,13 +2722,13 @@ events:
     checks:
       - "Looking for dgemm_"
     directories:
-      source: "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-mlXdIf"
-      binary: "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-mlXdIf"
+      source: "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-9gloYZ"
+      binary: "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-9gloYZ"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/cmake/"
+      CMAKE_MODULE_PATH: "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/cmake/"
       CMAKE_OSX_ARCHITECTURES: ""
       CMAKE_OSX_DEPLOYMENT_TARGET: ""
       CMAKE_OSX_SYSROOT: ""
@@ -2736,15 +2736,15 @@ events:
       variable: "BLAS_Accelerate_WORKS"
       cached: true
       stdout: |
-        Change Dir: '/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-mlXdIf'
+        Change Dir: '/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-9gloYZ'
         
-        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_79cc7/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_79cc7.dir/build.make CMakeFiles/cmTC_79cc7.dir/build
-        Building C object CMakeFiles/cmTC_79cc7.dir/CheckFunctionExists.c.o
-        /usr/bin/cc  -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -DCHECK_FUNCTION_EXISTS=dgemm_ -std=gnu11 -MD -MT CMakeFiles/cmTC_79cc7.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_79cc7.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_79cc7.dir/CheckFunctionExists.c.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-mlXdIf/CheckFunctionExists.c"
-        Linking C executable cmTC_79cc7
-        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79cc7.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=dgemm_ -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_79cc7.dir/CheckFunctionExists.c.o -o cmTC_79cc7  -framework Accelerate
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_445a8/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_445a8.dir/build.make CMakeFiles/cmTC_445a8.dir/build
+        Building C object CMakeFiles/cmTC_445a8.dir/CheckFunctionExists.c.o
+        /usr/bin/cc  -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -DCHECK_FUNCTION_EXISTS=dgemm_ -std=gnu11 -MD -MT CMakeFiles/cmTC_445a8.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_445a8.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_445a8.dir/CheckFunctionExists.c.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/CMakeScratch/TryCompile-9gloYZ/CheckFunctionExists.c"
+        Linking C executable cmTC_445a8
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_445a8.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=dgemm_ -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_445a8.dir/CheckFunctionExists.c.o -o cmTC_445a8  -framework Accelerate
         
       exitCode: 0
   -
@@ -3201,11 +3201,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/pkgRedirects/CURLConfig.cmake"
+        path: "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/pkgRedirects/CURLConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles/pkgRedirects/curl-config.cmake"
+        path: "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles/pkgRedirects/curl-config.cmake"
         mode: "config"
         reason: "no_exist"
       -

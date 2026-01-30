@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_SHARED -DLLAMA_USE_CURL
 
-CXX_INCLUDES = -I"/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tools/quantize/../../common" -I"/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/common/." -I"/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/common/../vendor" -I"/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/src/../include" -I"/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/../include"
+CXX_INCLUDES = -I"/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tools/quantize/../../common" -I"/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/common/." -I"/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/common/../vendor" -I"/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/src/../include" -I"/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/../include"
 
 CXX_FLAGS = -O3 -DNDEBUG -std=gnu++17 -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi
 

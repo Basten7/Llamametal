@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp"
+CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build"
+CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build"
 
 # Include any dependencies generated for this target.
 include examples/simple/CMakeFiles/llama-simple.dir/depend.make
@@ -73,18 +73,18 @@ examples/simple/CMakeFiles/llama-simple.dir/codegen:
 .PHONY : examples/simple/CMakeFiles/llama-simple.dir/codegen
 
 examples/simple/CMakeFiles/llama-simple.dir/simple.cpp.o: examples/simple/CMakeFiles/llama-simple.dir/flags.make
-examples/simple/CMakeFiles/llama-simple.dir/simple.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/examples/simple/simple.cpp
+examples/simple/CMakeFiles/llama-simple.dir/simple.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/examples/simple/simple.cpp
 examples/simple/CMakeFiles/llama-simple.dir/simple.cpp.o: examples/simple/CMakeFiles/llama-simple.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/simple/CMakeFiles/llama-simple.dir/simple.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/simple" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/simple/CMakeFiles/llama-simple.dir/simple.cpp.o -MF CMakeFiles/llama-simple.dir/simple.cpp.o.d -o CMakeFiles/llama-simple.dir/simple.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/simple/simple.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/simple/CMakeFiles/llama-simple.dir/simple.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/simple" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/simple/CMakeFiles/llama-simple.dir/simple.cpp.o -MF CMakeFiles/llama-simple.dir/simple.cpp.o.d -o CMakeFiles/llama-simple.dir/simple.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/simple/simple.cpp"
 
 examples/simple/CMakeFiles/llama-simple.dir/simple.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama-simple.dir/simple.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/simple" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/simple/simple.cpp" > CMakeFiles/llama-simple.dir/simple.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/simple" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/simple/simple.cpp" > CMakeFiles/llama-simple.dir/simple.cpp.i
 
 examples/simple/CMakeFiles/llama-simple.dir/simple.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/llama-simple.dir/simple.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/simple" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/simple/simple.cpp" -o CMakeFiles/llama-simple.dir/simple.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/simple" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/simple/simple.cpp" -o CMakeFiles/llama-simple.dir/simple.cpp.s
 
 # Object files for target llama-simple
 llama__simple_OBJECTS = \
@@ -102,18 +102,18 @@ bin/llama-simple: bin/libggml-blas.dylib
 bin/llama-simple: bin/libggml-metal.dylib
 bin/llama-simple: bin/libggml-base.dylib
 bin/llama-simple: examples/simple/CMakeFiles/llama-simple.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-simple"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/simple" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-simple.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-simple"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/simple" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-simple.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/simple/CMakeFiles/llama-simple.dir/build: bin/llama-simple
 .PHONY : examples/simple/CMakeFiles/llama-simple.dir/build
 
 examples/simple/CMakeFiles/llama-simple.dir/clean:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/simple" && $(CMAKE_COMMAND) -P CMakeFiles/llama-simple.dir/cmake_clean.cmake
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/simple" && $(CMAKE_COMMAND) -P CMakeFiles/llama-simple.dir/cmake_clean.cmake
 .PHONY : examples/simple/CMakeFiles/llama-simple.dir/clean
 
 examples/simple/CMakeFiles/llama-simple.dir/depend:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/simple" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/simple" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/simple/CMakeFiles/llama-simple.dir/DependInfo.cmake" "--color=$(COLOR)" llama-simple
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/simple" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/simple" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/simple/CMakeFiles/llama-simple.dir/DependInfo.cmake" "--color=$(COLOR)" llama-simple
 .PHONY : examples/simple/CMakeFiles/llama-simple.dir/depend
 

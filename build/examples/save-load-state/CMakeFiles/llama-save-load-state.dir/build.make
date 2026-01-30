@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp"
+CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build"
+CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build"
 
 # Include any dependencies generated for this target.
 include examples/save-load-state/CMakeFiles/llama-save-load-state.dir/depend.make
@@ -73,18 +73,18 @@ examples/save-load-state/CMakeFiles/llama-save-load-state.dir/codegen:
 .PHONY : examples/save-load-state/CMakeFiles/llama-save-load-state.dir/codegen
 
 examples/save-load-state/CMakeFiles/llama-save-load-state.dir/save-load-state.cpp.o: examples/save-load-state/CMakeFiles/llama-save-load-state.dir/flags.make
-examples/save-load-state/CMakeFiles/llama-save-load-state.dir/save-load-state.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/examples/save-load-state/save-load-state.cpp
+examples/save-load-state/CMakeFiles/llama-save-load-state.dir/save-load-state.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/examples/save-load-state/save-load-state.cpp
 examples/save-load-state/CMakeFiles/llama-save-load-state.dir/save-load-state.cpp.o: examples/save-load-state/CMakeFiles/llama-save-load-state.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/save-load-state/CMakeFiles/llama-save-load-state.dir/save-load-state.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/save-load-state" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/save-load-state/CMakeFiles/llama-save-load-state.dir/save-load-state.cpp.o -MF CMakeFiles/llama-save-load-state.dir/save-load-state.cpp.o.d -o CMakeFiles/llama-save-load-state.dir/save-load-state.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/save-load-state/save-load-state.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/save-load-state/CMakeFiles/llama-save-load-state.dir/save-load-state.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/save-load-state" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/save-load-state/CMakeFiles/llama-save-load-state.dir/save-load-state.cpp.o -MF CMakeFiles/llama-save-load-state.dir/save-load-state.cpp.o.d -o CMakeFiles/llama-save-load-state.dir/save-load-state.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/save-load-state/save-load-state.cpp"
 
 examples/save-load-state/CMakeFiles/llama-save-load-state.dir/save-load-state.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama-save-load-state.dir/save-load-state.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/save-load-state" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/save-load-state/save-load-state.cpp" > CMakeFiles/llama-save-load-state.dir/save-load-state.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/save-load-state" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/save-load-state/save-load-state.cpp" > CMakeFiles/llama-save-load-state.dir/save-load-state.cpp.i
 
 examples/save-load-state/CMakeFiles/llama-save-load-state.dir/save-load-state.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/llama-save-load-state.dir/save-load-state.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/save-load-state" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/save-load-state/save-load-state.cpp" -o CMakeFiles/llama-save-load-state.dir/save-load-state.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/save-load-state" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/save-load-state/save-load-state.cpp" -o CMakeFiles/llama-save-load-state.dir/save-load-state.cpp.s
 
 # Object files for target llama-save-load-state
 llama__save__load__state_OBJECTS = \
@@ -104,18 +104,18 @@ bin/llama-save-load-state: bin/libggml-metal.dylib
 bin/llama-save-load-state: bin/libggml-base.dylib
 bin/llama-save-load-state: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libcurl.tbd
 bin/llama-save-load-state: examples/save-load-state/CMakeFiles/llama-save-load-state.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-save-load-state"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/save-load-state" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-save-load-state.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-save-load-state"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/save-load-state" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-save-load-state.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/save-load-state/CMakeFiles/llama-save-load-state.dir/build: bin/llama-save-load-state
 .PHONY : examples/save-load-state/CMakeFiles/llama-save-load-state.dir/build
 
 examples/save-load-state/CMakeFiles/llama-save-load-state.dir/clean:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/save-load-state" && $(CMAKE_COMMAND) -P CMakeFiles/llama-save-load-state.dir/cmake_clean.cmake
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/save-load-state" && $(CMAKE_COMMAND) -P CMakeFiles/llama-save-load-state.dir/cmake_clean.cmake
 .PHONY : examples/save-load-state/CMakeFiles/llama-save-load-state.dir/clean
 
 examples/save-load-state/CMakeFiles/llama-save-load-state.dir/depend:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/save-load-state" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/save-load-state" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/save-load-state/CMakeFiles/llama-save-load-state.dir/DependInfo.cmake" "--color=$(COLOR)" llama-save-load-state
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/save-load-state" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/save-load-state" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/save-load-state/CMakeFiles/llama-save-load-state.dir/DependInfo.cmake" "--color=$(COLOR)" llama-save-load-state
 .PHONY : examples/save-load-state/CMakeFiles/llama-save-load-state.dir/depend
 

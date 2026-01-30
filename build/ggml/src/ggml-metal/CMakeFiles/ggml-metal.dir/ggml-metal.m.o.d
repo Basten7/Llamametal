@@ -1,7 +1,7 @@
 ggml/src/ggml-metal/CMakeFiles/ggml-metal.dir/ggml-metal.m.o: \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/ggml/src/ggml-metal/ggml-metal.m \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/ggml/src/../include/ggml-metal.h \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/ggml/src/../include/ggml.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/ggml/src/ggml-metal/ggml-metal.m \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/ggml/src/../include/ggml-metal.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/ggml/src/../include/ggml.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stddef.h \
@@ -59,11 +59,11 @@ ggml/src/ggml-metal/CMakeFiles/ggml-metal.dir/ggml-metal.m.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ssize_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_common.h \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/ggml/src/../include/ggml-backend.h \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/ggml/src/../include/ggml-alloc.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/ggml/src/../include/ggml-backend.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/ggml/src/../include/ggml-alloc.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_rsize_t.h \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/ggml/src/ggml-metal/../ggml-impl.h \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/ggml/src/../include/gguf.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/ggml/src/ggml-metal/../ggml-impl.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/ggml/src/../include/gguf.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/math.h \
@@ -112,8 +112,8 @@ ggml/src/ggml-metal/CMakeFiles/ggml-metal.dir/ggml-metal.m.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_strings.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_strings.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_string.h \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/ggml/src/ggml-metal/../ggml-backend-impl.h \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/ggml/src/ggml-metal/ggml-metal-impl.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/ggml/src/ggml-metal/../ggml-backend-impl.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/ggml/src/ggml-metal/ggml-metal-impl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h \

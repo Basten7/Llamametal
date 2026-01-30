@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp"
+CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build"
+CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/export-lora//CMakeFiles/progress.marks"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/export-lora/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" 0
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/export-lora//CMakeFiles/progress.marks"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/export-lora/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/export-lora/clean
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/export-lora/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/export-lora/preinstall
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/export-lora/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/export-lora/preinstall
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/export-lora/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tools/export-lora/CMakeFiles/llama-export-lora.dir/rule:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/export-lora/CMakeFiles/llama-export-lora.dir/rule
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/export-lora/CMakeFiles/llama-export-lora.dir/rule
 .PHONY : tools/export-lora/CMakeFiles/llama-export-lora.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ llama-export-lora: tools/export-lora/CMakeFiles/llama-export-lora.dir/rule
 
 # fast build rule for target.
 llama-export-lora/fast:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/export-lora/CMakeFiles/llama-export-lora.dir/build.make tools/export-lora/CMakeFiles/llama-export-lora.dir/build
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/export-lora/CMakeFiles/llama-export-lora.dir/build.make tools/export-lora/CMakeFiles/llama-export-lora.dir/build
 .PHONY : llama-export-lora/fast
 
 export-lora.o: export-lora.cpp.o
@@ -190,7 +190,7 @@ export-lora.o: export-lora.cpp.o
 
 # target to build an object file
 export-lora.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/export-lora/CMakeFiles/llama-export-lora.dir/build.make tools/export-lora/CMakeFiles/llama-export-lora.dir/export-lora.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/export-lora/CMakeFiles/llama-export-lora.dir/build.make tools/export-lora/CMakeFiles/llama-export-lora.dir/export-lora.cpp.o
 .PHONY : export-lora.cpp.o
 
 export-lora.i: export-lora.cpp.i
@@ -198,7 +198,7 @@ export-lora.i: export-lora.cpp.i
 
 # target to preprocess a source file
 export-lora.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/export-lora/CMakeFiles/llama-export-lora.dir/build.make tools/export-lora/CMakeFiles/llama-export-lora.dir/export-lora.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/export-lora/CMakeFiles/llama-export-lora.dir/build.make tools/export-lora/CMakeFiles/llama-export-lora.dir/export-lora.cpp.i
 .PHONY : export-lora.cpp.i
 
 export-lora.s: export-lora.cpp.s
@@ -206,7 +206,7 @@ export-lora.s: export-lora.cpp.s
 
 # target to generate assembly for a file
 export-lora.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/export-lora/CMakeFiles/llama-export-lora.dir/build.make tools/export-lora/CMakeFiles/llama-export-lora.dir/export-lora.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/export-lora/CMakeFiles/llama-export-lora.dir/build.make tools/export-lora/CMakeFiles/llama-export-lora.dir/export-lora.cpp.s
 .PHONY : export-lora.cpp.s
 
 # Help Target
@@ -237,6 +237,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,6 +1,6 @@
 src/CMakeFiles/llama.dir/unicode.cpp.o: \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/src/unicode.cpp \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/src/unicode.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/src/unicode.cpp \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/src/unicode.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdint \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -752,7 +752,7 @@ src/CMakeFiles/llama.dir/unicode.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/src/unicode-data.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/src/unicode-data.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_map \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/is_transparent.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__hash_table \

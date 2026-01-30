@@ -1,5 +1,5 @@
 tools/mtmd/CMakeFiles/llama-llava-cli.dir/deprecation-warning.cpp.o: \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/tools/mtmd/deprecation-warning.cpp \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/tools/mtmd/deprecation-warning.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdio \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \

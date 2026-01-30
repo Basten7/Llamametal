@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp"
+CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build"
+CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build"
 
 # Include any dependencies generated for this target.
 include tests/CMakeFiles/test-tokenizer-1-bpe.dir/depend.make
@@ -73,18 +73,18 @@ tests/CMakeFiles/test-tokenizer-1-bpe.dir/codegen:
 .PHONY : tests/CMakeFiles/test-tokenizer-1-bpe.dir/codegen
 
 tests/CMakeFiles/test-tokenizer-1-bpe.dir/test-tokenizer-1-bpe.cpp.o: tests/CMakeFiles/test-tokenizer-1-bpe.dir/flags.make
-tests/CMakeFiles/test-tokenizer-1-bpe.dir/test-tokenizer-1-bpe.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/tests/test-tokenizer-1-bpe.cpp
+tests/CMakeFiles/test-tokenizer-1-bpe.dir/test-tokenizer-1-bpe.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/tests/test-tokenizer-1-bpe.cpp
 tests/CMakeFiles/test-tokenizer-1-bpe.dir/test-tokenizer-1-bpe.cpp.o: tests/CMakeFiles/test-tokenizer-1-bpe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/test-tokenizer-1-bpe.dir/test-tokenizer-1-bpe.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/test-tokenizer-1-bpe.dir/test-tokenizer-1-bpe.cpp.o -MF CMakeFiles/test-tokenizer-1-bpe.dir/test-tokenizer-1-bpe.cpp.o.d -o CMakeFiles/test-tokenizer-1-bpe.dir/test-tokenizer-1-bpe.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tests/test-tokenizer-1-bpe.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/test-tokenizer-1-bpe.dir/test-tokenizer-1-bpe.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/test-tokenizer-1-bpe.dir/test-tokenizer-1-bpe.cpp.o -MF CMakeFiles/test-tokenizer-1-bpe.dir/test-tokenizer-1-bpe.cpp.o.d -o CMakeFiles/test-tokenizer-1-bpe.dir/test-tokenizer-1-bpe.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tests/test-tokenizer-1-bpe.cpp"
 
 tests/CMakeFiles/test-tokenizer-1-bpe.dir/test-tokenizer-1-bpe.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test-tokenizer-1-bpe.dir/test-tokenizer-1-bpe.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tests/test-tokenizer-1-bpe.cpp" > CMakeFiles/test-tokenizer-1-bpe.dir/test-tokenizer-1-bpe.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tests/test-tokenizer-1-bpe.cpp" > CMakeFiles/test-tokenizer-1-bpe.dir/test-tokenizer-1-bpe.cpp.i
 
 tests/CMakeFiles/test-tokenizer-1-bpe.dir/test-tokenizer-1-bpe.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test-tokenizer-1-bpe.dir/test-tokenizer-1-bpe.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tests/test-tokenizer-1-bpe.cpp" -o CMakeFiles/test-tokenizer-1-bpe.dir/test-tokenizer-1-bpe.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tests/test-tokenizer-1-bpe.cpp" -o CMakeFiles/test-tokenizer-1-bpe.dir/test-tokenizer-1-bpe.cpp.s
 
 # Object files for target test-tokenizer-1-bpe
 test__tokenizer__1__bpe_OBJECTS = \
@@ -104,18 +104,18 @@ bin/test-tokenizer-1-bpe: bin/libggml-blas.dylib
 bin/test-tokenizer-1-bpe: bin/libggml-metal.dylib
 bin/test-tokenizer-1-bpe: bin/libggml-base.dylib
 bin/test-tokenizer-1-bpe: tests/CMakeFiles/test-tokenizer-1-bpe.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/test-tokenizer-1-bpe"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tests" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test-tokenizer-1-bpe.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/test-tokenizer-1-bpe"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tests" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test-tokenizer-1-bpe.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tests/CMakeFiles/test-tokenizer-1-bpe.dir/build: bin/test-tokenizer-1-bpe
 .PHONY : tests/CMakeFiles/test-tokenizer-1-bpe.dir/build
 
 tests/CMakeFiles/test-tokenizer-1-bpe.dir/clean:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tests" && $(CMAKE_COMMAND) -P CMakeFiles/test-tokenizer-1-bpe.dir/cmake_clean.cmake
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tests" && $(CMAKE_COMMAND) -P CMakeFiles/test-tokenizer-1-bpe.dir/cmake_clean.cmake
 .PHONY : tests/CMakeFiles/test-tokenizer-1-bpe.dir/clean
 
 tests/CMakeFiles/test-tokenizer-1-bpe.dir/depend:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tests" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tests" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tests/CMakeFiles/test-tokenizer-1-bpe.dir/DependInfo.cmake" "--color=$(COLOR)" test-tokenizer-1-bpe
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tests" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tests" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tests/CMakeFiles/test-tokenizer-1-bpe.dir/DependInfo.cmake" "--color=$(COLOR)" test-tokenizer-1-bpe
 .PHONY : tests/CMakeFiles/test-tokenizer-1-bpe.dir/depend
 

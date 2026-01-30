@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp"
+CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build"
+CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build"
 
 # Include any dependencies generated for this target.
 include tools/llama-bench/CMakeFiles/llama-bench.dir/depend.make
@@ -73,18 +73,18 @@ tools/llama-bench/CMakeFiles/llama-bench.dir/codegen:
 .PHONY : tools/llama-bench/CMakeFiles/llama-bench.dir/codegen
 
 tools/llama-bench/CMakeFiles/llama-bench.dir/llama-bench.cpp.o: tools/llama-bench/CMakeFiles/llama-bench.dir/flags.make
-tools/llama-bench/CMakeFiles/llama-bench.dir/llama-bench.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/tools/llama-bench/llama-bench.cpp
+tools/llama-bench/CMakeFiles/llama-bench.dir/llama-bench.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/tools/llama-bench/llama-bench.cpp
 tools/llama-bench/CMakeFiles/llama-bench.dir/llama-bench.cpp.o: tools/llama-bench/CMakeFiles/llama-bench.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tools/llama-bench/CMakeFiles/llama-bench.dir/llama-bench.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/llama-bench" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tools/llama-bench/CMakeFiles/llama-bench.dir/llama-bench.cpp.o -MF CMakeFiles/llama-bench.dir/llama-bench.cpp.o.d -o CMakeFiles/llama-bench.dir/llama-bench.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tools/llama-bench/llama-bench.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tools/llama-bench/CMakeFiles/llama-bench.dir/llama-bench.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/llama-bench" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tools/llama-bench/CMakeFiles/llama-bench.dir/llama-bench.cpp.o -MF CMakeFiles/llama-bench.dir/llama-bench.cpp.o.d -o CMakeFiles/llama-bench.dir/llama-bench.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tools/llama-bench/llama-bench.cpp"
 
 tools/llama-bench/CMakeFiles/llama-bench.dir/llama-bench.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama-bench.dir/llama-bench.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/llama-bench" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tools/llama-bench/llama-bench.cpp" > CMakeFiles/llama-bench.dir/llama-bench.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/llama-bench" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tools/llama-bench/llama-bench.cpp" > CMakeFiles/llama-bench.dir/llama-bench.cpp.i
 
 tools/llama-bench/CMakeFiles/llama-bench.dir/llama-bench.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/llama-bench.dir/llama-bench.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/llama-bench" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tools/llama-bench/llama-bench.cpp" -o CMakeFiles/llama-bench.dir/llama-bench.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/llama-bench" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tools/llama-bench/llama-bench.cpp" -o CMakeFiles/llama-bench.dir/llama-bench.cpp.s
 
 # Object files for target llama-bench
 llama__bench_OBJECTS = \
@@ -104,18 +104,18 @@ bin/llama-bench: bin/libggml-metal.dylib
 bin/llama-bench: bin/libggml-base.dylib
 bin/llama-bench: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libcurl.tbd
 bin/llama-bench: tools/llama-bench/CMakeFiles/llama-bench.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-bench"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/llama-bench" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-bench.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-bench"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/llama-bench" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-bench.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tools/llama-bench/CMakeFiles/llama-bench.dir/build: bin/llama-bench
 .PHONY : tools/llama-bench/CMakeFiles/llama-bench.dir/build
 
 tools/llama-bench/CMakeFiles/llama-bench.dir/clean:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/llama-bench" && $(CMAKE_COMMAND) -P CMakeFiles/llama-bench.dir/cmake_clean.cmake
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/llama-bench" && $(CMAKE_COMMAND) -P CMakeFiles/llama-bench.dir/cmake_clean.cmake
 .PHONY : tools/llama-bench/CMakeFiles/llama-bench.dir/clean
 
 tools/llama-bench/CMakeFiles/llama-bench.dir/depend:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tools/llama-bench" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/llama-bench" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/llama-bench/CMakeFiles/llama-bench.dir/DependInfo.cmake" "--color=$(COLOR)" llama-bench
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tools/llama-bench" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/llama-bench" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/llama-bench/CMakeFiles/llama-bench.dir/DependInfo.cmake" "--color=$(COLOR)" llama-bench
 .PHONY : tools/llama-bench/CMakeFiles/llama-bench.dir/depend
 

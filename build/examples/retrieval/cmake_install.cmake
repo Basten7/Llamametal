@@ -1,4 +1,4 @@
-# Install script for directory: /Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/retrieval
+# Install script for directory: /Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/retrieval
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,11 +38,11 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/bin/llama-retrieval")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/bin/llama-retrieval")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/llama-retrieval" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/llama-retrieval")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/bin"
+      -delete_rpath "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/bin"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/llama-retrieval")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" -u -r "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/llama-retrieval")
@@ -53,6 +53,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/retrieval/install_local_manifest.txt"
+  file(WRITE "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/retrieval/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

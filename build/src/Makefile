@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp"
+CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build"
+CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/src//CMakeFiles/progress.marks"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" 0
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/src//CMakeFiles/progress.marks"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/llama.dir/rule:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/llama.dir/rule
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/llama.dir/rule
 .PHONY : src/CMakeFiles/llama.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ llama: src/CMakeFiles/llama.dir/rule
 
 # fast build rule for target.
 llama/fast:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/build
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/build
 .PHONY : llama/fast
 
 llama-adapter.o: llama-adapter.cpp.o
@@ -190,7 +190,7 @@ llama-adapter.o: llama-adapter.cpp.o
 
 # target to build an object file
 llama-adapter.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-adapter.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-adapter.cpp.o
 .PHONY : llama-adapter.cpp.o
 
 llama-adapter.i: llama-adapter.cpp.i
@@ -198,7 +198,7 @@ llama-adapter.i: llama-adapter.cpp.i
 
 # target to preprocess a source file
 llama-adapter.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-adapter.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-adapter.cpp.i
 .PHONY : llama-adapter.cpp.i
 
 llama-adapter.s: llama-adapter.cpp.s
@@ -206,7 +206,7 @@ llama-adapter.s: llama-adapter.cpp.s
 
 # target to generate assembly for a file
 llama-adapter.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-adapter.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-adapter.cpp.s
 .PHONY : llama-adapter.cpp.s
 
 llama-arch.o: llama-arch.cpp.o
@@ -214,7 +214,7 @@ llama-arch.o: llama-arch.cpp.o
 
 # target to build an object file
 llama-arch.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-arch.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-arch.cpp.o
 .PHONY : llama-arch.cpp.o
 
 llama-arch.i: llama-arch.cpp.i
@@ -222,7 +222,7 @@ llama-arch.i: llama-arch.cpp.i
 
 # target to preprocess a source file
 llama-arch.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-arch.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-arch.cpp.i
 .PHONY : llama-arch.cpp.i
 
 llama-arch.s: llama-arch.cpp.s
@@ -230,7 +230,7 @@ llama-arch.s: llama-arch.cpp.s
 
 # target to generate assembly for a file
 llama-arch.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-arch.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-arch.cpp.s
 .PHONY : llama-arch.cpp.s
 
 llama-batch.o: llama-batch.cpp.o
@@ -238,7 +238,7 @@ llama-batch.o: llama-batch.cpp.o
 
 # target to build an object file
 llama-batch.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-batch.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-batch.cpp.o
 .PHONY : llama-batch.cpp.o
 
 llama-batch.i: llama-batch.cpp.i
@@ -246,7 +246,7 @@ llama-batch.i: llama-batch.cpp.i
 
 # target to preprocess a source file
 llama-batch.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-batch.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-batch.cpp.i
 .PHONY : llama-batch.cpp.i
 
 llama-batch.s: llama-batch.cpp.s
@@ -254,7 +254,7 @@ llama-batch.s: llama-batch.cpp.s
 
 # target to generate assembly for a file
 llama-batch.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-batch.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-batch.cpp.s
 .PHONY : llama-batch.cpp.s
 
 llama-chat.o: llama-chat.cpp.o
@@ -262,7 +262,7 @@ llama-chat.o: llama-chat.cpp.o
 
 # target to build an object file
 llama-chat.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-chat.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-chat.cpp.o
 .PHONY : llama-chat.cpp.o
 
 llama-chat.i: llama-chat.cpp.i
@@ -270,7 +270,7 @@ llama-chat.i: llama-chat.cpp.i
 
 # target to preprocess a source file
 llama-chat.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-chat.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-chat.cpp.i
 .PHONY : llama-chat.cpp.i
 
 llama-chat.s: llama-chat.cpp.s
@@ -278,7 +278,7 @@ llama-chat.s: llama-chat.cpp.s
 
 # target to generate assembly for a file
 llama-chat.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-chat.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-chat.cpp.s
 .PHONY : llama-chat.cpp.s
 
 llama-context.o: llama-context.cpp.o
@@ -286,7 +286,7 @@ llama-context.o: llama-context.cpp.o
 
 # target to build an object file
 llama-context.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-context.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-context.cpp.o
 .PHONY : llama-context.cpp.o
 
 llama-context.i: llama-context.cpp.i
@@ -294,7 +294,7 @@ llama-context.i: llama-context.cpp.i
 
 # target to preprocess a source file
 llama-context.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-context.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-context.cpp.i
 .PHONY : llama-context.cpp.i
 
 llama-context.s: llama-context.cpp.s
@@ -302,7 +302,7 @@ llama-context.s: llama-context.cpp.s
 
 # target to generate assembly for a file
 llama-context.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-context.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-context.cpp.s
 .PHONY : llama-context.cpp.s
 
 llama-cparams.o: llama-cparams.cpp.o
@@ -310,7 +310,7 @@ llama-cparams.o: llama-cparams.cpp.o
 
 # target to build an object file
 llama-cparams.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-cparams.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-cparams.cpp.o
 .PHONY : llama-cparams.cpp.o
 
 llama-cparams.i: llama-cparams.cpp.i
@@ -318,7 +318,7 @@ llama-cparams.i: llama-cparams.cpp.i
 
 # target to preprocess a source file
 llama-cparams.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-cparams.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-cparams.cpp.i
 .PHONY : llama-cparams.cpp.i
 
 llama-cparams.s: llama-cparams.cpp.s
@@ -326,7 +326,7 @@ llama-cparams.s: llama-cparams.cpp.s
 
 # target to generate assembly for a file
 llama-cparams.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-cparams.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-cparams.cpp.s
 .PHONY : llama-cparams.cpp.s
 
 llama-grammar.o: llama-grammar.cpp.o
@@ -334,7 +334,7 @@ llama-grammar.o: llama-grammar.cpp.o
 
 # target to build an object file
 llama-grammar.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-grammar.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-grammar.cpp.o
 .PHONY : llama-grammar.cpp.o
 
 llama-grammar.i: llama-grammar.cpp.i
@@ -342,7 +342,7 @@ llama-grammar.i: llama-grammar.cpp.i
 
 # target to preprocess a source file
 llama-grammar.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-grammar.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-grammar.cpp.i
 .PHONY : llama-grammar.cpp.i
 
 llama-grammar.s: llama-grammar.cpp.s
@@ -350,7 +350,7 @@ llama-grammar.s: llama-grammar.cpp.s
 
 # target to generate assembly for a file
 llama-grammar.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-grammar.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-grammar.cpp.s
 .PHONY : llama-grammar.cpp.s
 
 llama-graph.o: llama-graph.cpp.o
@@ -358,7 +358,7 @@ llama-graph.o: llama-graph.cpp.o
 
 # target to build an object file
 llama-graph.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-graph.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-graph.cpp.o
 .PHONY : llama-graph.cpp.o
 
 llama-graph.i: llama-graph.cpp.i
@@ -366,7 +366,7 @@ llama-graph.i: llama-graph.cpp.i
 
 # target to preprocess a source file
 llama-graph.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-graph.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-graph.cpp.i
 .PHONY : llama-graph.cpp.i
 
 llama-graph.s: llama-graph.cpp.s
@@ -374,7 +374,7 @@ llama-graph.s: llama-graph.cpp.s
 
 # target to generate assembly for a file
 llama-graph.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-graph.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-graph.cpp.s
 .PHONY : llama-graph.cpp.s
 
 llama-hparams.o: llama-hparams.cpp.o
@@ -382,7 +382,7 @@ llama-hparams.o: llama-hparams.cpp.o
 
 # target to build an object file
 llama-hparams.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-hparams.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-hparams.cpp.o
 .PHONY : llama-hparams.cpp.o
 
 llama-hparams.i: llama-hparams.cpp.i
@@ -390,7 +390,7 @@ llama-hparams.i: llama-hparams.cpp.i
 
 # target to preprocess a source file
 llama-hparams.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-hparams.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-hparams.cpp.i
 .PHONY : llama-hparams.cpp.i
 
 llama-hparams.s: llama-hparams.cpp.s
@@ -398,7 +398,7 @@ llama-hparams.s: llama-hparams.cpp.s
 
 # target to generate assembly for a file
 llama-hparams.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-hparams.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-hparams.cpp.s
 .PHONY : llama-hparams.cpp.s
 
 llama-impl.o: llama-impl.cpp.o
@@ -406,7 +406,7 @@ llama-impl.o: llama-impl.cpp.o
 
 # target to build an object file
 llama-impl.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-impl.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-impl.cpp.o
 .PHONY : llama-impl.cpp.o
 
 llama-impl.i: llama-impl.cpp.i
@@ -414,7 +414,7 @@ llama-impl.i: llama-impl.cpp.i
 
 # target to preprocess a source file
 llama-impl.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-impl.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-impl.cpp.i
 .PHONY : llama-impl.cpp.i
 
 llama-impl.s: llama-impl.cpp.s
@@ -422,7 +422,7 @@ llama-impl.s: llama-impl.cpp.s
 
 # target to generate assembly for a file
 llama-impl.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-impl.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-impl.cpp.s
 .PHONY : llama-impl.cpp.s
 
 llama-io.o: llama-io.cpp.o
@@ -430,7 +430,7 @@ llama-io.o: llama-io.cpp.o
 
 # target to build an object file
 llama-io.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-io.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-io.cpp.o
 .PHONY : llama-io.cpp.o
 
 llama-io.i: llama-io.cpp.i
@@ -438,7 +438,7 @@ llama-io.i: llama-io.cpp.i
 
 # target to preprocess a source file
 llama-io.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-io.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-io.cpp.i
 .PHONY : llama-io.cpp.i
 
 llama-io.s: llama-io.cpp.s
@@ -446,7 +446,7 @@ llama-io.s: llama-io.cpp.s
 
 # target to generate assembly for a file
 llama-io.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-io.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-io.cpp.s
 .PHONY : llama-io.cpp.s
 
 llama-kv-cache-unified-iswa.o: llama-kv-cache-unified-iswa.cpp.o
@@ -454,7 +454,7 @@ llama-kv-cache-unified-iswa.o: llama-kv-cache-unified-iswa.cpp.o
 
 # target to build an object file
 llama-kv-cache-unified-iswa.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-kv-cache-unified-iswa.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-kv-cache-unified-iswa.cpp.o
 .PHONY : llama-kv-cache-unified-iswa.cpp.o
 
 llama-kv-cache-unified-iswa.i: llama-kv-cache-unified-iswa.cpp.i
@@ -462,7 +462,7 @@ llama-kv-cache-unified-iswa.i: llama-kv-cache-unified-iswa.cpp.i
 
 # target to preprocess a source file
 llama-kv-cache-unified-iswa.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-kv-cache-unified-iswa.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-kv-cache-unified-iswa.cpp.i
 .PHONY : llama-kv-cache-unified-iswa.cpp.i
 
 llama-kv-cache-unified-iswa.s: llama-kv-cache-unified-iswa.cpp.s
@@ -470,7 +470,7 @@ llama-kv-cache-unified-iswa.s: llama-kv-cache-unified-iswa.cpp.s
 
 # target to generate assembly for a file
 llama-kv-cache-unified-iswa.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-kv-cache-unified-iswa.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-kv-cache-unified-iswa.cpp.s
 .PHONY : llama-kv-cache-unified-iswa.cpp.s
 
 llama-kv-cache-unified.o: llama-kv-cache-unified.cpp.o
@@ -478,7 +478,7 @@ llama-kv-cache-unified.o: llama-kv-cache-unified.cpp.o
 
 # target to build an object file
 llama-kv-cache-unified.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-kv-cache-unified.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-kv-cache-unified.cpp.o
 .PHONY : llama-kv-cache-unified.cpp.o
 
 llama-kv-cache-unified.i: llama-kv-cache-unified.cpp.i
@@ -486,7 +486,7 @@ llama-kv-cache-unified.i: llama-kv-cache-unified.cpp.i
 
 # target to preprocess a source file
 llama-kv-cache-unified.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-kv-cache-unified.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-kv-cache-unified.cpp.i
 .PHONY : llama-kv-cache-unified.cpp.i
 
 llama-kv-cache-unified.s: llama-kv-cache-unified.cpp.s
@@ -494,7 +494,7 @@ llama-kv-cache-unified.s: llama-kv-cache-unified.cpp.s
 
 # target to generate assembly for a file
 llama-kv-cache-unified.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-kv-cache-unified.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-kv-cache-unified.cpp.s
 .PHONY : llama-kv-cache-unified.cpp.s
 
 llama-memory-hybrid.o: llama-memory-hybrid.cpp.o
@@ -502,7 +502,7 @@ llama-memory-hybrid.o: llama-memory-hybrid.cpp.o
 
 # target to build an object file
 llama-memory-hybrid.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-memory-hybrid.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-memory-hybrid.cpp.o
 .PHONY : llama-memory-hybrid.cpp.o
 
 llama-memory-hybrid.i: llama-memory-hybrid.cpp.i
@@ -510,7 +510,7 @@ llama-memory-hybrid.i: llama-memory-hybrid.cpp.i
 
 # target to preprocess a source file
 llama-memory-hybrid.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-memory-hybrid.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-memory-hybrid.cpp.i
 .PHONY : llama-memory-hybrid.cpp.i
 
 llama-memory-hybrid.s: llama-memory-hybrid.cpp.s
@@ -518,7 +518,7 @@ llama-memory-hybrid.s: llama-memory-hybrid.cpp.s
 
 # target to generate assembly for a file
 llama-memory-hybrid.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-memory-hybrid.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-memory-hybrid.cpp.s
 .PHONY : llama-memory-hybrid.cpp.s
 
 llama-memory-recurrent.o: llama-memory-recurrent.cpp.o
@@ -526,7 +526,7 @@ llama-memory-recurrent.o: llama-memory-recurrent.cpp.o
 
 # target to build an object file
 llama-memory-recurrent.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-memory-recurrent.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-memory-recurrent.cpp.o
 .PHONY : llama-memory-recurrent.cpp.o
 
 llama-memory-recurrent.i: llama-memory-recurrent.cpp.i
@@ -534,7 +534,7 @@ llama-memory-recurrent.i: llama-memory-recurrent.cpp.i
 
 # target to preprocess a source file
 llama-memory-recurrent.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-memory-recurrent.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-memory-recurrent.cpp.i
 .PHONY : llama-memory-recurrent.cpp.i
 
 llama-memory-recurrent.s: llama-memory-recurrent.cpp.s
@@ -542,7 +542,7 @@ llama-memory-recurrent.s: llama-memory-recurrent.cpp.s
 
 # target to generate assembly for a file
 llama-memory-recurrent.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-memory-recurrent.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-memory-recurrent.cpp.s
 .PHONY : llama-memory-recurrent.cpp.s
 
 llama-memory.o: llama-memory.cpp.o
@@ -550,7 +550,7 @@ llama-memory.o: llama-memory.cpp.o
 
 # target to build an object file
 llama-memory.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-memory.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-memory.cpp.o
 .PHONY : llama-memory.cpp.o
 
 llama-memory.i: llama-memory.cpp.i
@@ -558,7 +558,7 @@ llama-memory.i: llama-memory.cpp.i
 
 # target to preprocess a source file
 llama-memory.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-memory.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-memory.cpp.i
 .PHONY : llama-memory.cpp.i
 
 llama-memory.s: llama-memory.cpp.s
@@ -566,7 +566,7 @@ llama-memory.s: llama-memory.cpp.s
 
 # target to generate assembly for a file
 llama-memory.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-memory.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-memory.cpp.s
 .PHONY : llama-memory.cpp.s
 
 llama-mmap.o: llama-mmap.cpp.o
@@ -574,7 +574,7 @@ llama-mmap.o: llama-mmap.cpp.o
 
 # target to build an object file
 llama-mmap.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-mmap.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-mmap.cpp.o
 .PHONY : llama-mmap.cpp.o
 
 llama-mmap.i: llama-mmap.cpp.i
@@ -582,7 +582,7 @@ llama-mmap.i: llama-mmap.cpp.i
 
 # target to preprocess a source file
 llama-mmap.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-mmap.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-mmap.cpp.i
 .PHONY : llama-mmap.cpp.i
 
 llama-mmap.s: llama-mmap.cpp.s
@@ -590,7 +590,7 @@ llama-mmap.s: llama-mmap.cpp.s
 
 # target to generate assembly for a file
 llama-mmap.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-mmap.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-mmap.cpp.s
 .PHONY : llama-mmap.cpp.s
 
 llama-model-loader.o: llama-model-loader.cpp.o
@@ -598,7 +598,7 @@ llama-model-loader.o: llama-model-loader.cpp.o
 
 # target to build an object file
 llama-model-loader.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-model-loader.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-model-loader.cpp.o
 .PHONY : llama-model-loader.cpp.o
 
 llama-model-loader.i: llama-model-loader.cpp.i
@@ -606,7 +606,7 @@ llama-model-loader.i: llama-model-loader.cpp.i
 
 # target to preprocess a source file
 llama-model-loader.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-model-loader.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-model-loader.cpp.i
 .PHONY : llama-model-loader.cpp.i
 
 llama-model-loader.s: llama-model-loader.cpp.s
@@ -614,7 +614,7 @@ llama-model-loader.s: llama-model-loader.cpp.s
 
 # target to generate assembly for a file
 llama-model-loader.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-model-loader.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-model-loader.cpp.s
 .PHONY : llama-model-loader.cpp.s
 
 llama-model-saver.o: llama-model-saver.cpp.o
@@ -622,7 +622,7 @@ llama-model-saver.o: llama-model-saver.cpp.o
 
 # target to build an object file
 llama-model-saver.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-model-saver.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-model-saver.cpp.o
 .PHONY : llama-model-saver.cpp.o
 
 llama-model-saver.i: llama-model-saver.cpp.i
@@ -630,7 +630,7 @@ llama-model-saver.i: llama-model-saver.cpp.i
 
 # target to preprocess a source file
 llama-model-saver.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-model-saver.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-model-saver.cpp.i
 .PHONY : llama-model-saver.cpp.i
 
 llama-model-saver.s: llama-model-saver.cpp.s
@@ -638,7 +638,7 @@ llama-model-saver.s: llama-model-saver.cpp.s
 
 # target to generate assembly for a file
 llama-model-saver.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-model-saver.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-model-saver.cpp.s
 .PHONY : llama-model-saver.cpp.s
 
 llama-model.o: llama-model.cpp.o
@@ -646,7 +646,7 @@ llama-model.o: llama-model.cpp.o
 
 # target to build an object file
 llama-model.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-model.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-model.cpp.o
 .PHONY : llama-model.cpp.o
 
 llama-model.i: llama-model.cpp.i
@@ -654,7 +654,7 @@ llama-model.i: llama-model.cpp.i
 
 # target to preprocess a source file
 llama-model.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-model.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-model.cpp.i
 .PHONY : llama-model.cpp.i
 
 llama-model.s: llama-model.cpp.s
@@ -662,7 +662,7 @@ llama-model.s: llama-model.cpp.s
 
 # target to generate assembly for a file
 llama-model.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-model.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-model.cpp.s
 .PHONY : llama-model.cpp.s
 
 llama-quant.o: llama-quant.cpp.o
@@ -670,7 +670,7 @@ llama-quant.o: llama-quant.cpp.o
 
 # target to build an object file
 llama-quant.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-quant.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-quant.cpp.o
 .PHONY : llama-quant.cpp.o
 
 llama-quant.i: llama-quant.cpp.i
@@ -678,7 +678,7 @@ llama-quant.i: llama-quant.cpp.i
 
 # target to preprocess a source file
 llama-quant.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-quant.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-quant.cpp.i
 .PHONY : llama-quant.cpp.i
 
 llama-quant.s: llama-quant.cpp.s
@@ -686,7 +686,7 @@ llama-quant.s: llama-quant.cpp.s
 
 # target to generate assembly for a file
 llama-quant.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-quant.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-quant.cpp.s
 .PHONY : llama-quant.cpp.s
 
 llama-sampling.o: llama-sampling.cpp.o
@@ -694,7 +694,7 @@ llama-sampling.o: llama-sampling.cpp.o
 
 # target to build an object file
 llama-sampling.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-sampling.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-sampling.cpp.o
 .PHONY : llama-sampling.cpp.o
 
 llama-sampling.i: llama-sampling.cpp.i
@@ -702,7 +702,7 @@ llama-sampling.i: llama-sampling.cpp.i
 
 # target to preprocess a source file
 llama-sampling.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-sampling.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-sampling.cpp.i
 .PHONY : llama-sampling.cpp.i
 
 llama-sampling.s: llama-sampling.cpp.s
@@ -710,7 +710,7 @@ llama-sampling.s: llama-sampling.cpp.s
 
 # target to generate assembly for a file
 llama-sampling.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-sampling.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-sampling.cpp.s
 .PHONY : llama-sampling.cpp.s
 
 llama-vocab.o: llama-vocab.cpp.o
@@ -718,7 +718,7 @@ llama-vocab.o: llama-vocab.cpp.o
 
 # target to build an object file
 llama-vocab.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-vocab.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-vocab.cpp.o
 .PHONY : llama-vocab.cpp.o
 
 llama-vocab.i: llama-vocab.cpp.i
@@ -726,7 +726,7 @@ llama-vocab.i: llama-vocab.cpp.i
 
 # target to preprocess a source file
 llama-vocab.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-vocab.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-vocab.cpp.i
 .PHONY : llama-vocab.cpp.i
 
 llama-vocab.s: llama-vocab.cpp.s
@@ -734,7 +734,7 @@ llama-vocab.s: llama-vocab.cpp.s
 
 # target to generate assembly for a file
 llama-vocab.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-vocab.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama-vocab.cpp.s
 .PHONY : llama-vocab.cpp.s
 
 llama.o: llama.cpp.o
@@ -742,7 +742,7 @@ llama.o: llama.cpp.o
 
 # target to build an object file
 llama.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama.cpp.o
 .PHONY : llama.cpp.o
 
 llama.i: llama.cpp.i
@@ -750,7 +750,7 @@ llama.i: llama.cpp.i
 
 # target to preprocess a source file
 llama.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama.cpp.i
 .PHONY : llama.cpp.i
 
 llama.s: llama.cpp.s
@@ -758,7 +758,7 @@ llama.s: llama.cpp.s
 
 # target to generate assembly for a file
 llama.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/llama.cpp.s
 .PHONY : llama.cpp.s
 
 unicode-data.o: unicode-data.cpp.o
@@ -766,7 +766,7 @@ unicode-data.o: unicode-data.cpp.o
 
 # target to build an object file
 unicode-data.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/unicode-data.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/unicode-data.cpp.o
 .PHONY : unicode-data.cpp.o
 
 unicode-data.i: unicode-data.cpp.i
@@ -774,7 +774,7 @@ unicode-data.i: unicode-data.cpp.i
 
 # target to preprocess a source file
 unicode-data.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/unicode-data.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/unicode-data.cpp.i
 .PHONY : unicode-data.cpp.i
 
 unicode-data.s: unicode-data.cpp.s
@@ -782,7 +782,7 @@ unicode-data.s: unicode-data.cpp.s
 
 # target to generate assembly for a file
 unicode-data.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/unicode-data.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/unicode-data.cpp.s
 .PHONY : unicode-data.cpp.s
 
 unicode.o: unicode.cpp.o
@@ -790,7 +790,7 @@ unicode.o: unicode.cpp.o
 
 # target to build an object file
 unicode.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/unicode.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/unicode.cpp.o
 .PHONY : unicode.cpp.o
 
 unicode.i: unicode.cpp.i
@@ -798,7 +798,7 @@ unicode.i: unicode.cpp.i
 
 # target to preprocess a source file
 unicode.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/unicode.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/unicode.cpp.i
 .PHONY : unicode.cpp.i
 
 unicode.s: unicode.cpp.s
@@ -806,7 +806,7 @@ unicode.s: unicode.cpp.s
 
 # target to generate assembly for a file
 unicode.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/unicode.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/llama.dir/build.make src/CMakeFiles/llama.dir/unicode.cpp.s
 .PHONY : unicode.cpp.s
 
 # Help Target
@@ -912,6 +912,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

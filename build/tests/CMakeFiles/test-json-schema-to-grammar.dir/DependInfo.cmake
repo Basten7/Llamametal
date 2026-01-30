@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tests/get-model.cpp" "tests/CMakeFiles/test-json-schema-to-grammar.dir/get-model.cpp.o" "gcc" "tests/CMakeFiles/test-json-schema-to-grammar.dir/get-model.cpp.o.d"
-  "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tests/test-json-schema-to-grammar.cpp" "tests/CMakeFiles/test-json-schema-to-grammar.dir/test-json-schema-to-grammar.cpp.o" "gcc" "tests/CMakeFiles/test-json-schema-to-grammar.dir/test-json-schema-to-grammar.cpp.o.d"
+  "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tests/get-model.cpp" "tests/CMakeFiles/test-json-schema-to-grammar.dir/get-model.cpp.o" "gcc" "tests/CMakeFiles/test-json-schema-to-grammar.dir/get-model.cpp.o.d"
+  "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tests/test-json-schema-to-grammar.cpp" "tests/CMakeFiles/test-json-schema-to-grammar.dir/test-json-schema-to-grammar.cpp.o" "gcc" "tests/CMakeFiles/test-json-schema-to-grammar.dir/test-json-schema-to-grammar.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

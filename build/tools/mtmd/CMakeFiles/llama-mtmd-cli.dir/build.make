@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp"
+CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build"
+CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build"
 
 # Include any dependencies generated for this target.
 include tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/depend.make
@@ -73,18 +73,18 @@ tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/codegen:
 .PHONY : tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/codegen
 
 tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/mtmd-cli.cpp.o: tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/flags.make
-tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/mtmd-cli.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/tools/mtmd/mtmd-cli.cpp
+tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/mtmd-cli.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/tools/mtmd/mtmd-cli.cpp
 tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/mtmd-cli.cpp.o: tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/mtmd-cli.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/mtmd" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/mtmd-cli.cpp.o -MF CMakeFiles/llama-mtmd-cli.dir/mtmd-cli.cpp.o.d -o CMakeFiles/llama-mtmd-cli.dir/mtmd-cli.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tools/mtmd/mtmd-cli.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/mtmd-cli.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/mtmd" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/mtmd-cli.cpp.o -MF CMakeFiles/llama-mtmd-cli.dir/mtmd-cli.cpp.o.d -o CMakeFiles/llama-mtmd-cli.dir/mtmd-cli.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tools/mtmd/mtmd-cli.cpp"
 
 tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/mtmd-cli.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama-mtmd-cli.dir/mtmd-cli.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/mtmd" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tools/mtmd/mtmd-cli.cpp" > CMakeFiles/llama-mtmd-cli.dir/mtmd-cli.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/mtmd" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tools/mtmd/mtmd-cli.cpp" > CMakeFiles/llama-mtmd-cli.dir/mtmd-cli.cpp.i
 
 tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/mtmd-cli.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/llama-mtmd-cli.dir/mtmd-cli.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/mtmd" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tools/mtmd/mtmd-cli.cpp" -o CMakeFiles/llama-mtmd-cli.dir/mtmd-cli.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/mtmd" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tools/mtmd/mtmd-cli.cpp" -o CMakeFiles/llama-mtmd-cli.dir/mtmd-cli.cpp.s
 
 # Object files for target llama-mtmd-cli
 llama__mtmd__cli_OBJECTS = \
@@ -105,18 +105,18 @@ bin/llama-mtmd-cli: bin/libggml-blas.dylib
 bin/llama-mtmd-cli: bin/libggml-metal.dylib
 bin/llama-mtmd-cli: bin/libggml-base.dylib
 bin/llama-mtmd-cli: tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-mtmd-cli"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/mtmd" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-mtmd-cli.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-mtmd-cli"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/mtmd" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-mtmd-cli.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/build: bin/llama-mtmd-cli
 .PHONY : tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/build
 
 tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/clean:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/mtmd" && $(CMAKE_COMMAND) -P CMakeFiles/llama-mtmd-cli.dir/cmake_clean.cmake
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/mtmd" && $(CMAKE_COMMAND) -P CMakeFiles/llama-mtmd-cli.dir/cmake_clean.cmake
 .PHONY : tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/clean
 
 tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/depend:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tools/mtmd" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/mtmd" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/DependInfo.cmake" "--color=$(COLOR)" llama-mtmd-cli
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tools/mtmd" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/mtmd" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/DependInfo.cmake" "--color=$(COLOR)" llama-mtmd-cli
 .PHONY : tools/mtmd/CMakeFiles/llama-mtmd-cli.dir/depend
 

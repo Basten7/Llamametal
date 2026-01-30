@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp"
+CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build"
+CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build"
 
 # Include any dependencies generated for this target.
 include tests/CMakeFiles/test-quantize-fns.dir/depend.make
@@ -73,32 +73,32 @@ tests/CMakeFiles/test-quantize-fns.dir/codegen:
 .PHONY : tests/CMakeFiles/test-quantize-fns.dir/codegen
 
 tests/CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.o: tests/CMakeFiles/test-quantize-fns.dir/flags.make
-tests/CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/tests/test-quantize-fns.cpp
+tests/CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/tests/test-quantize-fns.cpp
 tests/CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.o: tests/CMakeFiles/test-quantize-fns.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.o -MF CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.o.d -o CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tests/test-quantize-fns.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.o -MF CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.o.d -o CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tests/test-quantize-fns.cpp"
 
 tests/CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tests/test-quantize-fns.cpp" > CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tests/test-quantize-fns.cpp" > CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.i
 
 tests/CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tests/test-quantize-fns.cpp" -o CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tests/test-quantize-fns.cpp" -o CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.s
 
 tests/CMakeFiles/test-quantize-fns.dir/get-model.cpp.o: tests/CMakeFiles/test-quantize-fns.dir/flags.make
-tests/CMakeFiles/test-quantize-fns.dir/get-model.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/tests/get-model.cpp
+tests/CMakeFiles/test-quantize-fns.dir/get-model.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/tests/get-model.cpp
 tests/CMakeFiles/test-quantize-fns.dir/get-model.cpp.o: tests/CMakeFiles/test-quantize-fns.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/test-quantize-fns.dir/get-model.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/test-quantize-fns.dir/get-model.cpp.o -MF CMakeFiles/test-quantize-fns.dir/get-model.cpp.o.d -o CMakeFiles/test-quantize-fns.dir/get-model.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tests/get-model.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/test-quantize-fns.dir/get-model.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/test-quantize-fns.dir/get-model.cpp.o -MF CMakeFiles/test-quantize-fns.dir/get-model.cpp.o.d -o CMakeFiles/test-quantize-fns.dir/get-model.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tests/get-model.cpp"
 
 tests/CMakeFiles/test-quantize-fns.dir/get-model.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test-quantize-fns.dir/get-model.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tests/get-model.cpp" > CMakeFiles/test-quantize-fns.dir/get-model.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tests/get-model.cpp" > CMakeFiles/test-quantize-fns.dir/get-model.cpp.i
 
 tests/CMakeFiles/test-quantize-fns.dir/get-model.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test-quantize-fns.dir/get-model.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tests/get-model.cpp" -o CMakeFiles/test-quantize-fns.dir/get-model.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tests/get-model.cpp" -o CMakeFiles/test-quantize-fns.dir/get-model.cpp.s
 
 # Object files for target test-quantize-fns
 test__quantize__fns_OBJECTS = \
@@ -120,18 +120,18 @@ bin/test-quantize-fns: bin/libggml-blas.dylib
 bin/test-quantize-fns: bin/libggml-metal.dylib
 bin/test-quantize-fns: bin/libggml-base.dylib
 bin/test-quantize-fns: tests/CMakeFiles/test-quantize-fns.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/test-quantize-fns"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tests" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test-quantize-fns.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/test-quantize-fns"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tests" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test-quantize-fns.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tests/CMakeFiles/test-quantize-fns.dir/build: bin/test-quantize-fns
 .PHONY : tests/CMakeFiles/test-quantize-fns.dir/build
 
 tests/CMakeFiles/test-quantize-fns.dir/clean:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tests" && $(CMAKE_COMMAND) -P CMakeFiles/test-quantize-fns.dir/cmake_clean.cmake
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tests" && $(CMAKE_COMMAND) -P CMakeFiles/test-quantize-fns.dir/cmake_clean.cmake
 .PHONY : tests/CMakeFiles/test-quantize-fns.dir/clean
 
 tests/CMakeFiles/test-quantize-fns.dir/depend:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tests" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tests" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tests/CMakeFiles/test-quantize-fns.dir/DependInfo.cmake" "--color=$(COLOR)" test-quantize-fns
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tests" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tests" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tests/CMakeFiles/test-quantize-fns.dir/DependInfo.cmake" "--color=$(COLOR)" test-quantize-fns
 .PHONY : tests/CMakeFiles/test-quantize-fns.dir/depend
 

@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp"
+CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build"
+CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build"
 
 # Include any dependencies generated for this target.
 include examples/speculative/CMakeFiles/llama-speculative.dir/depend.make
@@ -73,18 +73,18 @@ examples/speculative/CMakeFiles/llama-speculative.dir/codegen:
 .PHONY : examples/speculative/CMakeFiles/llama-speculative.dir/codegen
 
 examples/speculative/CMakeFiles/llama-speculative.dir/speculative.cpp.o: examples/speculative/CMakeFiles/llama-speculative.dir/flags.make
-examples/speculative/CMakeFiles/llama-speculative.dir/speculative.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/examples/speculative/speculative.cpp
+examples/speculative/CMakeFiles/llama-speculative.dir/speculative.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/examples/speculative/speculative.cpp
 examples/speculative/CMakeFiles/llama-speculative.dir/speculative.cpp.o: examples/speculative/CMakeFiles/llama-speculative.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/speculative/CMakeFiles/llama-speculative.dir/speculative.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/speculative" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/speculative/CMakeFiles/llama-speculative.dir/speculative.cpp.o -MF CMakeFiles/llama-speculative.dir/speculative.cpp.o.d -o CMakeFiles/llama-speculative.dir/speculative.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/speculative/speculative.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/speculative/CMakeFiles/llama-speculative.dir/speculative.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/speculative" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/speculative/CMakeFiles/llama-speculative.dir/speculative.cpp.o -MF CMakeFiles/llama-speculative.dir/speculative.cpp.o.d -o CMakeFiles/llama-speculative.dir/speculative.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/speculative/speculative.cpp"
 
 examples/speculative/CMakeFiles/llama-speculative.dir/speculative.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama-speculative.dir/speculative.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/speculative" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/speculative/speculative.cpp" > CMakeFiles/llama-speculative.dir/speculative.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/speculative" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/speculative/speculative.cpp" > CMakeFiles/llama-speculative.dir/speculative.cpp.i
 
 examples/speculative/CMakeFiles/llama-speculative.dir/speculative.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/llama-speculative.dir/speculative.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/speculative" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/speculative/speculative.cpp" -o CMakeFiles/llama-speculative.dir/speculative.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/speculative" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/speculative/speculative.cpp" -o CMakeFiles/llama-speculative.dir/speculative.cpp.s
 
 # Object files for target llama-speculative
 llama__speculative_OBJECTS = \
@@ -104,18 +104,18 @@ bin/llama-speculative: bin/libggml-metal.dylib
 bin/llama-speculative: bin/libggml-base.dylib
 bin/llama-speculative: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libcurl.tbd
 bin/llama-speculative: examples/speculative/CMakeFiles/llama-speculative.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-speculative"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/speculative" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-speculative.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-speculative"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/speculative" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-speculative.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/speculative/CMakeFiles/llama-speculative.dir/build: bin/llama-speculative
 .PHONY : examples/speculative/CMakeFiles/llama-speculative.dir/build
 
 examples/speculative/CMakeFiles/llama-speculative.dir/clean:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/speculative" && $(CMAKE_COMMAND) -P CMakeFiles/llama-speculative.dir/cmake_clean.cmake
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/speculative" && $(CMAKE_COMMAND) -P CMakeFiles/llama-speculative.dir/cmake_clean.cmake
 .PHONY : examples/speculative/CMakeFiles/llama-speculative.dir/clean
 
 examples/speculative/CMakeFiles/llama-speculative.dir/depend:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/speculative" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/speculative" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/speculative/CMakeFiles/llama-speculative.dir/DependInfo.cmake" "--color=$(COLOR)" llama-speculative
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/speculative" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/speculative" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/speculative/CMakeFiles/llama-speculative.dir/DependInfo.cmake" "--color=$(COLOR)" llama-speculative
 .PHONY : examples/speculative/CMakeFiles/llama-speculative.dir/depend
 

@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp"
+CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build"
+CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build"
 
 # Include any dependencies generated for this target.
 include tools/perplexity/CMakeFiles/llama-perplexity.dir/depend.make
@@ -73,18 +73,18 @@ tools/perplexity/CMakeFiles/llama-perplexity.dir/codegen:
 .PHONY : tools/perplexity/CMakeFiles/llama-perplexity.dir/codegen
 
 tools/perplexity/CMakeFiles/llama-perplexity.dir/perplexity.cpp.o: tools/perplexity/CMakeFiles/llama-perplexity.dir/flags.make
-tools/perplexity/CMakeFiles/llama-perplexity.dir/perplexity.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/tools/perplexity/perplexity.cpp
+tools/perplexity/CMakeFiles/llama-perplexity.dir/perplexity.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/tools/perplexity/perplexity.cpp
 tools/perplexity/CMakeFiles/llama-perplexity.dir/perplexity.cpp.o: tools/perplexity/CMakeFiles/llama-perplexity.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tools/perplexity/CMakeFiles/llama-perplexity.dir/perplexity.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/perplexity" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tools/perplexity/CMakeFiles/llama-perplexity.dir/perplexity.cpp.o -MF CMakeFiles/llama-perplexity.dir/perplexity.cpp.o.d -o CMakeFiles/llama-perplexity.dir/perplexity.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tools/perplexity/perplexity.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tools/perplexity/CMakeFiles/llama-perplexity.dir/perplexity.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/perplexity" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tools/perplexity/CMakeFiles/llama-perplexity.dir/perplexity.cpp.o -MF CMakeFiles/llama-perplexity.dir/perplexity.cpp.o.d -o CMakeFiles/llama-perplexity.dir/perplexity.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tools/perplexity/perplexity.cpp"
 
 tools/perplexity/CMakeFiles/llama-perplexity.dir/perplexity.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama-perplexity.dir/perplexity.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/perplexity" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tools/perplexity/perplexity.cpp" > CMakeFiles/llama-perplexity.dir/perplexity.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/perplexity" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tools/perplexity/perplexity.cpp" > CMakeFiles/llama-perplexity.dir/perplexity.cpp.i
 
 tools/perplexity/CMakeFiles/llama-perplexity.dir/perplexity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/llama-perplexity.dir/perplexity.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/perplexity" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tools/perplexity/perplexity.cpp" -o CMakeFiles/llama-perplexity.dir/perplexity.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/perplexity" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tools/perplexity/perplexity.cpp" -o CMakeFiles/llama-perplexity.dir/perplexity.cpp.s
 
 # Object files for target llama-perplexity
 llama__perplexity_OBJECTS = \
@@ -104,18 +104,18 @@ bin/llama-perplexity: bin/libggml-metal.dylib
 bin/llama-perplexity: bin/libggml-base.dylib
 bin/llama-perplexity: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libcurl.tbd
 bin/llama-perplexity: tools/perplexity/CMakeFiles/llama-perplexity.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-perplexity"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/perplexity" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-perplexity.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-perplexity"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/perplexity" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-perplexity.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tools/perplexity/CMakeFiles/llama-perplexity.dir/build: bin/llama-perplexity
 .PHONY : tools/perplexity/CMakeFiles/llama-perplexity.dir/build
 
 tools/perplexity/CMakeFiles/llama-perplexity.dir/clean:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/perplexity" && $(CMAKE_COMMAND) -P CMakeFiles/llama-perplexity.dir/cmake_clean.cmake
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/perplexity" && $(CMAKE_COMMAND) -P CMakeFiles/llama-perplexity.dir/cmake_clean.cmake
 .PHONY : tools/perplexity/CMakeFiles/llama-perplexity.dir/clean
 
 tools/perplexity/CMakeFiles/llama-perplexity.dir/depend:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tools/perplexity" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/perplexity" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/perplexity/CMakeFiles/llama-perplexity.dir/DependInfo.cmake" "--color=$(COLOR)" llama-perplexity
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tools/perplexity" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/perplexity" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/perplexity/CMakeFiles/llama-perplexity.dir/DependInfo.cmake" "--color=$(COLOR)" llama-perplexity
 .PHONY : tools/perplexity/CMakeFiles/llama-perplexity.dir/depend
 

@@ -1,6 +1,6 @@
 examples/gguf-hash/CMakeFiles/sha256.dir/deps/sha256/sha256.c.o: \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/examples/gguf-hash/deps/sha256/sha256.c \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/examples/gguf-hash/deps/rotate-bits/rotate-bits.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/examples/gguf-hash/deps/sha256/sha256.c \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/examples/gguf-hash/deps/rotate-bits/rotate-bits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int8_t.h \
@@ -23,7 +23,7 @@ examples/gguf-hash/CMakeFiles/sha256.dir/deps/sha256/sha256.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_intmax_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uintmax_t.h \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/examples/gguf-hash/deps/sha256/sha256.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/examples/gguf-hash/deps/sha256/sha256.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \

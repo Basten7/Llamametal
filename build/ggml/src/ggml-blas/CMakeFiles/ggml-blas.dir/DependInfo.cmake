@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-blas/ggml-blas.cpp" "ggml/src/ggml-blas/CMakeFiles/ggml-blas.dir/ggml-blas.cpp.o" "gcc" "ggml/src/ggml-blas/CMakeFiles/ggml-blas.dir/ggml-blas.cpp.o.d"
+  "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-blas/ggml-blas.cpp" "ggml/src/ggml-blas/CMakeFiles/ggml-blas.dir/ggml-blas.cpp.o" "gcc" "ggml/src/ggml-blas/CMakeFiles/ggml-blas.dir/ggml-blas.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

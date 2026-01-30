@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp"
+CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build"
+CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build"
 
 # Include any dependencies generated for this target.
 include examples/lookup/CMakeFiles/llama-lookup-create.dir/depend.make
@@ -73,18 +73,18 @@ examples/lookup/CMakeFiles/llama-lookup-create.dir/codegen:
 .PHONY : examples/lookup/CMakeFiles/llama-lookup-create.dir/codegen
 
 examples/lookup/CMakeFiles/llama-lookup-create.dir/lookup-create.cpp.o: examples/lookup/CMakeFiles/llama-lookup-create.dir/flags.make
-examples/lookup/CMakeFiles/llama-lookup-create.dir/lookup-create.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/examples/lookup/lookup-create.cpp
+examples/lookup/CMakeFiles/llama-lookup-create.dir/lookup-create.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/examples/lookup/lookup-create.cpp
 examples/lookup/CMakeFiles/llama-lookup-create.dir/lookup-create.cpp.o: examples/lookup/CMakeFiles/llama-lookup-create.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/lookup/CMakeFiles/llama-lookup-create.dir/lookup-create.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/lookup" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/lookup/CMakeFiles/llama-lookup-create.dir/lookup-create.cpp.o -MF CMakeFiles/llama-lookup-create.dir/lookup-create.cpp.o.d -o CMakeFiles/llama-lookup-create.dir/lookup-create.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/lookup/lookup-create.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/lookup/CMakeFiles/llama-lookup-create.dir/lookup-create.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/lookup" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/lookup/CMakeFiles/llama-lookup-create.dir/lookup-create.cpp.o -MF CMakeFiles/llama-lookup-create.dir/lookup-create.cpp.o.d -o CMakeFiles/llama-lookup-create.dir/lookup-create.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/lookup/lookup-create.cpp"
 
 examples/lookup/CMakeFiles/llama-lookup-create.dir/lookup-create.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama-lookup-create.dir/lookup-create.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/lookup" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/lookup/lookup-create.cpp" > CMakeFiles/llama-lookup-create.dir/lookup-create.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/lookup" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/lookup/lookup-create.cpp" > CMakeFiles/llama-lookup-create.dir/lookup-create.cpp.i
 
 examples/lookup/CMakeFiles/llama-lookup-create.dir/lookup-create.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/llama-lookup-create.dir/lookup-create.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/lookup" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/lookup/lookup-create.cpp" -o CMakeFiles/llama-lookup-create.dir/lookup-create.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/lookup" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/lookup/lookup-create.cpp" -o CMakeFiles/llama-lookup-create.dir/lookup-create.cpp.s
 
 # Object files for target llama-lookup-create
 llama__lookup__create_OBJECTS = \
@@ -104,18 +104,18 @@ bin/llama-lookup-create: bin/libggml-metal.dylib
 bin/llama-lookup-create: bin/libggml-base.dylib
 bin/llama-lookup-create: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libcurl.tbd
 bin/llama-lookup-create: examples/lookup/CMakeFiles/llama-lookup-create.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-lookup-create"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/lookup" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-lookup-create.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-lookup-create"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/lookup" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-lookup-create.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/lookup/CMakeFiles/llama-lookup-create.dir/build: bin/llama-lookup-create
 .PHONY : examples/lookup/CMakeFiles/llama-lookup-create.dir/build
 
 examples/lookup/CMakeFiles/llama-lookup-create.dir/clean:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/lookup" && $(CMAKE_COMMAND) -P CMakeFiles/llama-lookup-create.dir/cmake_clean.cmake
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/lookup" && $(CMAKE_COMMAND) -P CMakeFiles/llama-lookup-create.dir/cmake_clean.cmake
 .PHONY : examples/lookup/CMakeFiles/llama-lookup-create.dir/clean
 
 examples/lookup/CMakeFiles/llama-lookup-create.dir/depend:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/lookup" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/lookup" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/lookup/CMakeFiles/llama-lookup-create.dir/DependInfo.cmake" "--color=$(COLOR)" llama-lookup-create
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/lookup" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/lookup" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/lookup/CMakeFiles/llama-lookup-create.dir/DependInfo.cmake" "--color=$(COLOR)" llama-lookup-create
 .PHONY : examples/lookup/CMakeFiles/llama-lookup-create.dir/depend
 

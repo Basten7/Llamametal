@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common/build-info.cpp" "common/CMakeFiles/build_info.dir/build-info.cpp.o" "gcc" "common/CMakeFiles/build_info.dir/build-info.cpp.o.d"
+  "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common/build-info.cpp" "common/CMakeFiles/build_info.dir/build-info.cpp.o" "gcc" "common/CMakeFiles/build_info.dir/build-info.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

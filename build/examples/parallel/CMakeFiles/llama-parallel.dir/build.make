@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp"
+CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build"
+CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build"
 
 # Include any dependencies generated for this target.
 include examples/parallel/CMakeFiles/llama-parallel.dir/depend.make
@@ -73,18 +73,18 @@ examples/parallel/CMakeFiles/llama-parallel.dir/codegen:
 .PHONY : examples/parallel/CMakeFiles/llama-parallel.dir/codegen
 
 examples/parallel/CMakeFiles/llama-parallel.dir/parallel.cpp.o: examples/parallel/CMakeFiles/llama-parallel.dir/flags.make
-examples/parallel/CMakeFiles/llama-parallel.dir/parallel.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/examples/parallel/parallel.cpp
+examples/parallel/CMakeFiles/llama-parallel.dir/parallel.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/examples/parallel/parallel.cpp
 examples/parallel/CMakeFiles/llama-parallel.dir/parallel.cpp.o: examples/parallel/CMakeFiles/llama-parallel.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/parallel/CMakeFiles/llama-parallel.dir/parallel.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/parallel" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/parallel/CMakeFiles/llama-parallel.dir/parallel.cpp.o -MF CMakeFiles/llama-parallel.dir/parallel.cpp.o.d -o CMakeFiles/llama-parallel.dir/parallel.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/parallel/parallel.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/parallel/CMakeFiles/llama-parallel.dir/parallel.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/parallel" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/parallel/CMakeFiles/llama-parallel.dir/parallel.cpp.o -MF CMakeFiles/llama-parallel.dir/parallel.cpp.o.d -o CMakeFiles/llama-parallel.dir/parallel.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/parallel/parallel.cpp"
 
 examples/parallel/CMakeFiles/llama-parallel.dir/parallel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama-parallel.dir/parallel.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/parallel" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/parallel/parallel.cpp" > CMakeFiles/llama-parallel.dir/parallel.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/parallel" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/parallel/parallel.cpp" > CMakeFiles/llama-parallel.dir/parallel.cpp.i
 
 examples/parallel/CMakeFiles/llama-parallel.dir/parallel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/llama-parallel.dir/parallel.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/parallel" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/parallel/parallel.cpp" -o CMakeFiles/llama-parallel.dir/parallel.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/parallel" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/parallel/parallel.cpp" -o CMakeFiles/llama-parallel.dir/parallel.cpp.s
 
 # Object files for target llama-parallel
 llama__parallel_OBJECTS = \
@@ -104,18 +104,18 @@ bin/llama-parallel: bin/libggml-metal.dylib
 bin/llama-parallel: bin/libggml-base.dylib
 bin/llama-parallel: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libcurl.tbd
 bin/llama-parallel: examples/parallel/CMakeFiles/llama-parallel.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-parallel"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/parallel" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-parallel.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-parallel"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/parallel" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-parallel.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/parallel/CMakeFiles/llama-parallel.dir/build: bin/llama-parallel
 .PHONY : examples/parallel/CMakeFiles/llama-parallel.dir/build
 
 examples/parallel/CMakeFiles/llama-parallel.dir/clean:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/parallel" && $(CMAKE_COMMAND) -P CMakeFiles/llama-parallel.dir/cmake_clean.cmake
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/parallel" && $(CMAKE_COMMAND) -P CMakeFiles/llama-parallel.dir/cmake_clean.cmake
 .PHONY : examples/parallel/CMakeFiles/llama-parallel.dir/clean
 
 examples/parallel/CMakeFiles/llama-parallel.dir/depend:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/parallel" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/parallel" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/parallel/CMakeFiles/llama-parallel.dir/DependInfo.cmake" "--color=$(COLOR)" llama-parallel
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/parallel" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/parallel" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/parallel/CMakeFiles/llama-parallel.dir/DependInfo.cmake" "--color=$(COLOR)" llama-parallel
 .PHONY : examples/parallel/CMakeFiles/llama-parallel.dir/depend
 

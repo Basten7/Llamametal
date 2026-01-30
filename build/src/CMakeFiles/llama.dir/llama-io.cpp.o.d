@@ -1,6 +1,6 @@
 src/CMakeFiles/llama.dir/llama-io.cpp.o: \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/src/llama-io.cpp \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/src/llama-io.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/src/llama-io.cpp \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/src/llama-io.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstddef \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \

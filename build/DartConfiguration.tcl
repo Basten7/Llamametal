@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /Volumes/NM790-4To/Good llama.cpp V4/llama.cpp
-BuildDirectory: /Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build
+SourceDirectory: /Volumes/NM790-4To/Good llama.cpp V4/Llamametal
+BuildDirectory: /Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -27,7 +27,7 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/local/bin/cmake" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp"
+ConfigureCommand: "/usr/local/bin/cmake" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal"
 MakeCommand: /usr/local/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 

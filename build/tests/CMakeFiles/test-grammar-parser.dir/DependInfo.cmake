@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tests/get-model.cpp" "tests/CMakeFiles/test-grammar-parser.dir/get-model.cpp.o" "gcc" "tests/CMakeFiles/test-grammar-parser.dir/get-model.cpp.o.d"
-  "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tests/test-grammar-parser.cpp" "tests/CMakeFiles/test-grammar-parser.dir/test-grammar-parser.cpp.o" "gcc" "tests/CMakeFiles/test-grammar-parser.dir/test-grammar-parser.cpp.o.d"
+  "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tests/get-model.cpp" "tests/CMakeFiles/test-grammar-parser.dir/get-model.cpp.o" "gcc" "tests/CMakeFiles/test-grammar-parser.dir/get-model.cpp.o.d"
+  "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tests/test-grammar-parser.cpp" "tests/CMakeFiles/test-grammar-parser.dir/test-grammar-parser.cpp.o" "gcc" "tests/CMakeFiles/test-grammar-parser.dir/test-grammar-parser.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

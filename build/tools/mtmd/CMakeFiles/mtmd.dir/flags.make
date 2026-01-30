@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_BLAS -DGGML_USE_CPU -DGGML_USE_METAL -DLLAMA_BUILD -DLLAMA_SHARED -Dmtmd_EXPORTS
 
-CXX_INCLUDES = -I"/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tools/mtmd/." -I"/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tools/mtmd/../.." -I"/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tools/mtmd/../../vendor" -I"/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/../include" -I"/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/src/../include"
+CXX_INCLUDES = -I"/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tools/mtmd/." -I"/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tools/mtmd/../.." -I"/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tools/mtmd/../../vendor" -I"/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/../include" -I"/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/src/../include"
 
 CXX_FLAGS = -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -Wno-cast-qual
 

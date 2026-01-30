@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp"
+CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build"
+CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build"
 
 # Include any dependencies generated for this target.
 include common/CMakeFiles/build_info.dir/depend.make
@@ -75,16 +75,16 @@ common/CMakeFiles/build_info.dir/codegen:
 common/CMakeFiles/build_info.dir/build-info.cpp.o: common/CMakeFiles/build_info.dir/flags.make
 common/CMakeFiles/build_info.dir/build-info.cpp.o: common/build-info.cpp
 common/CMakeFiles/build_info.dir/build-info.cpp.o: common/CMakeFiles/build_info.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object common/CMakeFiles/build_info.dir/build-info.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/build_info.dir/build-info.cpp.o -MF CMakeFiles/build_info.dir/build-info.cpp.o.d -o CMakeFiles/build_info.dir/build-info.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common/build-info.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object common/CMakeFiles/build_info.dir/build-info.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/build_info.dir/build-info.cpp.o -MF CMakeFiles/build_info.dir/build-info.cpp.o.d -o CMakeFiles/build_info.dir/build-info.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common/build-info.cpp"
 
 common/CMakeFiles/build_info.dir/build-info.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/build_info.dir/build-info.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common/build-info.cpp" > CMakeFiles/build_info.dir/build-info.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common/build-info.cpp" > CMakeFiles/build_info.dir/build-info.cpp.i
 
 common/CMakeFiles/build_info.dir/build-info.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/build_info.dir/build-info.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common/build-info.cpp" -o CMakeFiles/build_info.dir/build-info.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common/build-info.cpp" -o CMakeFiles/build_info.dir/build-info.cpp.s
 
 build_info: common/CMakeFiles/build_info.dir/build-info.cpp.o
 build_info: common/CMakeFiles/build_info.dir/build.make
@@ -95,10 +95,10 @@ common/CMakeFiles/build_info.dir/build: build_info
 .PHONY : common/CMakeFiles/build_info.dir/build
 
 common/CMakeFiles/build_info.dir/clean:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" && $(CMAKE_COMMAND) -P CMakeFiles/build_info.dir/cmake_clean.cmake
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" && $(CMAKE_COMMAND) -P CMakeFiles/build_info.dir/cmake_clean.cmake
 .PHONY : common/CMakeFiles/build_info.dir/clean
 
 common/CMakeFiles/build_info.dir/depend:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/common" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common/CMakeFiles/build_info.dir/DependInfo.cmake" "--color=$(COLOR)" build_info
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/common" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common/CMakeFiles/build_info.dir/DependInfo.cmake" "--color=$(COLOR)" build_info
 .PHONY : common/CMakeFiles/build_info.dir/depend
 

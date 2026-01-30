@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp"
+CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build"
+CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build"
 
 # Include any dependencies generated for this target.
 include examples/gguf-hash/CMakeFiles/xxhash.dir/depend.make
@@ -73,18 +73,18 @@ examples/gguf-hash/CMakeFiles/xxhash.dir/codegen:
 .PHONY : examples/gguf-hash/CMakeFiles/xxhash.dir/codegen
 
 examples/gguf-hash/CMakeFiles/xxhash.dir/deps/xxhash/xxhash.c.o: examples/gguf-hash/CMakeFiles/xxhash.dir/flags.make
-examples/gguf-hash/CMakeFiles/xxhash.dir/deps/xxhash/xxhash.c.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/examples/gguf-hash/deps/xxhash/xxhash.c
+examples/gguf-hash/CMakeFiles/xxhash.dir/deps/xxhash/xxhash.c.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/examples/gguf-hash/deps/xxhash/xxhash.c
 examples/gguf-hash/CMakeFiles/xxhash.dir/deps/xxhash/xxhash.c.o: examples/gguf-hash/CMakeFiles/xxhash.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object examples/gguf-hash/CMakeFiles/xxhash.dir/deps/xxhash/xxhash.c.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/gguf-hash" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/gguf-hash/CMakeFiles/xxhash.dir/deps/xxhash/xxhash.c.o -MF CMakeFiles/xxhash.dir/deps/xxhash/xxhash.c.o.d -o CMakeFiles/xxhash.dir/deps/xxhash/xxhash.c.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/gguf-hash/deps/xxhash/xxhash.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object examples/gguf-hash/CMakeFiles/xxhash.dir/deps/xxhash/xxhash.c.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/gguf-hash" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/gguf-hash/CMakeFiles/xxhash.dir/deps/xxhash/xxhash.c.o -MF CMakeFiles/xxhash.dir/deps/xxhash/xxhash.c.o.d -o CMakeFiles/xxhash.dir/deps/xxhash/xxhash.c.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/gguf-hash/deps/xxhash/xxhash.c"
 
 examples/gguf-hash/CMakeFiles/xxhash.dir/deps/xxhash/xxhash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/xxhash.dir/deps/xxhash/xxhash.c.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/gguf-hash" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/gguf-hash/deps/xxhash/xxhash.c" > CMakeFiles/xxhash.dir/deps/xxhash/xxhash.c.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/gguf-hash" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/gguf-hash/deps/xxhash/xxhash.c" > CMakeFiles/xxhash.dir/deps/xxhash/xxhash.c.i
 
 examples/gguf-hash/CMakeFiles/xxhash.dir/deps/xxhash/xxhash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/xxhash.dir/deps/xxhash/xxhash.c.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/gguf-hash" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/gguf-hash/deps/xxhash/xxhash.c" -o CMakeFiles/xxhash.dir/deps/xxhash/xxhash.c.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/gguf-hash" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/gguf-hash/deps/xxhash/xxhash.c" -o CMakeFiles/xxhash.dir/deps/xxhash/xxhash.c.s
 
 xxhash: examples/gguf-hash/CMakeFiles/xxhash.dir/deps/xxhash/xxhash.c.o
 xxhash: examples/gguf-hash/CMakeFiles/xxhash.dir/build.make
@@ -95,10 +95,10 @@ examples/gguf-hash/CMakeFiles/xxhash.dir/build: xxhash
 .PHONY : examples/gguf-hash/CMakeFiles/xxhash.dir/build
 
 examples/gguf-hash/CMakeFiles/xxhash.dir/clean:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/gguf-hash" && $(CMAKE_COMMAND) -P CMakeFiles/xxhash.dir/cmake_clean.cmake
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/gguf-hash" && $(CMAKE_COMMAND) -P CMakeFiles/xxhash.dir/cmake_clean.cmake
 .PHONY : examples/gguf-hash/CMakeFiles/xxhash.dir/clean
 
 examples/gguf-hash/CMakeFiles/xxhash.dir/depend:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/gguf-hash" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/gguf-hash" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/gguf-hash/CMakeFiles/xxhash.dir/DependInfo.cmake" "--color=$(COLOR)" xxhash
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/gguf-hash" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/gguf-hash" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/gguf-hash/CMakeFiles/xxhash.dir/DependInfo.cmake" "--color=$(COLOR)" xxhash
 .PHONY : examples/gguf-hash/CMakeFiles/xxhash.dir/depend
 

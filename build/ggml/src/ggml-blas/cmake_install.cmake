@@ -1,4 +1,4 @@
-# Install script for directory: /Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-blas
+# Install script for directory: /Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-blas
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,11 +38,11 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/bin/libggml-blas.dylib")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/bin/libggml-blas.dylib")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libggml-blas.dylib" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libggml-blas.dylib")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/bin"
+      -delete_rpath "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/bin"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libggml-blas.dylib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" -x "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libggml-blas.dylib")
@@ -56,6 +56,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src/ggml-blas/install_local_manifest.txt"
+  file(WRITE "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src/ggml-blas/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

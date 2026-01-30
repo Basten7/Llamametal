@@ -1,5 +1,5 @@
 examples/gguf-hash/CMakeFiles/sha1.dir/deps/sha1/sha1.c.o: \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/examples/gguf-hash/deps/sha1/sha1.c \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/examples/gguf-hash/deps/sha1/sha1.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
@@ -54,4 +54,4 @@ examples/gguf-hash/CMakeFiles/sha1.dir/deps/sha1/sha1.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint64_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_intmax_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uintmax_t.h \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/examples/gguf-hash/deps/sha1/sha1.h
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/examples/gguf-hash/deps/sha1/sha1.h

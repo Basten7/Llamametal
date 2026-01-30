@@ -1,4 +1,4 @@
-# Install script for directory: /Volumes/NM790-4To/Good llama.cpp V4/llama.cpp
+# Install script for directory: /Volumes/NM790-4To/Good llama.cpp V4/Llamametal
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,45 +39,45 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/cmake_install.cmake")
+  include("/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/src/cmake_install.cmake")
+  include("/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/src/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common/cmake_install.cmake")
+  include("/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tests/cmake_install.cmake")
+  include("/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tests/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/cmake_install.cmake")
+  include("/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/pocs/cmake_install.cmake")
+  include("/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/pocs/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/cmake_install.cmake")
+  include("/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/bin/libllama.dylib")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/bin/libllama.dylib")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libllama.dylib" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libllama.dylib")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/bin"
+      -delete_rpath "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/bin"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libllama.dylib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" -x "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libllama.dylib")
@@ -90,30 +90,30 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES
-    "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/include/llama.h"
-    "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/include/llama-cpp.h"
+    "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/include/llama.h"
+    "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/include/llama-cpp.h"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/llama" TYPE FILE FILES
-    "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/llama-config.cmake"
-    "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/llama-version.cmake"
+    "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/llama-config.cmake"
+    "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/llama-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE FILE PERMISSIONS OWNER_READ OWNER_WRITE OWNER_EXECUTE GROUP_READ GROUP_EXECUTE WORLD_READ WORLD_EXECUTE FILES "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/convert_hf_to_gguf.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE FILE PERMISSIONS OWNER_READ OWNER_WRITE OWNER_EXECUTE GROUP_READ GROUP_EXECUTE WORLD_READ WORLD_EXECUTE FILES "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/convert_hf_to_gguf.py")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/llama.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/llama.pc")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/install_local_manifest.txt"
+  file(WRITE "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -129,6 +129,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

@@ -1,4 +1,4 @@
-# Install script for directory: /Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tools
+# Install script for directory: /Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tools
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,77 +39,77 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/batched-bench/cmake_install.cmake")
+  include("/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/batched-bench/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/gguf-split/cmake_install.cmake")
+  include("/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/gguf-split/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/imatrix/cmake_install.cmake")
+  include("/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/imatrix/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/llama-bench/cmake_install.cmake")
+  include("/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/llama-bench/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/main/cmake_install.cmake")
+  include("/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/main/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/perplexity/cmake_install.cmake")
+  include("/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/perplexity/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/quantize/cmake_install.cmake")
+  include("/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/quantize/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/server/cmake_install.cmake")
+  include("/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/server/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/run/cmake_install.cmake")
+  include("/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/run/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/tokenize/cmake_install.cmake")
+  include("/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/tokenize/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/tts/cmake_install.cmake")
+  include("/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/tts/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/mtmd/cmake_install.cmake")
+  include("/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/mtmd/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/cvector-generator/cmake_install.cmake")
+  include("/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/cvector-generator/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/export-lora/cmake_install.cmake")
+  include("/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/export-lora/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/install_local_manifest.txt"
+  file(WRITE "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

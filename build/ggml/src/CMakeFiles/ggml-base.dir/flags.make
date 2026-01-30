@@ -3,15 +3,15 @@
 
 # compile C with /usr/bin/cc
 # compile CXX with /usr/bin/c++
-C_DEFINES = -DGGML_BUILD -DGGML_COMMIT=\"a0aaf4ae5\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\"0.0.6124\" -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS
+C_DEFINES = -DGGML_BUILD -DGGML_COMMIT=\"154263e\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\"0.0.3\" -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS
 
-C_INCLUDES = -I"/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/." -I"/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/../include"
+C_INCLUDES = -I"/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/." -I"/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/../include"
 
 C_FLAGS = -O3 -DNDEBUG -std=gnu11 -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wdouble-promotion
 
-CXX_DEFINES = -DGGML_BUILD -DGGML_COMMIT=\"a0aaf4ae5\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\"0.0.6124\" -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS
+CXX_DEFINES = -DGGML_BUILD -DGGML_COMMIT=\"154263e\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\"0.0.3\" -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS
 
-CXX_INCLUDES = -I"/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/." -I"/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/../include"
+CXX_INCLUDES = -I"/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/." -I"/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/../include"
 
 CXX_FLAGS = -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi
 

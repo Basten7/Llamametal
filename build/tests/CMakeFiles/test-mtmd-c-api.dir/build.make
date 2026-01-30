@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp"
+CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build"
+CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build"
 
 # Include any dependencies generated for this target.
 include tests/CMakeFiles/test-mtmd-c-api.dir/depend.make
@@ -73,32 +73,32 @@ tests/CMakeFiles/test-mtmd-c-api.dir/codegen:
 .PHONY : tests/CMakeFiles/test-mtmd-c-api.dir/codegen
 
 tests/CMakeFiles/test-mtmd-c-api.dir/test-mtmd-c-api.c.o: tests/CMakeFiles/test-mtmd-c-api.dir/flags.make
-tests/CMakeFiles/test-mtmd-c-api.dir/test-mtmd-c-api.c.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/tests/test-mtmd-c-api.c
+tests/CMakeFiles/test-mtmd-c-api.dir/test-mtmd-c-api.c.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/tests/test-mtmd-c-api.c
 tests/CMakeFiles/test-mtmd-c-api.dir/test-mtmd-c-api.c.o: tests/CMakeFiles/test-mtmd-c-api.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object tests/CMakeFiles/test-mtmd-c-api.dir/test-mtmd-c-api.c.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tests" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT tests/CMakeFiles/test-mtmd-c-api.dir/test-mtmd-c-api.c.o -MF CMakeFiles/test-mtmd-c-api.dir/test-mtmd-c-api.c.o.d -o CMakeFiles/test-mtmd-c-api.dir/test-mtmd-c-api.c.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tests/test-mtmd-c-api.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object tests/CMakeFiles/test-mtmd-c-api.dir/test-mtmd-c-api.c.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tests" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT tests/CMakeFiles/test-mtmd-c-api.dir/test-mtmd-c-api.c.o -MF CMakeFiles/test-mtmd-c-api.dir/test-mtmd-c-api.c.o.d -o CMakeFiles/test-mtmd-c-api.dir/test-mtmd-c-api.c.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tests/test-mtmd-c-api.c"
 
 tests/CMakeFiles/test-mtmd-c-api.dir/test-mtmd-c-api.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/test-mtmd-c-api.dir/test-mtmd-c-api.c.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tests" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tests/test-mtmd-c-api.c" > CMakeFiles/test-mtmd-c-api.dir/test-mtmd-c-api.c.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tests" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tests/test-mtmd-c-api.c" > CMakeFiles/test-mtmd-c-api.dir/test-mtmd-c-api.c.i
 
 tests/CMakeFiles/test-mtmd-c-api.dir/test-mtmd-c-api.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/test-mtmd-c-api.dir/test-mtmd-c-api.c.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tests" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tests/test-mtmd-c-api.c" -o CMakeFiles/test-mtmd-c-api.dir/test-mtmd-c-api.c.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tests" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tests/test-mtmd-c-api.c" -o CMakeFiles/test-mtmd-c-api.dir/test-mtmd-c-api.c.s
 
 tests/CMakeFiles/test-mtmd-c-api.dir/get-model.cpp.o: tests/CMakeFiles/test-mtmd-c-api.dir/flags.make
-tests/CMakeFiles/test-mtmd-c-api.dir/get-model.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/tests/get-model.cpp
+tests/CMakeFiles/test-mtmd-c-api.dir/get-model.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/tests/get-model.cpp
 tests/CMakeFiles/test-mtmd-c-api.dir/get-model.cpp.o: tests/CMakeFiles/test-mtmd-c-api.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/test-mtmd-c-api.dir/get-model.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/test-mtmd-c-api.dir/get-model.cpp.o -MF CMakeFiles/test-mtmd-c-api.dir/get-model.cpp.o.d -o CMakeFiles/test-mtmd-c-api.dir/get-model.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tests/get-model.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/test-mtmd-c-api.dir/get-model.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/test-mtmd-c-api.dir/get-model.cpp.o -MF CMakeFiles/test-mtmd-c-api.dir/get-model.cpp.o.d -o CMakeFiles/test-mtmd-c-api.dir/get-model.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tests/get-model.cpp"
 
 tests/CMakeFiles/test-mtmd-c-api.dir/get-model.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test-mtmd-c-api.dir/get-model.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tests/get-model.cpp" > CMakeFiles/test-mtmd-c-api.dir/get-model.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tests/get-model.cpp" > CMakeFiles/test-mtmd-c-api.dir/get-model.cpp.i
 
 tests/CMakeFiles/test-mtmd-c-api.dir/get-model.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test-mtmd-c-api.dir/get-model.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tests/get-model.cpp" -o CMakeFiles/test-mtmd-c-api.dir/get-model.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tests" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tests/get-model.cpp" -o CMakeFiles/test-mtmd-c-api.dir/get-model.cpp.s
 
 # Object files for target test-mtmd-c-api
 test__mtmd__c__api_OBJECTS = \
@@ -121,18 +121,18 @@ bin/test-mtmd-c-api: bin/libggml-blas.dylib
 bin/test-mtmd-c-api: bin/libggml-metal.dylib
 bin/test-mtmd-c-api: bin/libggml-base.dylib
 bin/test-mtmd-c-api: tests/CMakeFiles/test-mtmd-c-api.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/test-mtmd-c-api"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tests" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test-mtmd-c-api.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/test-mtmd-c-api"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tests" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test-mtmd-c-api.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tests/CMakeFiles/test-mtmd-c-api.dir/build: bin/test-mtmd-c-api
 .PHONY : tests/CMakeFiles/test-mtmd-c-api.dir/build
 
 tests/CMakeFiles/test-mtmd-c-api.dir/clean:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tests" && $(CMAKE_COMMAND) -P CMakeFiles/test-mtmd-c-api.dir/cmake_clean.cmake
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tests" && $(CMAKE_COMMAND) -P CMakeFiles/test-mtmd-c-api.dir/cmake_clean.cmake
 .PHONY : tests/CMakeFiles/test-mtmd-c-api.dir/clean
 
 tests/CMakeFiles/test-mtmd-c-api.dir/depend:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tests" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tests" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tests/CMakeFiles/test-mtmd-c-api.dir/DependInfo.cmake" "--color=$(COLOR)" test-mtmd-c-api
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tests" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tests" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tests/CMakeFiles/test-mtmd-c-api.dir/DependInfo.cmake" "--color=$(COLOR)" test-mtmd-c-api
 .PHONY : tests/CMakeFiles/test-mtmd-c-api.dir/depend
 

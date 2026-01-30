@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp"
+CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build"
+CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build"
 
 # Include any dependencies generated for this target.
 include examples/embedding/CMakeFiles/llama-embedding.dir/depend.make
@@ -73,18 +73,18 @@ examples/embedding/CMakeFiles/llama-embedding.dir/codegen:
 .PHONY : examples/embedding/CMakeFiles/llama-embedding.dir/codegen
 
 examples/embedding/CMakeFiles/llama-embedding.dir/embedding.cpp.o: examples/embedding/CMakeFiles/llama-embedding.dir/flags.make
-examples/embedding/CMakeFiles/llama-embedding.dir/embedding.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/examples/embedding/embedding.cpp
+examples/embedding/CMakeFiles/llama-embedding.dir/embedding.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/examples/embedding/embedding.cpp
 examples/embedding/CMakeFiles/llama-embedding.dir/embedding.cpp.o: examples/embedding/CMakeFiles/llama-embedding.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/embedding/CMakeFiles/llama-embedding.dir/embedding.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/embedding" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/embedding/CMakeFiles/llama-embedding.dir/embedding.cpp.o -MF CMakeFiles/llama-embedding.dir/embedding.cpp.o.d -o CMakeFiles/llama-embedding.dir/embedding.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/embedding/embedding.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/embedding/CMakeFiles/llama-embedding.dir/embedding.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/embedding" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/embedding/CMakeFiles/llama-embedding.dir/embedding.cpp.o -MF CMakeFiles/llama-embedding.dir/embedding.cpp.o.d -o CMakeFiles/llama-embedding.dir/embedding.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/embedding/embedding.cpp"
 
 examples/embedding/CMakeFiles/llama-embedding.dir/embedding.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama-embedding.dir/embedding.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/embedding" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/embedding/embedding.cpp" > CMakeFiles/llama-embedding.dir/embedding.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/embedding" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/embedding/embedding.cpp" > CMakeFiles/llama-embedding.dir/embedding.cpp.i
 
 examples/embedding/CMakeFiles/llama-embedding.dir/embedding.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/llama-embedding.dir/embedding.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/embedding" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/embedding/embedding.cpp" -o CMakeFiles/llama-embedding.dir/embedding.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/embedding" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/embedding/embedding.cpp" -o CMakeFiles/llama-embedding.dir/embedding.cpp.s
 
 # Object files for target llama-embedding
 llama__embedding_OBJECTS = \
@@ -104,18 +104,18 @@ bin/llama-embedding: bin/libggml-metal.dylib
 bin/llama-embedding: bin/libggml-base.dylib
 bin/llama-embedding: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libcurl.tbd
 bin/llama-embedding: examples/embedding/CMakeFiles/llama-embedding.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-embedding"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/embedding" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-embedding.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-embedding"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/embedding" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-embedding.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/embedding/CMakeFiles/llama-embedding.dir/build: bin/llama-embedding
 .PHONY : examples/embedding/CMakeFiles/llama-embedding.dir/build
 
 examples/embedding/CMakeFiles/llama-embedding.dir/clean:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/embedding" && $(CMAKE_COMMAND) -P CMakeFiles/llama-embedding.dir/cmake_clean.cmake
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/embedding" && $(CMAKE_COMMAND) -P CMakeFiles/llama-embedding.dir/cmake_clean.cmake
 .PHONY : examples/embedding/CMakeFiles/llama-embedding.dir/clean
 
 examples/embedding/CMakeFiles/llama-embedding.dir/depend:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/embedding" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/embedding" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/embedding/CMakeFiles/llama-embedding.dir/DependInfo.cmake" "--color=$(COLOR)" llama-embedding
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/embedding" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/embedding" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/embedding/CMakeFiles/llama-embedding.dir/DependInfo.cmake" "--color=$(COLOR)" llama-embedding
 .PHONY : examples/embedding/CMakeFiles/llama-embedding.dir/depend
 

@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp"
+CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build"
+CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build"
 
 # Include any dependencies generated for this target.
 include examples/passkey/CMakeFiles/llama-passkey.dir/depend.make
@@ -73,18 +73,18 @@ examples/passkey/CMakeFiles/llama-passkey.dir/codegen:
 .PHONY : examples/passkey/CMakeFiles/llama-passkey.dir/codegen
 
 examples/passkey/CMakeFiles/llama-passkey.dir/passkey.cpp.o: examples/passkey/CMakeFiles/llama-passkey.dir/flags.make
-examples/passkey/CMakeFiles/llama-passkey.dir/passkey.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/examples/passkey/passkey.cpp
+examples/passkey/CMakeFiles/llama-passkey.dir/passkey.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/examples/passkey/passkey.cpp
 examples/passkey/CMakeFiles/llama-passkey.dir/passkey.cpp.o: examples/passkey/CMakeFiles/llama-passkey.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/passkey/CMakeFiles/llama-passkey.dir/passkey.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/passkey" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/passkey/CMakeFiles/llama-passkey.dir/passkey.cpp.o -MF CMakeFiles/llama-passkey.dir/passkey.cpp.o.d -o CMakeFiles/llama-passkey.dir/passkey.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/passkey/passkey.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/passkey/CMakeFiles/llama-passkey.dir/passkey.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/passkey" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/passkey/CMakeFiles/llama-passkey.dir/passkey.cpp.o -MF CMakeFiles/llama-passkey.dir/passkey.cpp.o.d -o CMakeFiles/llama-passkey.dir/passkey.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/passkey/passkey.cpp"
 
 examples/passkey/CMakeFiles/llama-passkey.dir/passkey.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama-passkey.dir/passkey.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/passkey" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/passkey/passkey.cpp" > CMakeFiles/llama-passkey.dir/passkey.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/passkey" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/passkey/passkey.cpp" > CMakeFiles/llama-passkey.dir/passkey.cpp.i
 
 examples/passkey/CMakeFiles/llama-passkey.dir/passkey.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/llama-passkey.dir/passkey.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/passkey" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/passkey/passkey.cpp" -o CMakeFiles/llama-passkey.dir/passkey.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/passkey" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/passkey/passkey.cpp" -o CMakeFiles/llama-passkey.dir/passkey.cpp.s
 
 # Object files for target llama-passkey
 llama__passkey_OBJECTS = \
@@ -104,18 +104,18 @@ bin/llama-passkey: bin/libggml-metal.dylib
 bin/llama-passkey: bin/libggml-base.dylib
 bin/llama-passkey: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libcurl.tbd
 bin/llama-passkey: examples/passkey/CMakeFiles/llama-passkey.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-passkey"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/passkey" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-passkey.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-passkey"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/passkey" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-passkey.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/passkey/CMakeFiles/llama-passkey.dir/build: bin/llama-passkey
 .PHONY : examples/passkey/CMakeFiles/llama-passkey.dir/build
 
 examples/passkey/CMakeFiles/llama-passkey.dir/clean:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/passkey" && $(CMAKE_COMMAND) -P CMakeFiles/llama-passkey.dir/cmake_clean.cmake
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/passkey" && $(CMAKE_COMMAND) -P CMakeFiles/llama-passkey.dir/cmake_clean.cmake
 .PHONY : examples/passkey/CMakeFiles/llama-passkey.dir/clean
 
 examples/passkey/CMakeFiles/llama-passkey.dir/depend:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/passkey" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/passkey" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/passkey/CMakeFiles/llama-passkey.dir/DependInfo.cmake" "--color=$(COLOR)" llama-passkey
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/passkey" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/passkey" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/passkey/CMakeFiles/llama-passkey.dir/DependInfo.cmake" "--color=$(COLOR)" llama-passkey
 .PHONY : examples/passkey/CMakeFiles/llama-passkey.dir/depend
 

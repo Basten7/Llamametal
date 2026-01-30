@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp"
+CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build"
+CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build"
 
 # Include any dependencies generated for this target.
 include examples/gen-docs/CMakeFiles/llama-gen-docs.dir/depend.make
@@ -73,18 +73,18 @@ examples/gen-docs/CMakeFiles/llama-gen-docs.dir/codegen:
 .PHONY : examples/gen-docs/CMakeFiles/llama-gen-docs.dir/codegen
 
 examples/gen-docs/CMakeFiles/llama-gen-docs.dir/gen-docs.cpp.o: examples/gen-docs/CMakeFiles/llama-gen-docs.dir/flags.make
-examples/gen-docs/CMakeFiles/llama-gen-docs.dir/gen-docs.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/examples/gen-docs/gen-docs.cpp
+examples/gen-docs/CMakeFiles/llama-gen-docs.dir/gen-docs.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/examples/gen-docs/gen-docs.cpp
 examples/gen-docs/CMakeFiles/llama-gen-docs.dir/gen-docs.cpp.o: examples/gen-docs/CMakeFiles/llama-gen-docs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/gen-docs/CMakeFiles/llama-gen-docs.dir/gen-docs.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/gen-docs" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/gen-docs/CMakeFiles/llama-gen-docs.dir/gen-docs.cpp.o -MF CMakeFiles/llama-gen-docs.dir/gen-docs.cpp.o.d -o CMakeFiles/llama-gen-docs.dir/gen-docs.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/gen-docs/gen-docs.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/gen-docs/CMakeFiles/llama-gen-docs.dir/gen-docs.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/gen-docs" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/gen-docs/CMakeFiles/llama-gen-docs.dir/gen-docs.cpp.o -MF CMakeFiles/llama-gen-docs.dir/gen-docs.cpp.o.d -o CMakeFiles/llama-gen-docs.dir/gen-docs.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/gen-docs/gen-docs.cpp"
 
 examples/gen-docs/CMakeFiles/llama-gen-docs.dir/gen-docs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama-gen-docs.dir/gen-docs.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/gen-docs" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/gen-docs/gen-docs.cpp" > CMakeFiles/llama-gen-docs.dir/gen-docs.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/gen-docs" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/gen-docs/gen-docs.cpp" > CMakeFiles/llama-gen-docs.dir/gen-docs.cpp.i
 
 examples/gen-docs/CMakeFiles/llama-gen-docs.dir/gen-docs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/llama-gen-docs.dir/gen-docs.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/gen-docs" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/gen-docs/gen-docs.cpp" -o CMakeFiles/llama-gen-docs.dir/gen-docs.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/gen-docs" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/gen-docs/gen-docs.cpp" -o CMakeFiles/llama-gen-docs.dir/gen-docs.cpp.s
 
 # Object files for target llama-gen-docs
 llama__gen__docs_OBJECTS = \
@@ -104,18 +104,18 @@ bin/llama-gen-docs: bin/libggml-metal.dylib
 bin/llama-gen-docs: bin/libggml-base.dylib
 bin/llama-gen-docs: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libcurl.tbd
 bin/llama-gen-docs: examples/gen-docs/CMakeFiles/llama-gen-docs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-gen-docs"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/gen-docs" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-gen-docs.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-gen-docs"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/gen-docs" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-gen-docs.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/gen-docs/CMakeFiles/llama-gen-docs.dir/build: bin/llama-gen-docs
 .PHONY : examples/gen-docs/CMakeFiles/llama-gen-docs.dir/build
 
 examples/gen-docs/CMakeFiles/llama-gen-docs.dir/clean:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/gen-docs" && $(CMAKE_COMMAND) -P CMakeFiles/llama-gen-docs.dir/cmake_clean.cmake
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/gen-docs" && $(CMAKE_COMMAND) -P CMakeFiles/llama-gen-docs.dir/cmake_clean.cmake
 .PHONY : examples/gen-docs/CMakeFiles/llama-gen-docs.dir/clean
 
 examples/gen-docs/CMakeFiles/llama-gen-docs.dir/depend:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/gen-docs" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/gen-docs" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/gen-docs/CMakeFiles/llama-gen-docs.dir/DependInfo.cmake" "--color=$(COLOR)" llama-gen-docs
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/gen-docs" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/gen-docs" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/gen-docs/CMakeFiles/llama-gen-docs.dir/DependInfo.cmake" "--color=$(COLOR)" llama-gen-docs
 .PHONY : examples/gen-docs/CMakeFiles/llama-gen-docs.dir/depend
 

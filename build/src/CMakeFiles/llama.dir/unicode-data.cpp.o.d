@@ -1,6 +1,6 @@
 src/CMakeFiles/llama.dir/unicode-data.cpp.o: \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/src/unicode-data.cpp \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/src/unicode-data.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/src/unicode-data.cpp \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/src/unicode-data.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdint \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \

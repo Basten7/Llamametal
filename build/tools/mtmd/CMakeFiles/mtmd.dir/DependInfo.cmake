@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tools/mtmd/clip.cpp" "tools/mtmd/CMakeFiles/mtmd.dir/clip.cpp.o" "gcc" "tools/mtmd/CMakeFiles/mtmd.dir/clip.cpp.o.d"
-  "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tools/mtmd/mtmd-audio.cpp" "tools/mtmd/CMakeFiles/mtmd.dir/mtmd-audio.cpp.o" "gcc" "tools/mtmd/CMakeFiles/mtmd.dir/mtmd-audio.cpp.o.d"
-  "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tools/mtmd/mtmd-helper.cpp" "tools/mtmd/CMakeFiles/mtmd.dir/mtmd-helper.cpp.o" "gcc" "tools/mtmd/CMakeFiles/mtmd.dir/mtmd-helper.cpp.o.d"
-  "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tools/mtmd/mtmd.cpp" "tools/mtmd/CMakeFiles/mtmd.dir/mtmd.cpp.o" "gcc" "tools/mtmd/CMakeFiles/mtmd.dir/mtmd.cpp.o.d"
+  "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tools/mtmd/clip.cpp" "tools/mtmd/CMakeFiles/mtmd.dir/clip.cpp.o" "gcc" "tools/mtmd/CMakeFiles/mtmd.dir/clip.cpp.o.d"
+  "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tools/mtmd/mtmd-audio.cpp" "tools/mtmd/CMakeFiles/mtmd.dir/mtmd-audio.cpp.o" "gcc" "tools/mtmd/CMakeFiles/mtmd.dir/mtmd-audio.cpp.o.d"
+  "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tools/mtmd/mtmd-helper.cpp" "tools/mtmd/CMakeFiles/mtmd.dir/mtmd-helper.cpp.o" "gcc" "tools/mtmd/CMakeFiles/mtmd.dir/mtmd-helper.cpp.o.d"
+  "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tools/mtmd/mtmd.cpp" "tools/mtmd/CMakeFiles/mtmd.dir/mtmd.cpp.o" "gcc" "tools/mtmd/CMakeFiles/mtmd.dir/mtmd.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

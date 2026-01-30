@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp"
+CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build"
+CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build"
 
 # Include any dependencies generated for this target.
 include tools/cvector-generator/CMakeFiles/llama-cvector-generator.dir/depend.make
@@ -73,18 +73,18 @@ tools/cvector-generator/CMakeFiles/llama-cvector-generator.dir/codegen:
 .PHONY : tools/cvector-generator/CMakeFiles/llama-cvector-generator.dir/codegen
 
 tools/cvector-generator/CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.o: tools/cvector-generator/CMakeFiles/llama-cvector-generator.dir/flags.make
-tools/cvector-generator/CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/tools/cvector-generator/cvector-generator.cpp
+tools/cvector-generator/CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/tools/cvector-generator/cvector-generator.cpp
 tools/cvector-generator/CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.o: tools/cvector-generator/CMakeFiles/llama-cvector-generator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tools/cvector-generator/CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/cvector-generator" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tools/cvector-generator/CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.o -MF CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.o.d -o CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tools/cvector-generator/cvector-generator.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tools/cvector-generator/CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/cvector-generator" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tools/cvector-generator/CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.o -MF CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.o.d -o CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tools/cvector-generator/cvector-generator.cpp"
 
 tools/cvector-generator/CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/cvector-generator" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tools/cvector-generator/cvector-generator.cpp" > CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/cvector-generator" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tools/cvector-generator/cvector-generator.cpp" > CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.i
 
 tools/cvector-generator/CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/cvector-generator" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tools/cvector-generator/cvector-generator.cpp" -o CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/cvector-generator" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tools/cvector-generator/cvector-generator.cpp" -o CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.s
 
 # Object files for target llama-cvector-generator
 llama__cvector__generator_OBJECTS = \
@@ -104,18 +104,18 @@ bin/llama-cvector-generator: bin/libggml-metal.dylib
 bin/llama-cvector-generator: bin/libggml-base.dylib
 bin/llama-cvector-generator: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libcurl.tbd
 bin/llama-cvector-generator: tools/cvector-generator/CMakeFiles/llama-cvector-generator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-cvector-generator"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/cvector-generator" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-cvector-generator.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-cvector-generator"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/cvector-generator" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-cvector-generator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tools/cvector-generator/CMakeFiles/llama-cvector-generator.dir/build: bin/llama-cvector-generator
 .PHONY : tools/cvector-generator/CMakeFiles/llama-cvector-generator.dir/build
 
 tools/cvector-generator/CMakeFiles/llama-cvector-generator.dir/clean:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/cvector-generator" && $(CMAKE_COMMAND) -P CMakeFiles/llama-cvector-generator.dir/cmake_clean.cmake
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/cvector-generator" && $(CMAKE_COMMAND) -P CMakeFiles/llama-cvector-generator.dir/cmake_clean.cmake
 .PHONY : tools/cvector-generator/CMakeFiles/llama-cvector-generator.dir/clean
 
 tools/cvector-generator/CMakeFiles/llama-cvector-generator.dir/depend:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tools/cvector-generator" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/cvector-generator" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/cvector-generator/CMakeFiles/llama-cvector-generator.dir/DependInfo.cmake" "--color=$(COLOR)" llama-cvector-generator
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tools/cvector-generator" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/cvector-generator" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/cvector-generator/CMakeFiles/llama-cvector-generator.dir/DependInfo.cmake" "--color=$(COLOR)" llama-cvector-generator
 .PHONY : tools/cvector-generator/CMakeFiles/llama-cvector-generator.dir/depend
 

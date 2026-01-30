@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp"
+CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build"
+CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build"
 
 # Include any dependencies generated for this target.
 include tools/gguf-split/CMakeFiles/llama-gguf-split.dir/depend.make
@@ -73,18 +73,18 @@ tools/gguf-split/CMakeFiles/llama-gguf-split.dir/codegen:
 .PHONY : tools/gguf-split/CMakeFiles/llama-gguf-split.dir/codegen
 
 tools/gguf-split/CMakeFiles/llama-gguf-split.dir/gguf-split.cpp.o: tools/gguf-split/CMakeFiles/llama-gguf-split.dir/flags.make
-tools/gguf-split/CMakeFiles/llama-gguf-split.dir/gguf-split.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/tools/gguf-split/gguf-split.cpp
+tools/gguf-split/CMakeFiles/llama-gguf-split.dir/gguf-split.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/tools/gguf-split/gguf-split.cpp
 tools/gguf-split/CMakeFiles/llama-gguf-split.dir/gguf-split.cpp.o: tools/gguf-split/CMakeFiles/llama-gguf-split.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tools/gguf-split/CMakeFiles/llama-gguf-split.dir/gguf-split.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/gguf-split" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tools/gguf-split/CMakeFiles/llama-gguf-split.dir/gguf-split.cpp.o -MF CMakeFiles/llama-gguf-split.dir/gguf-split.cpp.o.d -o CMakeFiles/llama-gguf-split.dir/gguf-split.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tools/gguf-split/gguf-split.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tools/gguf-split/CMakeFiles/llama-gguf-split.dir/gguf-split.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/gguf-split" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tools/gguf-split/CMakeFiles/llama-gguf-split.dir/gguf-split.cpp.o -MF CMakeFiles/llama-gguf-split.dir/gguf-split.cpp.o.d -o CMakeFiles/llama-gguf-split.dir/gguf-split.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tools/gguf-split/gguf-split.cpp"
 
 tools/gguf-split/CMakeFiles/llama-gguf-split.dir/gguf-split.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama-gguf-split.dir/gguf-split.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/gguf-split" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tools/gguf-split/gguf-split.cpp" > CMakeFiles/llama-gguf-split.dir/gguf-split.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/gguf-split" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tools/gguf-split/gguf-split.cpp" > CMakeFiles/llama-gguf-split.dir/gguf-split.cpp.i
 
 tools/gguf-split/CMakeFiles/llama-gguf-split.dir/gguf-split.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/llama-gguf-split.dir/gguf-split.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/gguf-split" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tools/gguf-split/gguf-split.cpp" -o CMakeFiles/llama-gguf-split.dir/gguf-split.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/gguf-split" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tools/gguf-split/gguf-split.cpp" -o CMakeFiles/llama-gguf-split.dir/gguf-split.cpp.s
 
 # Object files for target llama-gguf-split
 llama__gguf__split_OBJECTS = \
@@ -104,18 +104,18 @@ bin/llama-gguf-split: bin/libggml-metal.dylib
 bin/llama-gguf-split: bin/libggml-base.dylib
 bin/llama-gguf-split: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libcurl.tbd
 bin/llama-gguf-split: tools/gguf-split/CMakeFiles/llama-gguf-split.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-gguf-split"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/gguf-split" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-gguf-split.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-gguf-split"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/gguf-split" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-gguf-split.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tools/gguf-split/CMakeFiles/llama-gguf-split.dir/build: bin/llama-gguf-split
 .PHONY : tools/gguf-split/CMakeFiles/llama-gguf-split.dir/build
 
 tools/gguf-split/CMakeFiles/llama-gguf-split.dir/clean:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/gguf-split" && $(CMAKE_COMMAND) -P CMakeFiles/llama-gguf-split.dir/cmake_clean.cmake
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/gguf-split" && $(CMAKE_COMMAND) -P CMakeFiles/llama-gguf-split.dir/cmake_clean.cmake
 .PHONY : tools/gguf-split/CMakeFiles/llama-gguf-split.dir/clean
 
 tools/gguf-split/CMakeFiles/llama-gguf-split.dir/depend:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tools/gguf-split" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/gguf-split" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/gguf-split/CMakeFiles/llama-gguf-split.dir/DependInfo.cmake" "--color=$(COLOR)" llama-gguf-split
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tools/gguf-split" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/gguf-split" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/gguf-split/CMakeFiles/llama-gguf-split.dir/DependInfo.cmake" "--color=$(COLOR)" llama-gguf-split
 .PHONY : tools/gguf-split/CMakeFiles/llama-gguf-split.dir/depend
 

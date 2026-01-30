@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp"
+CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build"
+CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build"
 
 # Include any dependencies generated for this target.
 include ggml/src/CMakeFiles/ggml-cpu.dir/depend.make
@@ -73,214 +73,214 @@ ggml/src/CMakeFiles/ggml-cpu.dir/codegen:
 .PHONY : ggml/src/CMakeFiles/ggml-cpu.dir/codegen
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.o: ggml/src/CMakeFiles/ggml-cpu.dir/flags.make
-ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/ggml/src/ggml-cpu/ggml-cpu.c
+ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/ggml/src/ggml-cpu/ggml-cpu.c
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.o: ggml/src/CMakeFiles/ggml-cpu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-cpu/ggml-cpu.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-cpu/ggml-cpu.c"
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-cpu/ggml-cpu.c" > CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-cpu/ggml-cpu.c" > CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.i
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-cpu/ggml-cpu.c" -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-cpu/ggml-cpu.c" -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.s
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.o: ggml/src/CMakeFiles/ggml-cpu.dir/flags.make
-ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/ggml/src/ggml-cpu/ggml-cpu.cpp
+ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/ggml/src/ggml-cpu/ggml-cpu.cpp
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.o: ggml/src/CMakeFiles/ggml-cpu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-cpu/ggml-cpu.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-cpu/ggml-cpu.cpp"
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-cpu/ggml-cpu.cpp" > CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-cpu/ggml-cpu.cpp" > CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.i
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-cpu/ggml-cpu.cpp" -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-cpu/ggml-cpu.cpp" -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.s
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/repack.cpp.o: ggml/src/CMakeFiles/ggml-cpu.dir/flags.make
-ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/repack.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/ggml/src/ggml-cpu/repack.cpp
+ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/repack.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/ggml/src/ggml-cpu/repack.cpp
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/repack.cpp.o: ggml/src/CMakeFiles/ggml-cpu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/repack.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/repack.cpp.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/repack.cpp.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/repack.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-cpu/repack.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/repack.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/repack.cpp.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/repack.cpp.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/repack.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-cpu/repack.cpp"
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/repack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ggml-cpu.dir/ggml-cpu/repack.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-cpu/repack.cpp" > CMakeFiles/ggml-cpu.dir/ggml-cpu/repack.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-cpu/repack.cpp" > CMakeFiles/ggml-cpu.dir/ggml-cpu/repack.cpp.i
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/repack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ggml-cpu.dir/ggml-cpu/repack.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-cpu/repack.cpp" -o CMakeFiles/ggml-cpu.dir/ggml-cpu/repack.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-cpu/repack.cpp" -o CMakeFiles/ggml-cpu.dir/ggml-cpu/repack.cpp.s
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/hbm.cpp.o: ggml/src/CMakeFiles/ggml-cpu.dir/flags.make
-ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/hbm.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/ggml/src/ggml-cpu/hbm.cpp
+ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/hbm.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/ggml/src/ggml-cpu/hbm.cpp
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/hbm.cpp.o: ggml/src/CMakeFiles/ggml-cpu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/hbm.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/hbm.cpp.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/hbm.cpp.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/hbm.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-cpu/hbm.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/hbm.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/hbm.cpp.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/hbm.cpp.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/hbm.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-cpu/hbm.cpp"
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/hbm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ggml-cpu.dir/ggml-cpu/hbm.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-cpu/hbm.cpp" > CMakeFiles/ggml-cpu.dir/ggml-cpu/hbm.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-cpu/hbm.cpp" > CMakeFiles/ggml-cpu.dir/ggml-cpu/hbm.cpp.i
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/hbm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ggml-cpu.dir/ggml-cpu/hbm.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-cpu/hbm.cpp" -o CMakeFiles/ggml-cpu.dir/ggml-cpu/hbm.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-cpu/hbm.cpp" -o CMakeFiles/ggml-cpu.dir/ggml-cpu/hbm.cpp.s
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/quants.c.o: ggml/src/CMakeFiles/ggml-cpu.dir/flags.make
-ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/quants.c.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/ggml/src/ggml-cpu/quants.c
+ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/quants.c.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/ggml/src/ggml-cpu/quants.c
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/quants.c.o: ggml/src/CMakeFiles/ggml-cpu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/quants.c.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/quants.c.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/quants.c.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/quants.c.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-cpu/quants.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/quants.c.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/quants.c.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/quants.c.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/quants.c.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-cpu/quants.c"
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/quants.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ggml-cpu.dir/ggml-cpu/quants.c.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-cpu/quants.c" > CMakeFiles/ggml-cpu.dir/ggml-cpu/quants.c.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-cpu/quants.c" > CMakeFiles/ggml-cpu.dir/ggml-cpu/quants.c.i
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/quants.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ggml-cpu.dir/ggml-cpu/quants.c.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-cpu/quants.c" -o CMakeFiles/ggml-cpu.dir/ggml-cpu/quants.c.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-cpu/quants.c" -o CMakeFiles/ggml-cpu.dir/ggml-cpu/quants.c.s
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/traits.cpp.o: ggml/src/CMakeFiles/ggml-cpu.dir/flags.make
-ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/traits.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/ggml/src/ggml-cpu/traits.cpp
+ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/traits.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/ggml/src/ggml-cpu/traits.cpp
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/traits.cpp.o: ggml/src/CMakeFiles/ggml-cpu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/traits.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/traits.cpp.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/traits.cpp.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/traits.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-cpu/traits.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/traits.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/traits.cpp.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/traits.cpp.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/traits.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-cpu/traits.cpp"
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/traits.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ggml-cpu.dir/ggml-cpu/traits.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-cpu/traits.cpp" > CMakeFiles/ggml-cpu.dir/ggml-cpu/traits.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-cpu/traits.cpp" > CMakeFiles/ggml-cpu.dir/ggml-cpu/traits.cpp.i
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/traits.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ggml-cpu.dir/ggml-cpu/traits.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-cpu/traits.cpp" -o CMakeFiles/ggml-cpu.dir/ggml-cpu/traits.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-cpu/traits.cpp" -o CMakeFiles/ggml-cpu.dir/ggml-cpu/traits.cpp.s
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.o: ggml/src/CMakeFiles/ggml-cpu.dir/flags.make
-ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/ggml/src/ggml-cpu/amx/amx.cpp
+ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/ggml/src/ggml-cpu/amx/amx.cpp
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.o: ggml/src/CMakeFiles/ggml-cpu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-cpu/amx/amx.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-cpu/amx/amx.cpp"
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-cpu/amx/amx.cpp" > CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-cpu/amx/amx.cpp" > CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.i
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-cpu/amx/amx.cpp" -o CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-cpu/amx/amx.cpp" -o CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.s
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.o: ggml/src/CMakeFiles/ggml-cpu.dir/flags.make
-ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/ggml/src/ggml-cpu/amx/mmq.cpp
+ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/ggml/src/ggml-cpu/amx/mmq.cpp
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.o: ggml/src/CMakeFiles/ggml-cpu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-cpu/amx/mmq.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-cpu/amx/mmq.cpp"
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-cpu/amx/mmq.cpp" > CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-cpu/amx/mmq.cpp" > CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.i
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-cpu/amx/mmq.cpp" -o CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-cpu/amx/mmq.cpp" -o CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.s
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.o: ggml/src/CMakeFiles/ggml-cpu.dir/flags.make
-ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/ggml/src/ggml-cpu/binary-ops.cpp
+ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/ggml/src/ggml-cpu/binary-ops.cpp
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.o: ggml/src/CMakeFiles/ggml-cpu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-cpu/binary-ops.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-cpu/binary-ops.cpp"
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-cpu/binary-ops.cpp" > CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-cpu/binary-ops.cpp" > CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.i
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-cpu/binary-ops.cpp" -o CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-cpu/binary-ops.cpp" -o CMakeFiles/ggml-cpu.dir/ggml-cpu/binary-ops.cpp.s
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.o: ggml/src/CMakeFiles/ggml-cpu.dir/flags.make
-ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/ggml/src/ggml-cpu/unary-ops.cpp
+ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/ggml/src/ggml-cpu/unary-ops.cpp
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.o: ggml/src/CMakeFiles/ggml-cpu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-cpu/unary-ops.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-cpu/unary-ops.cpp"
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-cpu/unary-ops.cpp" > CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-cpu/unary-ops.cpp" > CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.i
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-cpu/unary-ops.cpp" -o CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-cpu/unary-ops.cpp" -o CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.s
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.o: ggml/src/CMakeFiles/ggml-cpu.dir/flags.make
-ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/ggml/src/ggml-cpu/vec.cpp
+ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/ggml/src/ggml-cpu/vec.cpp
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.o: ggml/src/CMakeFiles/ggml-cpu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-cpu/vec.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-cpu/vec.cpp"
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-cpu/vec.cpp" > CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-cpu/vec.cpp" > CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.i
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-cpu/vec.cpp" -o CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-cpu/vec.cpp" -o CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.s
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.o: ggml/src/CMakeFiles/ggml-cpu.dir/flags.make
-ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/ggml/src/ggml-cpu/ops.cpp
+ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/ggml/src/ggml-cpu/ops.cpp
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.o: ggml/src/CMakeFiles/ggml-cpu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-cpu/ops.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-cpu/ops.cpp"
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-cpu/ops.cpp" > CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-cpu/ops.cpp" > CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.i
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-cpu/ops.cpp" -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-cpu/ops.cpp" -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ops.cpp.s
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.o: ggml/src/CMakeFiles/ggml-cpu.dir/flags.make
-ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/ggml/src/ggml-cpu/llamafile/sgemm.cpp
+ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/ggml/src/ggml-cpu/llamafile/sgemm.cpp
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.o: ggml/src/CMakeFiles/ggml-cpu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-cpu/llamafile/sgemm.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-cpu/llamafile/sgemm.cpp"
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-cpu/llamafile/sgemm.cpp" > CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-cpu/llamafile/sgemm.cpp" > CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.i
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-cpu/llamafile/sgemm.cpp" -o CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-cpu/llamafile/sgemm.cpp" -o CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.s
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/quants.c.o: ggml/src/CMakeFiles/ggml-cpu.dir/flags.make
-ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/quants.c.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/ggml/src/ggml-cpu/arch/x86/quants.c
+ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/quants.c.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/ggml/src/ggml-cpu/arch/x86/quants.c
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/quants.c.o: ggml/src/CMakeFiles/ggml-cpu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building C object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/quants.c.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/quants.c.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/quants.c.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/quants.c.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-cpu/arch/x86/quants.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building C object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/quants.c.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/quants.c.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/quants.c.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/quants.c.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-cpu/arch/x86/quants.c"
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/quants.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/quants.c.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-cpu/arch/x86/quants.c" > CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/quants.c.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-cpu/arch/x86/quants.c" > CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/quants.c.i
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/quants.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/quants.c.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-cpu/arch/x86/quants.c" -o CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/quants.c.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-cpu/arch/x86/quants.c" -o CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/quants.c.s
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/repack.cpp.o: ggml/src/CMakeFiles/ggml-cpu.dir/flags.make
-ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/repack.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/ggml/src/ggml-cpu/arch/x86/repack.cpp
+ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/repack.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/ggml/src/ggml-cpu/arch/x86/repack.cpp
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/repack.cpp.o: ggml/src/CMakeFiles/ggml-cpu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/repack.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/repack.cpp.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/repack.cpp.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/repack.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-cpu/arch/x86/repack.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/repack.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/repack.cpp.o -MF CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/repack.cpp.o.d -o CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/repack.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-cpu/arch/x86/repack.cpp"
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/repack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/repack.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-cpu/arch/x86/repack.cpp" > CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/repack.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-cpu/arch/x86/repack.cpp" > CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/repack.cpp.i
 
 ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/repack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/repack.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-cpu/arch/x86/repack.cpp" -o CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/repack.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-cpu/arch/x86/repack.cpp" -o CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/repack.cpp.s
 
 # Object files for target ggml-cpu
 ggml__cpu_OBJECTS = \
@@ -322,18 +322,18 @@ bin/libggml-cpu.dylib: ggml/src/CMakeFiles/ggml-cpu.dir/build.make
 bin/libggml-cpu.dylib: bin/libggml-base.dylib
 bin/libggml-cpu.dylib: /usr/local/opt/libomp/lib/libomp.dylib
 bin/libggml-cpu.dylib: ggml/src/CMakeFiles/ggml-cpu.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX shared library ../../bin/libggml-cpu.dylib"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ggml-cpu.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX shared library ../../bin/libggml-cpu.dylib"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ggml-cpu.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 ggml/src/CMakeFiles/ggml-cpu.dir/build: bin/libggml-cpu.dylib
 .PHONY : ggml/src/CMakeFiles/ggml-cpu.dir/build
 
 ggml/src/CMakeFiles/ggml-cpu.dir/clean:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" && $(CMAKE_COMMAND) -P CMakeFiles/ggml-cpu.dir/cmake_clean.cmake
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" && $(CMAKE_COMMAND) -P CMakeFiles/ggml-cpu.dir/cmake_clean.cmake
 .PHONY : ggml/src/CMakeFiles/ggml-cpu.dir/clean
 
 ggml/src/CMakeFiles/ggml-cpu.dir/depend:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src/CMakeFiles/ggml-cpu.dir/DependInfo.cmake" "--color=$(COLOR)" ggml-cpu
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src/CMakeFiles/ggml-cpu.dir/DependInfo.cmake" "--color=$(COLOR)" ggml-cpu
 .PHONY : ggml/src/CMakeFiles/ggml-cpu.dir/depend
 

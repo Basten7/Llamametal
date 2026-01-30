@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp"
+CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build"
+CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build"
 
 # Include any dependencies generated for this target.
 include ggml/src/ggml-blas/CMakeFiles/ggml-blas.dir/depend.make
@@ -73,18 +73,18 @@ ggml/src/ggml-blas/CMakeFiles/ggml-blas.dir/codegen:
 .PHONY : ggml/src/ggml-blas/CMakeFiles/ggml-blas.dir/codegen
 
 ggml/src/ggml-blas/CMakeFiles/ggml-blas.dir/ggml-blas.cpp.o: ggml/src/ggml-blas/CMakeFiles/ggml-blas.dir/flags.make
-ggml/src/ggml-blas/CMakeFiles/ggml-blas.dir/ggml-blas.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/ggml/src/ggml-blas/ggml-blas.cpp
+ggml/src/ggml-blas/CMakeFiles/ggml-blas.dir/ggml-blas.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/ggml/src/ggml-blas/ggml-blas.cpp
 ggml/src/ggml-blas/CMakeFiles/ggml-blas.dir/ggml-blas.cpp.o: ggml/src/ggml-blas/CMakeFiles/ggml-blas.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ggml/src/ggml-blas/CMakeFiles/ggml-blas.dir/ggml-blas.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src/ggml-blas" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/ggml-blas/CMakeFiles/ggml-blas.dir/ggml-blas.cpp.o -MF CMakeFiles/ggml-blas.dir/ggml-blas.cpp.o.d -o CMakeFiles/ggml-blas.dir/ggml-blas.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-blas/ggml-blas.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ggml/src/ggml-blas/CMakeFiles/ggml-blas.dir/ggml-blas.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src/ggml-blas" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT ggml/src/ggml-blas/CMakeFiles/ggml-blas.dir/ggml-blas.cpp.o -MF CMakeFiles/ggml-blas.dir/ggml-blas.cpp.o.d -o CMakeFiles/ggml-blas.dir/ggml-blas.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-blas/ggml-blas.cpp"
 
 ggml/src/ggml-blas/CMakeFiles/ggml-blas.dir/ggml-blas.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ggml-blas.dir/ggml-blas.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src/ggml-blas" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-blas/ggml-blas.cpp" > CMakeFiles/ggml-blas.dir/ggml-blas.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src/ggml-blas" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-blas/ggml-blas.cpp" > CMakeFiles/ggml-blas.dir/ggml-blas.cpp.i
 
 ggml/src/ggml-blas/CMakeFiles/ggml-blas.dir/ggml-blas.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ggml-blas.dir/ggml-blas.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src/ggml-blas" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-blas/ggml-blas.cpp" -o CMakeFiles/ggml-blas.dir/ggml-blas.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src/ggml-blas" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-blas/ggml-blas.cpp" -o CMakeFiles/ggml-blas.dir/ggml-blas.cpp.s
 
 # Object files for target ggml-blas
 ggml__blas_OBJECTS = \
@@ -97,18 +97,18 @@ bin/libggml-blas.dylib: ggml/src/ggml-blas/CMakeFiles/ggml-blas.dir/ggml-blas.cp
 bin/libggml-blas.dylib: ggml/src/ggml-blas/CMakeFiles/ggml-blas.dir/build.make
 bin/libggml-blas.dylib: bin/libggml-base.dylib
 bin/libggml-blas.dylib: ggml/src/ggml-blas/CMakeFiles/ggml-blas.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library ../../../bin/libggml-blas.dylib"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src/ggml-blas" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ggml-blas.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library ../../../bin/libggml-blas.dylib"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src/ggml-blas" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ggml-blas.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 ggml/src/ggml-blas/CMakeFiles/ggml-blas.dir/build: bin/libggml-blas.dylib
 .PHONY : ggml/src/ggml-blas/CMakeFiles/ggml-blas.dir/build
 
 ggml/src/ggml-blas/CMakeFiles/ggml-blas.dir/clean:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src/ggml-blas" && $(CMAKE_COMMAND) -P CMakeFiles/ggml-blas.dir/cmake_clean.cmake
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src/ggml-blas" && $(CMAKE_COMMAND) -P CMakeFiles/ggml-blas.dir/cmake_clean.cmake
 .PHONY : ggml/src/ggml-blas/CMakeFiles/ggml-blas.dir/clean
 
 ggml/src/ggml-blas/CMakeFiles/ggml-blas.dir/depend:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/ggml/src/ggml-blas" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src/ggml-blas" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/ggml/src/ggml-blas/CMakeFiles/ggml-blas.dir/DependInfo.cmake" "--color=$(COLOR)" ggml-blas
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/ggml/src/ggml-blas" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src/ggml-blas" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/ggml/src/ggml-blas/CMakeFiles/ggml-blas.dir/DependInfo.cmake" "--color=$(COLOR)" ggml-blas
 .PHONY : ggml/src/ggml-blas/CMakeFiles/ggml-blas.dir/depend
 

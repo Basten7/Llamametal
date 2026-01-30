@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp"
+CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build"
+CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build"
 
 # Include any dependencies generated for this target.
 include tools/imatrix/CMakeFiles/llama-imatrix.dir/depend.make
@@ -73,18 +73,18 @@ tools/imatrix/CMakeFiles/llama-imatrix.dir/codegen:
 .PHONY : tools/imatrix/CMakeFiles/llama-imatrix.dir/codegen
 
 tools/imatrix/CMakeFiles/llama-imatrix.dir/imatrix.cpp.o: tools/imatrix/CMakeFiles/llama-imatrix.dir/flags.make
-tools/imatrix/CMakeFiles/llama-imatrix.dir/imatrix.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/tools/imatrix/imatrix.cpp
+tools/imatrix/CMakeFiles/llama-imatrix.dir/imatrix.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/tools/imatrix/imatrix.cpp
 tools/imatrix/CMakeFiles/llama-imatrix.dir/imatrix.cpp.o: tools/imatrix/CMakeFiles/llama-imatrix.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tools/imatrix/CMakeFiles/llama-imatrix.dir/imatrix.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/imatrix" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tools/imatrix/CMakeFiles/llama-imatrix.dir/imatrix.cpp.o -MF CMakeFiles/llama-imatrix.dir/imatrix.cpp.o.d -o CMakeFiles/llama-imatrix.dir/imatrix.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tools/imatrix/imatrix.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tools/imatrix/CMakeFiles/llama-imatrix.dir/imatrix.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/imatrix" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tools/imatrix/CMakeFiles/llama-imatrix.dir/imatrix.cpp.o -MF CMakeFiles/llama-imatrix.dir/imatrix.cpp.o.d -o CMakeFiles/llama-imatrix.dir/imatrix.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tools/imatrix/imatrix.cpp"
 
 tools/imatrix/CMakeFiles/llama-imatrix.dir/imatrix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama-imatrix.dir/imatrix.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/imatrix" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tools/imatrix/imatrix.cpp" > CMakeFiles/llama-imatrix.dir/imatrix.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/imatrix" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tools/imatrix/imatrix.cpp" > CMakeFiles/llama-imatrix.dir/imatrix.cpp.i
 
 tools/imatrix/CMakeFiles/llama-imatrix.dir/imatrix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/llama-imatrix.dir/imatrix.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/imatrix" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tools/imatrix/imatrix.cpp" -o CMakeFiles/llama-imatrix.dir/imatrix.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/imatrix" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tools/imatrix/imatrix.cpp" -o CMakeFiles/llama-imatrix.dir/imatrix.cpp.s
 
 # Object files for target llama-imatrix
 llama__imatrix_OBJECTS = \
@@ -104,18 +104,18 @@ bin/llama-imatrix: bin/libggml-metal.dylib
 bin/llama-imatrix: bin/libggml-base.dylib
 bin/llama-imatrix: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libcurl.tbd
 bin/llama-imatrix: tools/imatrix/CMakeFiles/llama-imatrix.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-imatrix"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/imatrix" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-imatrix.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-imatrix"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/imatrix" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-imatrix.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tools/imatrix/CMakeFiles/llama-imatrix.dir/build: bin/llama-imatrix
 .PHONY : tools/imatrix/CMakeFiles/llama-imatrix.dir/build
 
 tools/imatrix/CMakeFiles/llama-imatrix.dir/clean:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/imatrix" && $(CMAKE_COMMAND) -P CMakeFiles/llama-imatrix.dir/cmake_clean.cmake
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/imatrix" && $(CMAKE_COMMAND) -P CMakeFiles/llama-imatrix.dir/cmake_clean.cmake
 .PHONY : tools/imatrix/CMakeFiles/llama-imatrix.dir/clean
 
 tools/imatrix/CMakeFiles/llama-imatrix.dir/depend:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tools/imatrix" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/imatrix" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/imatrix/CMakeFiles/llama-imatrix.dir/DependInfo.cmake" "--color=$(COLOR)" llama-imatrix
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tools/imatrix" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/imatrix" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/imatrix/CMakeFiles/llama-imatrix.dir/DependInfo.cmake" "--color=$(COLOR)" llama-imatrix
 .PHONY : tools/imatrix/CMakeFiles/llama-imatrix.dir/depend
 

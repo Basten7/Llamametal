@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp"
+CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build"
+CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build"
 
 # Include any dependencies generated for this target.
 include tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/depend.make
@@ -73,18 +73,18 @@ tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/codegen:
 .PHONY : tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/codegen
 
 tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/deprecation-warning.cpp.o: tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/flags.make
-tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/deprecation-warning.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/tools/mtmd/deprecation-warning.cpp
+tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/deprecation-warning.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/tools/mtmd/deprecation-warning.cpp
 tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/deprecation-warning.cpp.o: tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/deprecation-warning.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/mtmd" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/deprecation-warning.cpp.o -MF CMakeFiles/llama-qwen2vl-cli.dir/deprecation-warning.cpp.o.d -o CMakeFiles/llama-qwen2vl-cli.dir/deprecation-warning.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tools/mtmd/deprecation-warning.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/deprecation-warning.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/mtmd" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/deprecation-warning.cpp.o -MF CMakeFiles/llama-qwen2vl-cli.dir/deprecation-warning.cpp.o.d -o CMakeFiles/llama-qwen2vl-cli.dir/deprecation-warning.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tools/mtmd/deprecation-warning.cpp"
 
 tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/deprecation-warning.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama-qwen2vl-cli.dir/deprecation-warning.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/mtmd" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tools/mtmd/deprecation-warning.cpp" > CMakeFiles/llama-qwen2vl-cli.dir/deprecation-warning.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/mtmd" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tools/mtmd/deprecation-warning.cpp" > CMakeFiles/llama-qwen2vl-cli.dir/deprecation-warning.cpp.i
 
 tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/deprecation-warning.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/llama-qwen2vl-cli.dir/deprecation-warning.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/mtmd" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tools/mtmd/deprecation-warning.cpp" -o CMakeFiles/llama-qwen2vl-cli.dir/deprecation-warning.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/mtmd" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tools/mtmd/deprecation-warning.cpp" -o CMakeFiles/llama-qwen2vl-cli.dir/deprecation-warning.cpp.s
 
 # Object files for target llama-qwen2vl-cli
 llama__qwen2vl__cli_OBJECTS = \
@@ -96,18 +96,18 @@ llama__qwen2vl__cli_EXTERNAL_OBJECTS =
 bin/llama-qwen2vl-cli: tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/deprecation-warning.cpp.o
 bin/llama-qwen2vl-cli: tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/build.make
 bin/llama-qwen2vl-cli: tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-qwen2vl-cli"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/mtmd" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-qwen2vl-cli.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-qwen2vl-cli"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/mtmd" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-qwen2vl-cli.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/build: bin/llama-qwen2vl-cli
 .PHONY : tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/build
 
 tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/clean:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/mtmd" && $(CMAKE_COMMAND) -P CMakeFiles/llama-qwen2vl-cli.dir/cmake_clean.cmake
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/mtmd" && $(CMAKE_COMMAND) -P CMakeFiles/llama-qwen2vl-cli.dir/cmake_clean.cmake
 .PHONY : tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/clean
 
 tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/depend:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tools/mtmd" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/mtmd" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/DependInfo.cmake" "--color=$(COLOR)" llama-qwen2vl-cli
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tools/mtmd" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/mtmd" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/DependInfo.cmake" "--color=$(COLOR)" llama-qwen2vl-cli
 .PHONY : tools/mtmd/CMakeFiles/llama-qwen2vl-cli.dir/depend
 

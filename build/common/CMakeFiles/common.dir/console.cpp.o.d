@@ -1,6 +1,6 @@
 common/CMakeFiles/common.dir/console.cpp.o: \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/common/console.cpp \
-  /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/common/console.h \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/common/console.cpp \
+  /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/common/console.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp.h \

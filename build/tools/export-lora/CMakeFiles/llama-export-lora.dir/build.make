@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp"
+CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build"
+CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build"
 
 # Include any dependencies generated for this target.
 include tools/export-lora/CMakeFiles/llama-export-lora.dir/depend.make
@@ -73,18 +73,18 @@ tools/export-lora/CMakeFiles/llama-export-lora.dir/codegen:
 .PHONY : tools/export-lora/CMakeFiles/llama-export-lora.dir/codegen
 
 tools/export-lora/CMakeFiles/llama-export-lora.dir/export-lora.cpp.o: tools/export-lora/CMakeFiles/llama-export-lora.dir/flags.make
-tools/export-lora/CMakeFiles/llama-export-lora.dir/export-lora.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/tools/export-lora/export-lora.cpp
+tools/export-lora/CMakeFiles/llama-export-lora.dir/export-lora.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/tools/export-lora/export-lora.cpp
 tools/export-lora/CMakeFiles/llama-export-lora.dir/export-lora.cpp.o: tools/export-lora/CMakeFiles/llama-export-lora.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tools/export-lora/CMakeFiles/llama-export-lora.dir/export-lora.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/export-lora" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tools/export-lora/CMakeFiles/llama-export-lora.dir/export-lora.cpp.o -MF CMakeFiles/llama-export-lora.dir/export-lora.cpp.o.d -o CMakeFiles/llama-export-lora.dir/export-lora.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tools/export-lora/export-lora.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tools/export-lora/CMakeFiles/llama-export-lora.dir/export-lora.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/export-lora" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tools/export-lora/CMakeFiles/llama-export-lora.dir/export-lora.cpp.o -MF CMakeFiles/llama-export-lora.dir/export-lora.cpp.o.d -o CMakeFiles/llama-export-lora.dir/export-lora.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tools/export-lora/export-lora.cpp"
 
 tools/export-lora/CMakeFiles/llama-export-lora.dir/export-lora.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama-export-lora.dir/export-lora.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/export-lora" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tools/export-lora/export-lora.cpp" > CMakeFiles/llama-export-lora.dir/export-lora.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/export-lora" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tools/export-lora/export-lora.cpp" > CMakeFiles/llama-export-lora.dir/export-lora.cpp.i
 
 tools/export-lora/CMakeFiles/llama-export-lora.dir/export-lora.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/llama-export-lora.dir/export-lora.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/export-lora" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tools/export-lora/export-lora.cpp" -o CMakeFiles/llama-export-lora.dir/export-lora.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/export-lora" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tools/export-lora/export-lora.cpp" -o CMakeFiles/llama-export-lora.dir/export-lora.cpp.s
 
 # Object files for target llama-export-lora
 llama__export__lora_OBJECTS = \
@@ -104,18 +104,18 @@ bin/llama-export-lora: bin/libggml-metal.dylib
 bin/llama-export-lora: bin/libggml-base.dylib
 bin/llama-export-lora: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libcurl.tbd
 bin/llama-export-lora: tools/export-lora/CMakeFiles/llama-export-lora.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-export-lora"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/export-lora" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-export-lora.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-export-lora"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/export-lora" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-export-lora.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tools/export-lora/CMakeFiles/llama-export-lora.dir/build: bin/llama-export-lora
 .PHONY : tools/export-lora/CMakeFiles/llama-export-lora.dir/build
 
 tools/export-lora/CMakeFiles/llama-export-lora.dir/clean:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/export-lora" && $(CMAKE_COMMAND) -P CMakeFiles/llama-export-lora.dir/cmake_clean.cmake
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/export-lora" && $(CMAKE_COMMAND) -P CMakeFiles/llama-export-lora.dir/cmake_clean.cmake
 .PHONY : tools/export-lora/CMakeFiles/llama-export-lora.dir/clean
 
 tools/export-lora/CMakeFiles/llama-export-lora.dir/depend:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/tools/export-lora" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/export-lora" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/export-lora/CMakeFiles/llama-export-lora.dir/DependInfo.cmake" "--color=$(COLOR)" llama-export-lora
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/tools/export-lora" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/export-lora" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/export-lora/CMakeFiles/llama-export-lora.dir/DependInfo.cmake" "--color=$(COLOR)" llama-export-lora
 .PHONY : tools/export-lora/CMakeFiles/llama-export-lora.dir/depend
 

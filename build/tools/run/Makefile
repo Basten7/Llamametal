@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp"
+CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build"
+CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/tools/run//CMakeFiles/progress.marks"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/run/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" 0
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/tools/run//CMakeFiles/progress.marks"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/run/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/run/clean
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/run/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/run/preinstall
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/run/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/run/preinstall
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/run/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tools/run/CMakeFiles/llama-run.dir/rule:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/run/CMakeFiles/llama-run.dir/rule
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tools/run/CMakeFiles/llama-run.dir/rule
 .PHONY : tools/run/CMakeFiles/llama-run.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ llama-run: tools/run/CMakeFiles/llama-run.dir/rule
 
 # fast build rule for target.
 llama-run/fast:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/run/CMakeFiles/llama-run.dir/build.make tools/run/CMakeFiles/llama-run.dir/build
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/run/CMakeFiles/llama-run.dir/build.make tools/run/CMakeFiles/llama-run.dir/build
 .PHONY : llama-run/fast
 
 linenoise.cpp/linenoise.o: linenoise.cpp/linenoise.cpp.o
@@ -190,7 +190,7 @@ linenoise.cpp/linenoise.o: linenoise.cpp/linenoise.cpp.o
 
 # target to build an object file
 linenoise.cpp/linenoise.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/run/CMakeFiles/llama-run.dir/build.make tools/run/CMakeFiles/llama-run.dir/linenoise.cpp/linenoise.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/run/CMakeFiles/llama-run.dir/build.make tools/run/CMakeFiles/llama-run.dir/linenoise.cpp/linenoise.cpp.o
 .PHONY : linenoise.cpp/linenoise.cpp.o
 
 linenoise.cpp/linenoise.i: linenoise.cpp/linenoise.cpp.i
@@ -198,7 +198,7 @@ linenoise.cpp/linenoise.i: linenoise.cpp/linenoise.cpp.i
 
 # target to preprocess a source file
 linenoise.cpp/linenoise.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/run/CMakeFiles/llama-run.dir/build.make tools/run/CMakeFiles/llama-run.dir/linenoise.cpp/linenoise.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/run/CMakeFiles/llama-run.dir/build.make tools/run/CMakeFiles/llama-run.dir/linenoise.cpp/linenoise.cpp.i
 .PHONY : linenoise.cpp/linenoise.cpp.i
 
 linenoise.cpp/linenoise.s: linenoise.cpp/linenoise.cpp.s
@@ -206,7 +206,7 @@ linenoise.cpp/linenoise.s: linenoise.cpp/linenoise.cpp.s
 
 # target to generate assembly for a file
 linenoise.cpp/linenoise.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/run/CMakeFiles/llama-run.dir/build.make tools/run/CMakeFiles/llama-run.dir/linenoise.cpp/linenoise.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/run/CMakeFiles/llama-run.dir/build.make tools/run/CMakeFiles/llama-run.dir/linenoise.cpp/linenoise.cpp.s
 .PHONY : linenoise.cpp/linenoise.cpp.s
 
 run.o: run.cpp.o
@@ -214,7 +214,7 @@ run.o: run.cpp.o
 
 # target to build an object file
 run.cpp.o:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/run/CMakeFiles/llama-run.dir/build.make tools/run/CMakeFiles/llama-run.dir/run.cpp.o
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/run/CMakeFiles/llama-run.dir/build.make tools/run/CMakeFiles/llama-run.dir/run.cpp.o
 .PHONY : run.cpp.o
 
 run.i: run.cpp.i
@@ -222,7 +222,7 @@ run.i: run.cpp.i
 
 # target to preprocess a source file
 run.cpp.i:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/run/CMakeFiles/llama-run.dir/build.make tools/run/CMakeFiles/llama-run.dir/run.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/run/CMakeFiles/llama-run.dir/build.make tools/run/CMakeFiles/llama-run.dir/run.cpp.i
 .PHONY : run.cpp.i
 
 run.s: run.cpp.s
@@ -230,7 +230,7 @@ run.s: run.cpp.s
 
 # target to generate assembly for a file
 run.cpp.s:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(MAKE) $(MAKESILENT) -f tools/run/CMakeFiles/llama-run.dir/build.make tools/run/CMakeFiles/llama-run.dir/run.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(MAKE) $(MAKESILENT) -f tools/run/CMakeFiles/llama-run.dir/build.make tools/run/CMakeFiles/llama-run.dir/run.cpp.s
 .PHONY : run.cpp.s
 
 # Help Target
@@ -264,6 +264,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

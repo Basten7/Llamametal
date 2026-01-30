@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp"
+CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build"
+CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build"
 
 # Include any dependencies generated for this target.
 include examples/eval-callback/CMakeFiles/llama-eval-callback.dir/depend.make
@@ -73,18 +73,18 @@ examples/eval-callback/CMakeFiles/llama-eval-callback.dir/codegen:
 .PHONY : examples/eval-callback/CMakeFiles/llama-eval-callback.dir/codegen
 
 examples/eval-callback/CMakeFiles/llama-eval-callback.dir/eval-callback.cpp.o: examples/eval-callback/CMakeFiles/llama-eval-callback.dir/flags.make
-examples/eval-callback/CMakeFiles/llama-eval-callback.dir/eval-callback.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/examples/eval-callback/eval-callback.cpp
+examples/eval-callback/CMakeFiles/llama-eval-callback.dir/eval-callback.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/examples/eval-callback/eval-callback.cpp
 examples/eval-callback/CMakeFiles/llama-eval-callback.dir/eval-callback.cpp.o: examples/eval-callback/CMakeFiles/llama-eval-callback.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/eval-callback/CMakeFiles/llama-eval-callback.dir/eval-callback.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/eval-callback" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/eval-callback/CMakeFiles/llama-eval-callback.dir/eval-callback.cpp.o -MF CMakeFiles/llama-eval-callback.dir/eval-callback.cpp.o.d -o CMakeFiles/llama-eval-callback.dir/eval-callback.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/eval-callback/eval-callback.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/eval-callback/CMakeFiles/llama-eval-callback.dir/eval-callback.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/eval-callback" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/eval-callback/CMakeFiles/llama-eval-callback.dir/eval-callback.cpp.o -MF CMakeFiles/llama-eval-callback.dir/eval-callback.cpp.o.d -o CMakeFiles/llama-eval-callback.dir/eval-callback.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/eval-callback/eval-callback.cpp"
 
 examples/eval-callback/CMakeFiles/llama-eval-callback.dir/eval-callback.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/llama-eval-callback.dir/eval-callback.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/eval-callback" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/eval-callback/eval-callback.cpp" > CMakeFiles/llama-eval-callback.dir/eval-callback.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/eval-callback" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/eval-callback/eval-callback.cpp" > CMakeFiles/llama-eval-callback.dir/eval-callback.cpp.i
 
 examples/eval-callback/CMakeFiles/llama-eval-callback.dir/eval-callback.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/llama-eval-callback.dir/eval-callback.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/eval-callback" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/eval-callback/eval-callback.cpp" -o CMakeFiles/llama-eval-callback.dir/eval-callback.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/eval-callback" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/eval-callback/eval-callback.cpp" -o CMakeFiles/llama-eval-callback.dir/eval-callback.cpp.s
 
 # Object files for target llama-eval-callback
 llama__eval__callback_OBJECTS = \
@@ -104,18 +104,18 @@ bin/llama-eval-callback: bin/libggml-metal.dylib
 bin/llama-eval-callback: bin/libggml-base.dylib
 bin/llama-eval-callback: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libcurl.tbd
 bin/llama-eval-callback: examples/eval-callback/CMakeFiles/llama-eval-callback.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-eval-callback"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/eval-callback" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-eval-callback.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/llama-eval-callback"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/eval-callback" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama-eval-callback.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/eval-callback/CMakeFiles/llama-eval-callback.dir/build: bin/llama-eval-callback
 .PHONY : examples/eval-callback/CMakeFiles/llama-eval-callback.dir/build
 
 examples/eval-callback/CMakeFiles/llama-eval-callback.dir/clean:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/eval-callback" && $(CMAKE_COMMAND) -P CMakeFiles/llama-eval-callback.dir/cmake_clean.cmake
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/eval-callback" && $(CMAKE_COMMAND) -P CMakeFiles/llama-eval-callback.dir/cmake_clean.cmake
 .PHONY : examples/eval-callback/CMakeFiles/llama-eval-callback.dir/clean
 
 examples/eval-callback/CMakeFiles/llama-eval-callback.dir/depend:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/eval-callback" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/eval-callback" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/examples/eval-callback/CMakeFiles/llama-eval-callback.dir/DependInfo.cmake" "--color=$(COLOR)" llama-eval-callback
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/eval-callback" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/eval-callback" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/examples/eval-callback/CMakeFiles/llama-eval-callback.dir/DependInfo.cmake" "--color=$(COLOR)" llama-eval-callback
 .PHONY : examples/eval-callback/CMakeFiles/llama-eval-callback.dir/depend
 

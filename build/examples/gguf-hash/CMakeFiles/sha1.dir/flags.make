@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I"/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/examples/gguf-hash/deps"
+C_INCLUDES = -I"/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/examples/gguf-hash/deps"
 
 C_FLAGS = -O3 -DNDEBUG -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wdouble-promotion -w
 

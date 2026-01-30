@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp"
+CMAKE_SOURCE_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build"
+CMAKE_BINARY_DIR = "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build"
 
 # Include any dependencies generated for this target.
 include common/CMakeFiles/common.dir/depend.make
@@ -73,186 +73,186 @@ common/CMakeFiles/common.dir/codegen:
 .PHONY : common/CMakeFiles/common.dir/codegen
 
 common/CMakeFiles/common.dir/arg.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/arg.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/common/arg.cpp
+common/CMakeFiles/common.dir/arg.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/common/arg.cpp
 common/CMakeFiles/common.dir/arg.cpp.o: common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object common/CMakeFiles/common.dir/arg.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/arg.cpp.o -MF CMakeFiles/common.dir/arg.cpp.o.d -o CMakeFiles/common.dir/arg.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/common/arg.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object common/CMakeFiles/common.dir/arg.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/arg.cpp.o -MF CMakeFiles/common.dir/arg.cpp.o.d -o CMakeFiles/common.dir/arg.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/common/arg.cpp"
 
 common/CMakeFiles/common.dir/arg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/common.dir/arg.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/common/arg.cpp" > CMakeFiles/common.dir/arg.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/common/arg.cpp" > CMakeFiles/common.dir/arg.cpp.i
 
 common/CMakeFiles/common.dir/arg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/common.dir/arg.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/common/arg.cpp" -o CMakeFiles/common.dir/arg.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/common/arg.cpp" -o CMakeFiles/common.dir/arg.cpp.s
 
 common/CMakeFiles/common.dir/chat-parser.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/chat-parser.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/common/chat-parser.cpp
+common/CMakeFiles/common.dir/chat-parser.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/common/chat-parser.cpp
 common/CMakeFiles/common.dir/chat-parser.cpp.o: common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object common/CMakeFiles/common.dir/chat-parser.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/chat-parser.cpp.o -MF CMakeFiles/common.dir/chat-parser.cpp.o.d -o CMakeFiles/common.dir/chat-parser.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/common/chat-parser.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object common/CMakeFiles/common.dir/chat-parser.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/chat-parser.cpp.o -MF CMakeFiles/common.dir/chat-parser.cpp.o.d -o CMakeFiles/common.dir/chat-parser.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/common/chat-parser.cpp"
 
 common/CMakeFiles/common.dir/chat-parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/common.dir/chat-parser.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/common/chat-parser.cpp" > CMakeFiles/common.dir/chat-parser.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/common/chat-parser.cpp" > CMakeFiles/common.dir/chat-parser.cpp.i
 
 common/CMakeFiles/common.dir/chat-parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/common.dir/chat-parser.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/common/chat-parser.cpp" -o CMakeFiles/common.dir/chat-parser.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/common/chat-parser.cpp" -o CMakeFiles/common.dir/chat-parser.cpp.s
 
 common/CMakeFiles/common.dir/chat.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/chat.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/common/chat.cpp
+common/CMakeFiles/common.dir/chat.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/common/chat.cpp
 common/CMakeFiles/common.dir/chat.cpp.o: common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object common/CMakeFiles/common.dir/chat.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/chat.cpp.o -MF CMakeFiles/common.dir/chat.cpp.o.d -o CMakeFiles/common.dir/chat.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/common/chat.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object common/CMakeFiles/common.dir/chat.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/chat.cpp.o -MF CMakeFiles/common.dir/chat.cpp.o.d -o CMakeFiles/common.dir/chat.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/common/chat.cpp"
 
 common/CMakeFiles/common.dir/chat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/common.dir/chat.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/common/chat.cpp" > CMakeFiles/common.dir/chat.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/common/chat.cpp" > CMakeFiles/common.dir/chat.cpp.i
 
 common/CMakeFiles/common.dir/chat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/common.dir/chat.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/common/chat.cpp" -o CMakeFiles/common.dir/chat.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/common/chat.cpp" -o CMakeFiles/common.dir/chat.cpp.s
 
 common/CMakeFiles/common.dir/common.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/common.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/common/common.cpp
+common/CMakeFiles/common.dir/common.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/common/common.cpp
 common/CMakeFiles/common.dir/common.cpp.o: common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object common/CMakeFiles/common.dir/common.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/common.cpp.o -MF CMakeFiles/common.dir/common.cpp.o.d -o CMakeFiles/common.dir/common.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/common/common.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object common/CMakeFiles/common.dir/common.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/common.cpp.o -MF CMakeFiles/common.dir/common.cpp.o.d -o CMakeFiles/common.dir/common.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/common/common.cpp"
 
 common/CMakeFiles/common.dir/common.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/common.dir/common.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/common/common.cpp" > CMakeFiles/common.dir/common.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/common/common.cpp" > CMakeFiles/common.dir/common.cpp.i
 
 common/CMakeFiles/common.dir/common.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/common.dir/common.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/common/common.cpp" -o CMakeFiles/common.dir/common.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/common/common.cpp" -o CMakeFiles/common.dir/common.cpp.s
 
 common/CMakeFiles/common.dir/console.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/console.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/common/console.cpp
+common/CMakeFiles/common.dir/console.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/common/console.cpp
 common/CMakeFiles/common.dir/console.cpp.o: common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object common/CMakeFiles/common.dir/console.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/console.cpp.o -MF CMakeFiles/common.dir/console.cpp.o.d -o CMakeFiles/common.dir/console.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/common/console.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object common/CMakeFiles/common.dir/console.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/console.cpp.o -MF CMakeFiles/common.dir/console.cpp.o.d -o CMakeFiles/common.dir/console.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/common/console.cpp"
 
 common/CMakeFiles/common.dir/console.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/common.dir/console.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/common/console.cpp" > CMakeFiles/common.dir/console.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/common/console.cpp" > CMakeFiles/common.dir/console.cpp.i
 
 common/CMakeFiles/common.dir/console.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/common.dir/console.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/common/console.cpp" -o CMakeFiles/common.dir/console.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/common/console.cpp" -o CMakeFiles/common.dir/console.cpp.s
 
 common/CMakeFiles/common.dir/json-partial.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/json-partial.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/common/json-partial.cpp
+common/CMakeFiles/common.dir/json-partial.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/common/json-partial.cpp
 common/CMakeFiles/common.dir/json-partial.cpp.o: common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object common/CMakeFiles/common.dir/json-partial.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/json-partial.cpp.o -MF CMakeFiles/common.dir/json-partial.cpp.o.d -o CMakeFiles/common.dir/json-partial.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/common/json-partial.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object common/CMakeFiles/common.dir/json-partial.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/json-partial.cpp.o -MF CMakeFiles/common.dir/json-partial.cpp.o.d -o CMakeFiles/common.dir/json-partial.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/common/json-partial.cpp"
 
 common/CMakeFiles/common.dir/json-partial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/common.dir/json-partial.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/common/json-partial.cpp" > CMakeFiles/common.dir/json-partial.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/common/json-partial.cpp" > CMakeFiles/common.dir/json-partial.cpp.i
 
 common/CMakeFiles/common.dir/json-partial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/common.dir/json-partial.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/common/json-partial.cpp" -o CMakeFiles/common.dir/json-partial.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/common/json-partial.cpp" -o CMakeFiles/common.dir/json-partial.cpp.s
 
 common/CMakeFiles/common.dir/json-schema-to-grammar.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/json-schema-to-grammar.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/common/json-schema-to-grammar.cpp
+common/CMakeFiles/common.dir/json-schema-to-grammar.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/common/json-schema-to-grammar.cpp
 common/CMakeFiles/common.dir/json-schema-to-grammar.cpp.o: common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object common/CMakeFiles/common.dir/json-schema-to-grammar.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/json-schema-to-grammar.cpp.o -MF CMakeFiles/common.dir/json-schema-to-grammar.cpp.o.d -o CMakeFiles/common.dir/json-schema-to-grammar.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/common/json-schema-to-grammar.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object common/CMakeFiles/common.dir/json-schema-to-grammar.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/json-schema-to-grammar.cpp.o -MF CMakeFiles/common.dir/json-schema-to-grammar.cpp.o.d -o CMakeFiles/common.dir/json-schema-to-grammar.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/common/json-schema-to-grammar.cpp"
 
 common/CMakeFiles/common.dir/json-schema-to-grammar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/common.dir/json-schema-to-grammar.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/common/json-schema-to-grammar.cpp" > CMakeFiles/common.dir/json-schema-to-grammar.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/common/json-schema-to-grammar.cpp" > CMakeFiles/common.dir/json-schema-to-grammar.cpp.i
 
 common/CMakeFiles/common.dir/json-schema-to-grammar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/common.dir/json-schema-to-grammar.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/common/json-schema-to-grammar.cpp" -o CMakeFiles/common.dir/json-schema-to-grammar.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/common/json-schema-to-grammar.cpp" -o CMakeFiles/common.dir/json-schema-to-grammar.cpp.s
 
 common/CMakeFiles/common.dir/llguidance.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/llguidance.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/common/llguidance.cpp
+common/CMakeFiles/common.dir/llguidance.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/common/llguidance.cpp
 common/CMakeFiles/common.dir/llguidance.cpp.o: common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object common/CMakeFiles/common.dir/llguidance.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/llguidance.cpp.o -MF CMakeFiles/common.dir/llguidance.cpp.o.d -o CMakeFiles/common.dir/llguidance.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/common/llguidance.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object common/CMakeFiles/common.dir/llguidance.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/llguidance.cpp.o -MF CMakeFiles/common.dir/llguidance.cpp.o.d -o CMakeFiles/common.dir/llguidance.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/common/llguidance.cpp"
 
 common/CMakeFiles/common.dir/llguidance.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/common.dir/llguidance.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/common/llguidance.cpp" > CMakeFiles/common.dir/llguidance.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/common/llguidance.cpp" > CMakeFiles/common.dir/llguidance.cpp.i
 
 common/CMakeFiles/common.dir/llguidance.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/common.dir/llguidance.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/common/llguidance.cpp" -o CMakeFiles/common.dir/llguidance.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/common/llguidance.cpp" -o CMakeFiles/common.dir/llguidance.cpp.s
 
 common/CMakeFiles/common.dir/log.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/log.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/common/log.cpp
+common/CMakeFiles/common.dir/log.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/common/log.cpp
 common/CMakeFiles/common.dir/log.cpp.o: common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object common/CMakeFiles/common.dir/log.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/log.cpp.o -MF CMakeFiles/common.dir/log.cpp.o.d -o CMakeFiles/common.dir/log.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/common/log.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object common/CMakeFiles/common.dir/log.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/log.cpp.o -MF CMakeFiles/common.dir/log.cpp.o.d -o CMakeFiles/common.dir/log.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/common/log.cpp"
 
 common/CMakeFiles/common.dir/log.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/common.dir/log.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/common/log.cpp" > CMakeFiles/common.dir/log.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/common/log.cpp" > CMakeFiles/common.dir/log.cpp.i
 
 common/CMakeFiles/common.dir/log.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/common.dir/log.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/common/log.cpp" -o CMakeFiles/common.dir/log.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/common/log.cpp" -o CMakeFiles/common.dir/log.cpp.s
 
 common/CMakeFiles/common.dir/ngram-cache.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/ngram-cache.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/common/ngram-cache.cpp
+common/CMakeFiles/common.dir/ngram-cache.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/common/ngram-cache.cpp
 common/CMakeFiles/common.dir/ngram-cache.cpp.o: common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object common/CMakeFiles/common.dir/ngram-cache.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/ngram-cache.cpp.o -MF CMakeFiles/common.dir/ngram-cache.cpp.o.d -o CMakeFiles/common.dir/ngram-cache.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/common/ngram-cache.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object common/CMakeFiles/common.dir/ngram-cache.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/ngram-cache.cpp.o -MF CMakeFiles/common.dir/ngram-cache.cpp.o.d -o CMakeFiles/common.dir/ngram-cache.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/common/ngram-cache.cpp"
 
 common/CMakeFiles/common.dir/ngram-cache.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/common.dir/ngram-cache.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/common/ngram-cache.cpp" > CMakeFiles/common.dir/ngram-cache.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/common/ngram-cache.cpp" > CMakeFiles/common.dir/ngram-cache.cpp.i
 
 common/CMakeFiles/common.dir/ngram-cache.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/common.dir/ngram-cache.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/common/ngram-cache.cpp" -o CMakeFiles/common.dir/ngram-cache.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/common/ngram-cache.cpp" -o CMakeFiles/common.dir/ngram-cache.cpp.s
 
 common/CMakeFiles/common.dir/regex-partial.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/regex-partial.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/common/regex-partial.cpp
+common/CMakeFiles/common.dir/regex-partial.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/common/regex-partial.cpp
 common/CMakeFiles/common.dir/regex-partial.cpp.o: common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object common/CMakeFiles/common.dir/regex-partial.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/regex-partial.cpp.o -MF CMakeFiles/common.dir/regex-partial.cpp.o.d -o CMakeFiles/common.dir/regex-partial.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/common/regex-partial.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object common/CMakeFiles/common.dir/regex-partial.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/regex-partial.cpp.o -MF CMakeFiles/common.dir/regex-partial.cpp.o.d -o CMakeFiles/common.dir/regex-partial.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/common/regex-partial.cpp"
 
 common/CMakeFiles/common.dir/regex-partial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/common.dir/regex-partial.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/common/regex-partial.cpp" > CMakeFiles/common.dir/regex-partial.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/common/regex-partial.cpp" > CMakeFiles/common.dir/regex-partial.cpp.i
 
 common/CMakeFiles/common.dir/regex-partial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/common.dir/regex-partial.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/common/regex-partial.cpp" -o CMakeFiles/common.dir/regex-partial.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/common/regex-partial.cpp" -o CMakeFiles/common.dir/regex-partial.cpp.s
 
 common/CMakeFiles/common.dir/sampling.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/sampling.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/common/sampling.cpp
+common/CMakeFiles/common.dir/sampling.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/common/sampling.cpp
 common/CMakeFiles/common.dir/sampling.cpp.o: common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object common/CMakeFiles/common.dir/sampling.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/sampling.cpp.o -MF CMakeFiles/common.dir/sampling.cpp.o.d -o CMakeFiles/common.dir/sampling.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/common/sampling.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object common/CMakeFiles/common.dir/sampling.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/sampling.cpp.o -MF CMakeFiles/common.dir/sampling.cpp.o.d -o CMakeFiles/common.dir/sampling.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/common/sampling.cpp"
 
 common/CMakeFiles/common.dir/sampling.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/common.dir/sampling.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/common/sampling.cpp" > CMakeFiles/common.dir/sampling.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/common/sampling.cpp" > CMakeFiles/common.dir/sampling.cpp.i
 
 common/CMakeFiles/common.dir/sampling.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/common.dir/sampling.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/common/sampling.cpp" -o CMakeFiles/common.dir/sampling.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/common/sampling.cpp" -o CMakeFiles/common.dir/sampling.cpp.s
 
 common/CMakeFiles/common.dir/speculative.cpp.o: common/CMakeFiles/common.dir/flags.make
-common/CMakeFiles/common.dir/speculative.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/llama.cpp/common/speculative.cpp
+common/CMakeFiles/common.dir/speculative.cpp.o: /Volumes/NM790-4To/Good\ llama.cpp\ V4/Llamametal/common/speculative.cpp
 common/CMakeFiles/common.dir/speculative.cpp.o: common/CMakeFiles/common.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object common/CMakeFiles/common.dir/speculative.cpp.o"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/speculative.cpp.o -MF CMakeFiles/common.dir/speculative.cpp.o.d -o CMakeFiles/common.dir/speculative.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/common/speculative.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object common/CMakeFiles/common.dir/speculative.cpp.o"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/common.dir/speculative.cpp.o -MF CMakeFiles/common.dir/speculative.cpp.o.d -o CMakeFiles/common.dir/speculative.cpp.o -c "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/common/speculative.cpp"
 
 common/CMakeFiles/common.dir/speculative.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/common.dir/speculative.cpp.i"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/common/speculative.cpp" > CMakeFiles/common.dir/speculative.cpp.i
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/common/speculative.cpp" > CMakeFiles/common.dir/speculative.cpp.i
 
 common/CMakeFiles/common.dir/speculative.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/common.dir/speculative.cpp.s"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/common/speculative.cpp" -o CMakeFiles/common.dir/speculative.cpp.s
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/common/speculative.cpp" -o CMakeFiles/common.dir/speculative.cpp.s
 
 # Object files for target common
 common_OBJECTS = \
@@ -272,7 +272,7 @@ common_OBJECTS = \
 
 # External object files for target common
 common_EXTERNAL_OBJECTS = \
-"/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common/CMakeFiles/build_info.dir/build-info.cpp.o"
+"/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common/CMakeFiles/build_info.dir/build-info.cpp.o"
 
 common/libcommon.a: common/CMakeFiles/common.dir/arg.cpp.o
 common/libcommon.a: common/CMakeFiles/common.dir/chat-parser.cpp.o
@@ -290,19 +290,19 @@ common/libcommon.a: common/CMakeFiles/common.dir/speculative.cpp.o
 common/libcommon.a: common/CMakeFiles/build_info.dir/build-info.cpp.o
 common/libcommon.a: common/CMakeFiles/common.dir/build.make
 common/libcommon.a: common/CMakeFiles/common.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX static library libcommon.a"
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" && $(CMAKE_COMMAND) -P CMakeFiles/common.dir/cmake_clean_target.cmake
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/common.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX static library libcommon.a"
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" && $(CMAKE_COMMAND) -P CMakeFiles/common.dir/cmake_clean_target.cmake
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/common.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 common/CMakeFiles/common.dir/build: common/libcommon.a
 .PHONY : common/CMakeFiles/common.dir/build
 
 common/CMakeFiles/common.dir/clean:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" && $(CMAKE_COMMAND) -P CMakeFiles/common.dir/cmake_clean.cmake
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" && $(CMAKE_COMMAND) -P CMakeFiles/common.dir/cmake_clean.cmake
 .PHONY : common/CMakeFiles/common.dir/clean
 
 common/CMakeFiles/common.dir/depend:
-	cd "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/common" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common" "/Volumes/NM790-4To/Good llama.cpp V4/llama.cpp/build/common/CMakeFiles/common.dir/DependInfo.cmake" "--color=$(COLOR)" common
+	cd "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/common" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common" "/Volumes/NM790-4To/Good llama.cpp V4/Llamametal/build/common/CMakeFiles/common.dir/DependInfo.cmake" "--color=$(COLOR)" common
 .PHONY : common/CMakeFiles/common.dir/depend
 
